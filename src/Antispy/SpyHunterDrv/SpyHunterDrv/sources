@@ -1,0 +1,84 @@
+# $Id$
+TARGETNAME=SpyHunterDrv
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+
+# Create browse info
+#BROWSER_INFO=1
+#BROWSERFILE=<some path>
+
+# Additional defines for the C/C++ preprocessor
+C_DEFINES=$(C_DEFINES)
+
+LINKER_FLAGS=/map
+
+SOURCES=SpyHunterDrv.c		\
+		HookPort.c			\
+		CommonFunction.c	\
+		Control.c			\
+		disasm.c			\
+		process.c			\
+		ProcessModule.c		\
+		InitWindows.c		\
+		InlineHook.c		\
+		InlineFunc.c		\
+		ldasm.c				\
+		ProcessThread.c		\
+		ProcessHandle.c		\
+		ProcessMemory.c		\
+		IrpOperate.c		\
+		peload.c			\
+		ReloadWin32k.c		\
+		ProcessWnd.c		\
+		ProcessTimer.c		\
+		HotKeys.c			\
+		ProcessPrivileges.c	\
+		Driver.c			\
+		Reg.c				\
+		Callback.c			\
+		DpcTimer.c			\
+		IoTimer.c			\
+		WorkerThread.c		\
+		DebugRegister.c		\
+		DirectIo.c			\
+		Filter.c			\
+		libdasm.c			\
+		ShadowSSDT.c		\
+		SSDT.c				\
+		DeleteFile.c		\
+		Fsd.c				\
+		FileSystem.c		\
+		dispatchhook.c		\
+		kbdclass.c			\
+		mouclass.c			\
+		classpnp.c			\
+		Atapi.c				\
+		Tcpip.c				\
+		Acpi.c				\
+		IatEat.c			\
+		Idt.c				\
+		ObjectHook.c		\
+		KernelEntry.c		\
+		reloadhaldll.c		\
+		ModifiedCode.c		\
+		MessageHook.C		\
+		Registry.c			\
+		Disassmbly.c		\
+		ProcessHook.c		\
+		ProcessFunc.c		\
+		FileFunc.c			\
+		FileOperation.c		\
+		Port.c				\
+		KernelMemory.c		\
+		HookEngine.c		\
+		FakeFunc.c			\
+		SelfProtectSSDT.c	\
+		IATHook.c			\
+		power.c				\
+		atapirw.c			\
+		MBR.C				\
+		AntiScreenCapture.c	\
+		gencache.c			\
+		parsentfs.c			\
+        drvversion.rc

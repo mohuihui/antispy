@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpyHunterDrv.W7", "SpyHunterDrv\SpyHunterDrv.W7.vcproj", "{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		W7 checked (PREfast)|Win32 = W7 checked (PREfast)|Win32
+		W7 checked|Win32 = W7 checked|Win32
+		W7 free|Win32 = W7 free|Win32
+		W7LH checked (PREfast)|Win32 = W7LH checked (PREfast)|Win32
+		W7LH checked|Win32 = W7LH checked|Win32
+		W7LH free|Win32 = W7LH free|Win32
+		W7NET checked (PREfast)|Win32 = W7NET checked (PREfast)|Win32
+		W7NET checked|Win32 = W7NET checked|Win32
+		W7NET free|Win32 = W7NET free|Win32
+		W7XP checked (PREfast)|Win32 = W7XP checked (PREfast)|Win32
+		W7XP checked|Win32 = W7XP checked|Win32
+		W7XP free|Win32 = W7XP free|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7 checked (PREfast)|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7 checked (PREfast)|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7 checked|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7 checked|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7 checked|Win32.Deploy.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7 free|Win32.ActiveCfg = W7 free|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7 free|Win32.Build.0 = W7 free|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7 free|Win32.Deploy.0 = W7 free|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7LH checked (PREfast)|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7LH checked (PREfast)|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7LH checked|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7LH checked|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7LH free|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7LH free|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7NET checked (PREfast)|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7NET checked (PREfast)|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7NET checked|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7NET checked|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7NET free|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7NET free|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7XP checked (PREfast)|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7XP checked (PREfast)|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7XP checked|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7XP checked|Win32.Build.0 = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7XP free|Win32.ActiveCfg = W7 checked|Win32
+		{F318C4DB-23BA-47C4-A7B9-DD2CD1438DC7}.W7XP free|Win32.Build.0 = W7 checked|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
