@@ -12,7 +12,7 @@
  * FIT FOR A PARTICULAR PURPOSE.
  * See the Mulan PSL v1 for more details.
 */
-// AdvancedToolsDlg.cpp : ÊµÏÖÎÄ¼þ
+// AdvancedToolsDlg.cpp : Êµï¿½ï¿½ï¿½Ä¼ï¿½
 //
 
 #include "stdafx.h"
@@ -20,7 +20,7 @@
 #include "AdvancedToolsDlg.h"
 #include "..\\..\\Common\Common.h"
 
-// CAdvancedToolsDlg ¶Ô»°¿ò
+// CAdvancedToolsDlg ï¿½Ô»ï¿½ï¿½ï¿½
 
 IMPLEMENT_DYNAMIC(CAdvancedToolsDlg, CDialog)
 
@@ -122,7 +122,7 @@ BEGIN_MESSAGE_MAP(CAdvancedToolsDlg, CDialog)
 END_MESSAGE_MAP()
 
 
-// CAdvancedToolsDlg ÏûÏ¢´¦Àí³ÌÐò
+// CAdvancedToolsDlg ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 void CAdvancedToolsDlg::OnBnClickedNotCreateThread()
 {
@@ -255,7 +255,6 @@ BOOL CAdvancedToolsDlg::OnInitDialog()
 	GetDlgItem(IDC_BTN_REPAIR_SAFEBOOT)->SetWindowText(szRepair[g_enumLang]);
 	
 	GetDlgItem(IDC_STATIC_ANTI_LOGGER)->SetWindowText(szAntiLogger[g_enumLang]);
-	GetDlgItem(IDC_NOT_SCREEN_CAPTURE)->SetWindowText(szAntiScreenLogger[g_enumLang]);
 
 // 	m_hCommEvent = CreateEvent( NULL, FALSE, FALSE, NULL);
 // 	if (m_hCommEvent != NULL)

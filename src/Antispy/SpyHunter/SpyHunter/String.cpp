@@ -53,367 +53,362 @@ WCHAR *szDispatchName[] = {
 
 WCHAR *szAntiLogger[] = {
 	L"Anti Logger",
-	L"·´¼äµý¼ÇÂ¼Æ÷",
-};
-
-WCHAR *szAntiScreenLogger[] = {
-	L"Anti Screen Logger",
-	L"·´ÆÁÄ»½ØÆÁ¼ÇÂ¼Æ÷",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½",
 };
 
 WCHAR *szRegistryIsNoExsit[] = {
 	L"Cannot find",
-	L"ÎÞ·¨ÕÒµ½",
+	L"ï¿½Þ·ï¿½ï¿½Òµï¿½",
 };
 
 WCHAR *szEnableHotkeys[] = {
 	L"Enable HotKeys",
-	L"¿ªÆôÈÈ¼ü",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½",
 };
 
 WCHAR *szGoto[] = {
 	L"Goto",
-	L"×ªµ½",
+	L"×ªï¿½ï¿½",
 };
 
 WCHAR *szProcess[] = {
 	L"Process",
-	L"½ø³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szUnknowModule[] = {
 	L"Unknow Module",
-	L"Î´ÖªÄ£¿é"
+	L"Î´ÖªÄ£ï¿½ï¿½"
 };
 
 WCHAR *szKernelModule[] = {
 	L"Driver",
-	L"Çý¶¯Ä£¿é"
+	L"ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szImageName[] = {
 	L"Image Name",
-	L"Ó³ÏñÃû³Æ"
+	L"Ó³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szPid[] = {
 	L"Pid",
-	L"½ø³ÌID"
+	L"ï¿½ï¿½ï¿½ï¿½ID"
 };
 
 WCHAR *szParentPid[] = {
 	L"Parent Pid",
-	L"¸¸½ø³ÌID"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ID"
 };
 
 WCHAR *szImagePath[] = {
 	L"Image Path",
-	L"Ó³ÏñÂ·¾¶"
+	L"Ó³ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szR3Access[] = {
 	L"Ring3 Access",
-	L"Ó¦ÓÃ²ã·ÃÎÊ"
+	L"Ó¦ï¿½Ã²ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRenameKey[] = {
 	L"Rename Key",
-	L"ÖØÃüÃûÏî"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCreateKey[] = {
 	L"Create Key",
-	L"ÐÂ½¨Ïî"
+	L"ï¿½Â½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szThisKeyAlreadyExists[] = {
 	L"Can not create the key. This key already exists.",
-	L"´´½¨×¢²á±íÏîÊ§°Ü£¬´Ë×¢²á±íÏîÒÑ¾­´æÔÚ¡£"
+	L"ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Ú¡ï¿½"
 };
 
 WCHAR *szKeyName[] = {
 	L"Key Name:",
-	L"ÏîÃû³Æ£º"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½"
 };
 
 WCHAR *szValueName[] = {
 	L"Value Name:",
-	L"ÖµÃû³Æ£º"
+	L"Öµï¿½ï¿½ï¿½Æ£ï¿½"
 };
 
 WCHAR *szFileCorporation[] = {
 	L"File Corporation",
-	L"ÎÄ¼þ³§ÉÌ"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessState[] = {
 	L"Processes: %d, Hidden Processes: %d, Ring3 Inaccessible Processes: %d",
-	L"½ø³Ì£º%d£¬Òþ²Ø½ø³Ì£º%d£¬Ó¦ÓÃ²ã²»¿É·ÃÎÊ½ø³Ì£º%d"
+	L"ï¿½ï¿½ï¿½Ì£ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ø½ï¿½ï¿½Ì£ï¿½%dï¿½ï¿½Ó¦ï¿½Ã²ã²»ï¿½É·ï¿½ï¿½Ê½ï¿½ï¿½Ì£ï¿½%d"
 };
 
 WCHAR *szProcessModuleState[] = {
 	L", [%s] Modules: %d/%d",
-	L"£¬[%s] Ä£¿é£º%d/%d"
+	L"ï¿½ï¿½[%s] Ä£ï¿½é£º%d/%d"
 };
 
 WCHAR *szProcessHandleState[] = {
 	L", [%s] Handles: %d",
-	L"£¬[%s] ¾ä±ú£º%d"
+	L"ï¿½ï¿½[%s] ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szProcessThreadState[] = {
 	L", [%s] Threads: %d",
-	L"£¬[%s] Ïß³Ì£º%d"
+	L"ï¿½ï¿½[%s] ï¿½ß³Ì£ï¿½%d"
 };
 
 WCHAR *szProcessMemoryState[] = {
 	L", [%s] Memorys: %d",
-	L"£¬[%s] ÄÚ´æ£º%d"
+	L"ï¿½ï¿½[%s] ï¿½Ú´æ£º%d"
 };
 
 WCHAR *szProcessWindowsState[] = {
 	L", [%s] Windows: %d",
-	L"£¬[%s] ´°¿Ú£º%d"
+	L"ï¿½ï¿½[%s] ï¿½ï¿½ï¿½Ú£ï¿½%d"
 };
 
 WCHAR *szProcessHotKeysState[] = {
 	L", [%s] HotKeys: %d",
-	L"£¬[%s] ÈÈ¼ü£º%d"
+	L"ï¿½ï¿½[%s] ï¿½È¼ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szProcessPrivilegesState[] = {
 	L", [%s] Enable: %d, Disable: %d",
-	L"£¬[%s] Enable£º%d£¬Disable£º%d"
+	L"ï¿½ï¿½[%s] Enableï¿½ï¿½%dï¿½ï¿½Disableï¿½ï¿½%d"
 };
 
 WCHAR *szProcessTimersState[] = {
 	L", [%s] Timers: %d",
-	L"£¬[%s] ¶¨Ê±Æ÷£º%d"
+	L"ï¿½ï¿½[%s] ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szDeny[] = {
 	L"Deny",
-	L"¾Ü¾ø"
+	L"ï¿½Ü¾ï¿½"
 };
 
 WCHAR *szProcessObject[] = {
 	L"Process Object",
-	L"½ø³Ì¶ÔÏó"
+	L"ï¿½ï¿½ï¿½Ì¶ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szViewModules[] = {
 	L"View Modules",
-	L"²é¿´½ø³ÌÄ£¿é"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szFind[] = {
 	L"Find",
-	L"²éÕÒ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessRefresh[] = {
 	L"Refresh (F5)",
-	L"Ë¢ÐÂ (F5)"
+	L"Ë¢ï¿½ï¿½ (F5)"
 };
 
 WCHAR *szRefresh[] = {
 	L"Refresh",
-	L"Ë¢ÐÂ"
+	L"Ë¢ï¿½ï¿½"
 };
 
 WCHAR *szDelete[] = {
 	L"Delete",
-	L"É¾³ý"
+	L"É¾ï¿½ï¿½"
 };
 
 WCHAR *szViewThreads[] = {
 	L"View Threads",
-	L"²é¿´½ø³ÌÏß³Ì"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szViewHandles[] = {
 	L"View Handles",
-	L"²é¿´½ø³Ì¾ä±ú"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½"
 };
 
 WCHAR *szViewWindows[] = {
 	L"View Windows",
-	L"²é¿´½ø³Ì´°¿Ú"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½Ì´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szViewMemory[] = {
 	L"View Memory",
-	L"²é¿´½ø³ÌÄÚ´æ"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szViewTimers[] = {
 	L"View Timers",
-	L"²é¿´½ø³Ì¶¨Ê±Æ÷"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½Ì¶ï¿½Ê±ï¿½ï¿½"
 };
 
 WCHAR *szViewHotKeys[] = {
 	L"View HotKeys",
-	L"²é¿´½ø³ÌÈÈ¼ü"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½"
 };
 
 WCHAR *szViewStrings[] = {
 	L"View Strings",
-	L"²é¿´½ø³Ì×Ö·û´®"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szViewPrivileges[] = {
 	L"View Privileges",
-	L"²é¿´½ø³ÌÈ¨ÏÞ"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½"
 };
 
 WCHAR *szKillProcess[] = {
 	L"Kill (Del)",
-	L"½áÊø½ø³Ì (Del)"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (Del)"
 };
 
 WCHAR *szView[] = {
 	L"View...",
-	L"²é¿´..."
+	L"ï¿½é¿´..."
 };
 
 WCHAR *szShowLowerPane[] = {
 	L"Show Lower Pane",
-	L"ÔÚÏÂ·½ÏÔÊ¾ÉÏÊöÐÅÏ¢"
+	L"ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢"
 };
 
 WCHAR *szForceKillProcess[] = {
 	L"Force Kill",
-	L"Ç¿ÖÆ½áÊø½ø³Ì"
+	L"Ç¿ï¿½Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szShowProcessTree[] = {
 	L"Show Process Tree",
-	L"ÏÔÊ¾½ø³ÌÊ÷"
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szKillAndDeleteFile[] = {
 	L"Kill And Delete File",
-	L"½áÊø½ø³Ì²¢É¾³ýÎÄ¼þ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì²ï¿½É¾ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szForceKillAndDelete[] = {
 	L"Force Kill And Delete File",
-	L"Ç¿ÖÆ½áÊø½ø³Ì²¢É¾³ýÎÄ¼þ"
+	L"Ç¿ï¿½Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì²ï¿½É¾ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szVerifyProcessSignature[] = {
 	L"Verify Process Signature",
-	L"ÑéÖ¤µ±Ç°½ø³ÌÊý×ÖÇ©Ãû"
+	L"ï¿½ï¿½Ö¤ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szVerifyAllProcessSignature[] = {
 	L"Verify All Process Signature",
-	L"ÑéÖ¤ËùÓÐ½ø³ÌÊý×ÖÇ©Ãû"
+	L"ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szSuspend[] = {
 	L"Suspend",
-	L"ÔÝÍ£½ø³ÌÔËÐÐ"
+	L"ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szResume[] = {
 	L"Resume",
-	L"»Ö¸´½ø³ÌÔËÐÐ"
+	L"ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopyImageName[] = {
 	L"Copy Image Name",
-	L"¸´ÖÆ½ø³ÌÃû"
+	L"ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopyImagePath[] = {
 	L"Copy Image Path",
-	L"¸´ÖÆ½ø³ÌÂ·¾¶"
+	L"ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szAnalyseOnline[] = {
 	L"Analyse Online",
-	L"ÔÚÏßÎÄ¼þ¼ø¶¨"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSearchOnlineBaidu[] = {
 	L"Search Online(Baidu)",
-	L"ÔÚÏßËÑË÷½ø³ÌÃû(Baidu)"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(Baidu)"
 };
 
 // WCHAR *szSearchOnlineGoogle[] = {
 // 	L"Search Online(Google)",
-// 	L"ÔÚÏßËÑË÷½ø³ÌÃû(Google)"
+// 	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(Google)"
 // };
 
 WCHAR *szSearchOnlineGoogle[] = {
 	L"Search Online",
-	L"ÔÚÏßËÑË÷Ä£¿éÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSearchProcessOnline[] = {
 	L"Search Online",
-	L"ÔÚÏßËÑË÷½ø³ÌÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindInExplorer[] = {
 	L"Find Target In Explorer",
-	L"ÔÚ×ÊÔ´¹ÜÀíÆ÷ÖÐ¶¨Î»ÎÄ¼þ"
+	L"ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFindInAntiSpy[] = {
 	L"Find Target In AntiSpy",
-	L"ÔÚAntiSpyÎÄ¼þ¹ÜÀíÆ÷ÖÐ¶¨Î»ÎÄ¼þ"
+	L"ï¿½ï¿½AntiSpyï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szProcessProperties[] = {
 	L"Properties",
-	L"²é¿´½ø³ÌÎÄ¼þÊôÐÔ"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindModule[] = {
 	L"Find DLLs Or Handles",
-	L"ÔÚËùÓÐ½ø³ÌÖÐ²éÕÒÄ£¿é»ò¾ä±ú"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindUnsignedModules[] = {
 	L"Find Unsigned DLLs",
-	L"ÔÚËùÓÐ½ø³ÌÖÐ²éÕÒÃ»ÓÐÇ©ÃûÄ£¿é"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Ç©ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szExportTo[] = {
 	L"Export To...",
-	L"µ¼³öµ½..."
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..."
 };
 
 WCHAR *szStartType[] = {
 	L"Set Start Type",
-	L"ÉèÖÃÆô¶¯·½Ê½"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½"
 };
 
 WCHAR *szText[] = {
 	L"Text",
-	L"ÎÄ±¾ÎÄ¼þ"
+	L"ï¿½Ä±ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szExportToText[] = {
 	L"Export To Text",
-	L"µ¼³öµ½ÎÄ±¾"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½"
 };
 
 WCHAR *szExportToExcel[] = {
 	L"Export To Excel",
-	L"µ¼³öµ½Excel±í¸ñ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Excelï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szStringValue[] = {
 	L"String Value",
-	L"×Ö·û´®Öµ"
+	L"ï¿½Ö·ï¿½ï¿½ï¿½Öµ"
 };
 
 WCHAR *szBinaryValue[] = {
 	L"Binary Value",
-	L"¶þ½øÖÆÖµ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ"
 };
 
 WCHAR *szDwordValue[] = {
@@ -423,574 +418,574 @@ WCHAR *szDwordValue[] = {
 
 WCHAR *szMultiStringValue[] = {
 	L"Multi-String Value",
-	L"¶à×Ö·û´®Öµ"
+	L"ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½Öµ"
 };
 
 WCHAR *szExpandableStringValue[] = {
 	L"Expandable String Value",
-	L"¿ÉÀ©³ä×Ö·û´®Öµ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½Öµ"
 };
 
 WCHAR *szExcel[] = {
 	L"Excel",
-	L"Excel±í¸ñ"
+	L"Excelï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szModuleName[] = {
 	L"Module Name",
-	L"Ä£¿éÃû"
+	L"Ä£ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szBase[] = {
 	L"Base",
-	L"»ùµØÖ·"
+	L"ï¿½ï¿½ï¿½ï¿½Ö·"
 };
 
 WCHAR *szSize[] = {
 	L"Size",
-	L"´óÐ¡"
+	L"ï¿½ï¿½Ð¡"
 };
 
 WCHAR *szModulePath[] = {
 	L"Module Path",
-	L"Ä£¿éÂ·¾¶"
+	L"Ä£ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szModuleState[] = {
 	L"Image Name: %s, Modules: %d, Suspicious Modules: %d",
-	L"Ó³Ïñ£º%s£¬ Ä£¿é£º%d£¬ ¿ÉÒÉÄ£¿é£º%d"
+	L"Ó³ï¿½ï¿½%sï¿½ï¿½ Ä£ï¿½é£º%dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é£º%d"
 };
 
 WCHAR *szNotShowMicrosoftModules[] = {
 	L"Hide Microsoft's Modules",
-	L"²»ÏÔÊ¾Î¢ÈíÄ£¿é"
+	L"ï¿½ï¿½ï¿½ï¿½Ê¾Î¢ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szDumpMemory[] = {
 	L"Dump Memory",
-	L"¿½±´Ä£¿éÄÚ´æ"
+	L"ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szExportRegistry[] = {
 	L"Export Registry",
-	L"µ¼³ö×¢²á±í"
+	L"ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYouSureDeleteKey[] = {
 	L"Are you sure you want to delete the key and its subkeys?",
-	L"È·ÈÏÒªÉ¾³ý¸ÃÏî¼°ÆäËù¶ÔÓ¦µÄ×ÓÏîÂð£¿"
+	L"È·ï¿½ï¿½ÒªÉ¾ï¿½ï¿½ï¿½ï¿½ï¿½î¼°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYouSureDeleteValue[] = {
 	L"Are you sure you want to delete?",
-	L"È·ÈÏÒªÉ¾³ýÂð£¿"
+	L"È·ï¿½ï¿½ÒªÉ¾ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYouSureUnloadAndDeleteModule[] = {
 	L"Are you sure you want to unload and delete the module?",
-	L"È·ÈÏÒªÐ¶ÔØ²¢É¾³ýÕâ¸öÄ£¿éÂð£¿"
+	L"È·ï¿½ï¿½ÒªÐ¶ï¿½Ø²ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDeleteKey[] = {
 	L"Delete Key",
-	L"É¾³ýÏî"
+	L"É¾ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDeleteValue[] = {
 	L"Delete Value",
-	L"É¾³ýÖµ"
+	L"É¾ï¿½ï¿½Öµ"
 };
 
 WCHAR *szUnLoadModule[] = {
 	L"Unload",
-	L"Ð¶ÔØ´ËÄ£¿é"
+	L"Ð¶ï¿½Ø´ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szUnLoadModuleInAllProcess[] = {
 	L"Unload In All Processes",
-	L"ÔÚËùÓÐ½ø³ÌÖÐÐ¶ÔØ´ËÄ£¿é"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Ø´ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szCopyModuleName[] = {
 	L"Copy Module Name",
-	L"¸´ÖÆÄ£¿éÃû"
+	L"ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopyModulePath[] = {
 	L"Copy Module Path",
-	L"¸´ÖÆÄ£¿éÂ·¾¶"
+	L"ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szVerifyModuleSignature[] = {
 	L"Verify Signature",
-	L"ÑéÖ¤Êý×ÖÇ©Ãû"
+	L"ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szVerifyAllModuleSignature[] = {
 	L"Verify All Signature",
-	L"ÑéÖ¤ËùÓÐÊý×ÖÇ©Ãû"
+	L"ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szModuleProperties[] = {
 	L"Properties",
-	L"²é¿´Ä£¿éÊôÐÔ"
+	L"ï¿½é¿´Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szThreadId[] = {
 	L"Tid",
-	L"Ïß³ÌID"
+	L"ï¿½ß³ï¿½ID"
 };
 
 WCHAR *szThreadObject[] = {
 	L"Thread Object",
-	L"Ïß³Ì¶ÔÏó"
+	L"ï¿½ß³Ì¶ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szTeb[] = {
 	L"Teb",
-	L"Ïß³Ì»·¾³¿é"
+	L"ï¿½ß³Ì»ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szPriority[] = {
 	L"Priority",
-	L"ÓÅÏÈ¼¶"
+	L"ï¿½ï¿½ï¿½È¼ï¿½"
 };
 
 WCHAR *szStartAddress[] = {
 	L"Start Address",
-	L"Ïß³ÌÈë¿Ú"
+	L"ï¿½ß³ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSwitchTimes[] = {
 	L"Switch Times",
-	L"ÇÐ»»´ÎÊý"
+	L"ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szThreadStatus[] = {
 	L"Status",
-	L"Ïß³Ì×´Ì¬"
+	L"ï¿½ß³ï¿½×´Ì¬"
 };
 
 WCHAR *szStartModule[] = {
 	L"Start Module",
-	L"Ïß³ÌËùÊôÄ£¿é"
+	L"ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szThreadState[] = {
 	L"Image Name: %s, Threads: %d, Hideen Threads: %d, No Module Threads: %d",
-	L"Ó³Ïñ£º%s£¬ Ïß³Ì£º%d£¬ Òþ²ØÏß³Ì£º%d£¬ ÎÞÄ£¿éÏß³Ì£º%d"
+	L"Ó³ï¿½ï¿½%sï¿½ï¿½ ï¿½ß³Ì£ï¿½%dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì£ï¿½%dï¿½ï¿½ ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ß³Ì£ï¿½%d"
 };
 
 WCHAR *szSystemThreadState[] = {
 // 	L"Threads: %d, Hideen Threads: %d, No Module Threads: %d",
-// 	L"Ïß³Ì£º%d£¬ Òþ²ØÏß³Ì£º%d£¬ ÎÞÄ£¿éÏß³Ì£º%d"
+// 	L"ï¿½ß³Ì£ï¿½%dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì£ï¿½%dï¿½ï¿½ ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ß³Ì£ï¿½%d"
 	L"Threads: %d",
-	L"Ïß³Ì£º%d"
+	L"ï¿½ß³Ì£ï¿½%d"
 };
 
 WCHAR *szThreadInfoState[] = {
 	L"Threads: %d, Hideen Threads: %d, No Module Threads: %d",
-	L"Ïß³Ì£º%d£¬ Òþ²ØÏß³Ì£º%d£¬ ÎÞÄ£¿éÏß³Ì£º%d"
+	L"ï¿½ß³Ì£ï¿½%dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì£ï¿½%dï¿½ï¿½ ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ß³Ì£ï¿½%d"
 };
 
 WCHAR *szShowTerminatedThreads[] = {
 	L"Show Terminated Threads",
-	L"ÏÔÊ¾ÒÑ¾­ÖÕÖ¹µÄÏß³Ì"
+	L"ï¿½ï¿½Ê¾ï¿½Ñ¾ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szKillThread[] = {
 	L"Kill",
-	L"½áÊøÏß³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szForceKillThread[] = {
 	L"Force Kill",
-	L"Ç¿ÖÆ½áÊøÏß³Ì"
+	L"Ç¿ï¿½Æ½ï¿½ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szSuspendThread[] = {
 	L"Suspend",
-	L"¹ÒÆðÏß³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szResumeThread[] = {
 	L"Resume",
-	L"»Ö¸´Ïß³Ì"
+	L"ï¿½Ö¸ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szForceSuspendThread[] = {
 	L"Force Suspend",
-	L"Ç¿ÖÆ¹ÒÆðÏß³Ì"
+	L"Ç¿ï¿½Æ¹ï¿½ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szDisassemblyStartAddress[] = {
 	L"Disassemble StartAddress",
-	L"·´»ã±àÏß³ÌÈë¿Ú"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szForceResumeThread[] = {
 	L"Force Resume",
-	L"Ç¿ÖÆ»Ö¸´Ïß³Ì"
+	L"Ç¿ï¿½Æ»Ö¸ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szVerifyStartModuleSignature[] = {
 	L"Verify Module Signature",
-	L"ÑéÖ¤Ä£¿éÇ©Ãû"
+	L"ï¿½ï¿½Ö¤Ä£ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szFindStartModuleInExplorer[] = {
 	L"Find Module In Explorer",
-	L"×ÊÔ´¹ÜÀíÆ÷ÖÐ¶¨Î»Ä£¿é"
+	L"ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»Ä£ï¿½ï¿½"
 };
 
 WCHAR *szStartModuleProperties[] = {
 	L"Module Properties",
-	L"²é¿´Ä£¿éÊôÐÔ"
+	L"ï¿½é¿´Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessModules[] = {
 	L"Process Module",
-	L"½ø³ÌÄ£¿é"
+	L"ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szProcessThreads[] = {
 	L"Process Thread",
-	L"½ø³ÌÏß³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szDumpOK[] = {
 	L"Dump OK!",
-	L"¿½±´ÄÚ´æ³É¹¦£¡"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDumpFailed[] = {
 	L"Dump Failed!",
-	L"¿½±´ÄÚ´æÊ§°Ü£¡"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½Ê§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szFileExist[] = {
 	L"The file has exist, do you truncate it?",
-	L"ÎÄ¼þÒÑ¾­´æÔÚ£¬ÊÇ·ñ¸²¸Ç£¿"
+	L"ï¿½Ä¼ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Ú£ï¿½ï¿½Ç·ñ¸²¸Ç£ï¿½"
 };
 
 WCHAR *szSureToUnloadModule[] = {
 	L"Unload modules maybe cause the target process crash,\r\are you sure you want to continue?",
-	L"Ð¶ÔØÄ£¿é¿ÉÄÜ»áµ¼ÖÂÄ¿±ê½ø³Ì±¼À££¬ÄúÈ·¶¨ÒªÐ¶ÔØÂð£¿"
+	L"Ð¶ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½Ü»áµ¼ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½Ì±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½ÒªÐ¶ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szGlobalUnloadModule[] = {
 	L"Unload modules in some system processes maybe cause your system crash,\r\nare you sure you want to continue?",
-	L"Ð¶ÔØÏµÍ³½ø³ÌÖÐµÄÄ³Ð©Ä£¿é¿ÉÄÜ»áµ¼ÖÂÄúµÄÏµÍ³²»ÎÈ¶¨»òÕß±¼À££¬\r\nÈ·¶¨ÒªÐ¶ÔØÂð£¿"
+	L"Ð¶ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ä³Ð©Ä£ï¿½ï¿½ï¿½ï¿½Ü»áµ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½È¶ï¿½ï¿½ï¿½ï¿½ß±ï¿½ï¿½ï¿½ï¿½ï¿½\r\nÈ·ï¿½ï¿½ÒªÐ¶ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szUnloadModule[] = {
 	L"Unload Module",
-	L"Ð¶ÔØÄ£¿é"
+	L"Ð¶ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szHandleType[] = {
 	L"Type",
-	L"¾ä±úÀàÐÍ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHandleName[] = {
 	L"Name",
-	L"¾ä±úÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHandleValue[] = {
 	L"Handle",
-	L"¾ä±ú"
+	L"ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHandleObject[] = {
 	L"Object",
-	L"¾ä±ú¶ÔÏó"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHandleRefCount[] = {
 	L"RefCount",
-	L"ÒýÓÃ¼ÆÊý"
+	L"ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHandleState[] = {
 	L"Image Name: %s, Handles: %d",
-	L"Ó³Ïñ£º%s£¬  ¾ä±ú£º%d",
+	L"Ó³ï¿½ï¿½%sï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½%d",
 };
 
 WCHAR *szHandleInfoState[] = {
 	L"Handles: %d",
-	L"¾ä±úÊý£º%d",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d",
 };
 
 WCHAR *szHandleTypeNumber[] = {
 	L"Type Number",
-	L"¾ä±úÀàÐÍ´úºÅ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessHandles[] = {
 	L"Process Handle",
-	L"½ø³Ì¾ä±ú"
+	L"ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½"
 };
 
 WCHAR *szHandleClose[] = {
 	L"Close",
-	L"¹Ø±Õ¾ä±ú"
+	L"ï¿½Ø±Õ¾ï¿½ï¿½"
 };
 
 WCHAR *szHandleForceClose[] = {
 	L"Force Close",
-	L"Ç¿ÖÆ¹Ø±Õ¾ä±ú"
+	L"Ç¿ï¿½Æ¹Ø±Õ¾ï¿½ï¿½"
 };
 
 WCHAR *szAddress[] = {
 	L"Address",
-	L"µØÖ·"
+	L"ï¿½ï¿½Ö·"
 };
 
 WCHAR *szHex[] = {
 	L"Hex",
-	L"Ê®Áù½øÖÆ"
+	L"Ê®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisassembly[] = {
 	L"Disassembly",
-	L"·´»ã±à"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szMemoryState[] = {
 	L"Image Name: %s, Memorys: %d",
-	L"Ó³Ïñ£º %s£¬ ÄÚ´æ¿é£º %d"
+	L"Ó³ï¿½ï¿½ %sï¿½ï¿½ ï¿½Ú´ï¿½é£º %d"
 };
 
 WCHAR *szMemoryInfoState[] = {
 	L"Memorys: %d",
-	L"ÄÚ´æ¿é£º %d"
+	L"ï¿½Ú´ï¿½é£º %d"
 };
 
 WCHAR *szProcessMemory[] = {
 	L"Process Memory",
-	L"½ø³ÌÄÚ´æ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szMemoryDump[] = {
 	L"Dump Memory",
-	L"¿½±´ÄÚ´æ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szMemoryDumpSelect[] = {
 	L"Dump Selected",
-	L"¿½±´ËùÑ¡ÄÚ´æ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½Ú´ï¿½"
 };
 
 WCHAR *szMemoryZero[] = {
 	L"Zero Memory",
-	L"ÇåÁãÄÚ´æ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szMemoryModifyProtection[] = {
 	L"Modify Protection",
-	L"ÐÞ¸Ä±£»¤ÊôÐÔ"
+	L"ï¿½Þ¸Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szMemoryFree[] = {
 	L"Free",
-	L"ÊÍ·ÅÄÚ´æ"
+	L"ï¿½Í·ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szDumpAddress[] = {
 	L"Address:",
-	L"µØÖ·£º"
+	L"ï¿½ï¿½Ö·ï¿½ï¿½"
 };
 
 WCHAR *szDumpSize[] = {
 	L"Size:",
-	L"´óÐ¡£º"
+	L"ï¿½ï¿½Ð¡ï¿½ï¿½"
 };
 
 WCHAR *szOk[] = {
 	L"OK",
-	L"È·¶¨"
+	L"È·ï¿½ï¿½"
 };
 
 WCHAR *szCancel[] = {
 	L"Cancel",
-	L"È¡Ïû"
+	L"È¡ï¿½ï¿½"
 };
 
 WCHAR *szDumpDlgMemory[] = {
 	L"Dump Memory",
-	L"¿½±´ÄÚ´æ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szMemoryFreeMemory[] = {
 	L"Free Memory",
-	L"ÊÍ·ÅÄÚ´æ"
+	L"ï¿½Í·ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szMemoryZeroMemory[] = {
 	L"Zero Memory",
-	L"ÇåÁãÄÚ´æ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szMemoryFreeFailed[] = {
 	L"Free Memory Failed!",
-	L"ÊÍ·ÅÄÚ´æÊ§°Ü£¡"
+	L"ï¿½Í·ï¿½ï¿½Ú´ï¿½Ê§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szMemoryDangerous[] = {
 	L"It maybe cause the target process crash, are you sure you want to contionue?",
-	L"´Ë²Ù×÷¿ÉÄÜ»áÔì³ÉÄ¿±ê³ÌÐò±¼À££¬ÄúÈ·¶¨Òª¼ÌÐøÂð£¿"
+	L"ï¿½Ë²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü»ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szModifyProtection[] = {
 	L"Modify Protection",
-	L"ÐÞ¸Ä±£»¤ÊôÐÔ"
+	L"ï¿½Þ¸Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szModifyProtectionFailed[] = {
 	L"Modify Protection Failed!",
-	L"ÐÞ¸Ä±£»¤ÊôÐÔÊ§°Ü£¡"
+	L"ï¿½Þ¸Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szModifyMemoryProtection[] = {
 	L"Modify Protection",
-	L"ÐÞ¸ÄÄÚ´æ±£»¤ÊôÐÔ"
+	L"ï¿½Þ¸ï¿½ï¿½Ú´æ±£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szZeroMemory[] = {
 	L"Zero Memory",
-	L"ÇåÁãÄÚ´æ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szZeroMemoryFailed[] = {
 	L"Zero Memory Failed!",
-	L"ÇåÁãÄÚ´æÊ§°Ü£¡"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½Ê§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szZeroMemoryOk[] = {
 	L"Zero Memory Ok!",
-	L"ÇåÁãÄÚ´æ³É¹¦£¡"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szShowAllProcessesTimer[] = {
 	L"Show All Processes Timer",
-	L"ÏÔÊ¾ËùÓÐ½ø³Ì¶¨Ê±Æ÷"
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ð½ï¿½ï¿½Ì¶ï¿½Ê±ï¿½ï¿½"
 };
 
 WCHAR *szRemove[] = {
 	L"Remove",
-	L"ÒÆ³ý"
+	L"ï¿½Æ³ï¿½"
 };
 
 WCHAR *szModifyTimeOutValue[] = {
 	L"Modify Time Out Value",
-	L"ÐÞ¸ÄÏìÓ¦Ê±¼ä"
+	L"ï¿½Þ¸ï¿½ï¿½ï¿½Ó¦Ê±ï¿½ï¿½"
 };
 
 WCHAR *szProcessTimer[] = {
 	L"Process Timer",
-	L"½ø³Ì¶¨Ê±Æ÷"
+	L"ï¿½ï¿½ï¿½Ì¶ï¿½Ê±ï¿½ï¿½"
 };
 
 WCHAR *szTimerState[] = {
 	L"Image Name: %s, Timers: %d",
-	L"Ó³Ïñ£º %s£¬ ¶¨Ê±Æ÷£º %d"
+	L"Ó³ï¿½ï¿½ %sï¿½ï¿½ ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ %d"
 };
 
 WCHAR *szTimerStateNew[] = {
 	L"Timers: %d",
-	L"¶¨Ê±Æ÷£º%d"
+	L"ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szTimerObject[] = {
 	L"Object",
-	L"¶¨Ê±Æ÷¶ÔÏó"
+	L"ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szTimeOutValue[] = {
 	L"Time Out(s)",
-	L"ÏìÓ¦Ê±¼ä(s)"
+	L"ï¿½ï¿½Ó¦Ê±ï¿½ï¿½(s)"
 };
 
 WCHAR *szCallback[] = {
 	L"Callback",
-	L"»Øµ÷º¯Êý"
+	L"ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szTimerModulePath[] = {
 	L"Module Path",
-	L"¶¨Ê±Æ÷ËùÊôÄ£¿é"
+	L"ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szTid[] = {
 	L"Tid",
-	L"Ïß³ÌID"
+	L"ï¿½ß³ï¿½ID"
 };
 
 WCHAR *szAllProcesses[] = {
 	L"All Processes",
-	L"ËùÓÐ½ø³Ì"
+	L"ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcesseName[] = {
 	L"Process Name",
-	L"½ø³ÌÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHotKeyObject[] = {
 	L"Object",
-	L"ÈÈ¼ü¶ÔÏó"
+	L"ï¿½È¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHotKeyId[] = {
 	L"Id",
-	L"ÈÈ¼üId"
+	L"ï¿½È¼ï¿½Id"
 };
 
 WCHAR *szHotKeyKey[] = {
 	L"Key",
-	L"ÈÈ¼ü"
+	L"ï¿½È¼ï¿½"
 };
 
 WCHAR *szHotKeyTid[] = {
 	L"Tid",
-	L"Ïß³ÌId"
+	L"ï¿½ß³ï¿½Id"
 };
 
 WCHAR *szHotKeyPid[] = {
 	L"Pid",
-	L"½ø³ÌId"
+	L"ï¿½ï¿½ï¿½ï¿½Id"
 };
 
 WCHAR *szHotKeyProcessName[] = {
 	L"Process Name",
-	L"½ø³ÌÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHotKeyState[] = {
 	L"Image Name: %s, HotKeys: %d",
-	L"Ó³Ïñ£º%s£¬ ÈÈ¼ü£º%d"
+	L"Ó³ï¿½ï¿½%sï¿½ï¿½ ï¿½È¼ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szHotKeyStateNew[] = {
 	L"HotKeys: %d",
-	L"ÈÈ¼üÊý£º%d"
+	L"ï¿½È¼ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szProcessHotKey[] = {
 	L"Process HotKey",
-	L"½ø³ÌÈÈ¼ü"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½"
 };
 
 WCHAR *szShowAllProcessesHotKey[] = {
 	L"Show All Processes HotKey",
-	L"ÏÔÊ¾ËùÓÐ½ø³ÌÈÈ¼ü"
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ï¿½È¼ï¿½"
 };
 
 WCHAR *szProcessPrivilege[] = {
 	L"Process Privilege",
-	L"½ø³ÌÈ¨ÏÞ"
+	L"ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½"
 };
 
 WCHAR *szPrivilegeStatus[] = {
@@ -1000,618 +995,618 @@ WCHAR *szPrivilegeStatus[] = {
 
 WCHAR *szPrivilege[] = {
 	L"Privilege",
-	L"È¨ÏÞ"
+	L"È¨ï¿½ï¿½"
 };
 
 WCHAR *szPrivilegeDescription[] = {
 	L"Description",
-	L"ÃèÊö"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szPrivilegeState[] = {
 	L"Image Name: %s, Enabled: %d, Disabled: %d",
-	L"Ó³Ïñ£º %s£¬ Enabled£º%d£¬ Disabled£º%d"
+	L"Ó³ï¿½ï¿½ %sï¿½ï¿½ Enabledï¿½ï¿½%dï¿½ï¿½ Disabledï¿½ï¿½%d"
 };
 
 WCHAR *szPrivilegeInfoState[] = {
 	L"Enabled: %d, Disabled: %d",
-	L"Enabled£º%d£¬ Disabled£º%d"
+	L"Enabledï¿½ï¿½%dï¿½ï¿½ Disabledï¿½ï¿½%d"
 };
 
 WCHAR *szPrivilegeEnable[] = {
 	L"Enable",
-	L"¿ªÆôÈ¨ÏÞ"
+	L"ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½"
 };
 
 WCHAR *szPrivilegeDisable[] = {
 	L"Disable",
-	L"È¡ÏûÈ¨ÏÞ"
+	L"È¡ï¿½ï¿½È¨ï¿½ï¿½"
 };
 
 WCHAR *szHwnd[] = {
 	L"Hwnd",
-	L"´°¿Ú¾ä±ú"
+	L"ï¿½ï¿½ï¿½Ú¾ï¿½ï¿½"
 };
 
 WCHAR *szWindowTitle[] = {
 	L"Window Title",
-	L"´°¿Ú±êÌâ"
+	L"ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szClassName[] = {
 	L"Class Name",
-	L"´°¿ÚÀàÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szWndVisible[] = {
 	L"Visible",
-	L"´°¿Ú¿É¼ûÐÔ"
+	L"ï¿½ï¿½ï¿½Ú¿É¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szWndState[] = {
 	L"Image Name: %s, Windows: %d",
-	L"Ó³Ïñ£º %s£¬ ´°¿Ú£º %d"
+	L"Ó³ï¿½ï¿½ %sï¿½ï¿½ ï¿½ï¿½ï¿½Ú£ï¿½ %d"
 };
 
 WCHAR *szWndStateNew[] = {
 	L"Windows: %d",
-	L"´°¿ÚÊý£º %d"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %d"
 };
 
 WCHAR *szProcessWindow[] = {
 	L"Process Window",
-	L"½ø³Ì´°¿Ú"
+	L"ï¿½ï¿½ï¿½Ì´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szShowAllProcessWindow[] = {
 	L"Show All Process Window",
-	L"ÏÔÊ¾ËùÓÐ½ø³Ì´°¿Ú"
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ð½ï¿½ï¿½Ì´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szShowWindow[] = {
 	L"Show Window",
-	L"ÏÔÊ¾´°¿Ú"
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHideWindow[] = {
 	L"Hide Window",
-	L"Òþ²Ø´°¿Ú"
+	L"ï¿½ï¿½ï¿½Ø´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szShowMaximized[] = {
 	L"Show Maximized",
-	L"×î´ó»¯´°¿Ú"
+	L"ï¿½ï¿½ó»¯´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szShowMinimized[] = {
 	L"Show Minimized",
-	L"×îÐ¡»¯´°¿Ú"
+	L"ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szEnableWindow[] = {
 	L"Enable Window",
-	L"¼¤»î´°¿Ú"
+	L"ï¿½ï¿½ï¿½î´°ï¿½ï¿½"
 };
 
 WCHAR *szDisableWindow[] = {
 	L"Disable Window",
-	L"¶³½á´°¿Ú"
+	L"ï¿½ï¿½ï¿½á´°ï¿½ï¿½"
 };
 
 WCHAR *szDestroyWindow[] = {
 	L"Destroy Window",
-	L"Ïú»Ù´°¿Ú"
+	L"ï¿½ï¿½ï¿½Ù´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szTopMost[] = {
 	L"Top Most",
-	L"´°¿ÚÖÃ¶¥"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½"
 };
 
 WCHAR *szCancelTopMost[] = {
 	L"Cancel Top Most",
-	L"È¡Ïû´°¿ÚÖÃ¶¥"
+	L"È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½"
 };
 
 WCHAR *szVisible[] = {
 	L"Yes",
-	L"¿É¼û"
+	L"ï¿½É¼ï¿½"
 };
 
 WCHAR *szProcessDump[] = {
 	L"Dump Memory",
-	L"¿½±´½ø³ÌÄÚ´æÓ³Ïñ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½Ó³ï¿½ï¿½"
 };
 
 WCHAR *szFixDump[] = {
 	L"Would you like to fix the dump?",
-	L"ÐèÒªÐÞ¸´Ó³ÏñÎÄ¼þÂð£¿"
+	L"ï¿½ï¿½Òªï¿½Þ¸ï¿½Ó³ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindModuleDlg[] = {
 	L"Find Handles or DLLs",
-	L"²éÕÒÄ£¿é»ò¾ä±ú"
+	L"ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindDllModuleName[] = {
 	L"Filter:",
-	L"Ãû³Æ£º"
+	L"ï¿½ï¿½ï¿½Æ£ï¿½"
 };
 
 WCHAR *szFindHnadles[] = {
 	L"Hnadles",
-	L"¾ä±ú"
+	L"ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindDllModule[] = {
 	L"DLLs",
-	L"Ä£¿é"
+	L"Ä£ï¿½ï¿½"
 };
 
 WCHAR *szRegFind[] = {
 	L"Find...",
-	L"²éÕÒ..."
+	L"ï¿½ï¿½ï¿½ï¿½..."
 };
 
 WCHAR *szRegExport[] = {
 	L"Export",
-	L"µ¼³ö×¢²á±í"
+	L"ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegImport[] = {
 	L"Import",
-	L"µ¼Èë×¢²á±í"
+	L"ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegImportOk[] = {
 	L"Import OK!",
-	L"µ¼Èë³É¹¦£¡"
+	L"ï¿½ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegExportOk[] = {
 	L"Export OK!",
-	L"µ¼³ö³É¹¦£¡"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegDelete[] = {
 	L"Delete",
-	L"É¾³ý"
+	L"É¾ï¿½ï¿½"
 };
 
 WCHAR *szRegModify[] = {
 	L"Modify",
-	L"ÐÞ¸Ä"
+	L"ï¿½Þ¸ï¿½"
 };
 
 WCHAR *szRegCopyValueName[] = {
 	L"Copy Value Name",
-	L"¸´ÖÆÖµÃû³Æ"
+	L"ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szUseHiveAnalyze[] = {
 	L"Use Hive Analysis",
-	L"Ê¹ÓÃHive½âÎö"
+	L"Ê¹ï¿½ï¿½Hiveï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAddToQuickPositioning[] = {
 	L"Add to Quick Position",
-	L"Ìí¼Óµ½¿ìËÙ¶¨Î»"
+	L"ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½Ù¶ï¿½Î»"
 };
 
 WCHAR *szRegCopyValueData[] = {
 	L"Copy Value Data",
-	L"¸´ÖÆÖµÊý¾Ý"
+	L"ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegRename[] = {
 	L"Rename",
-	L"ÖØÃüÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegEditString[] = {
 	L"Edit String",
-	L"±à¼­×Ö·û´®"
+	L"ï¿½à¼­ï¿½Ö·ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegEditDwordValue[] = {
 	L"Edit DWORD Value",
-	L"±à¼­DWORDÖµ"
+	L"ï¿½à¼­DWORDÖµ"
 };
 
 WCHAR *szRegValueName[] = {
 	L"Value Name:",
-	L"ÊýÖµÃû³Æ£º"
+	L"ï¿½ï¿½Öµï¿½ï¿½ï¿½Æ£ï¿½"
 };
 
 WCHAR *szRegBase[] = {
 	L"Base",
-	L"»ùÊý"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegValueData[] = {
 	L"Value Data:",
-	L"ÊýÖµÊý¾Ý£º"
+	L"ï¿½ï¿½Öµï¿½ï¿½ï¿½Ý£ï¿½"
 };
 
 WCHAR *szNewKey[] = {
 	L"New Key",
-	L"ÐÂ½¨Ïî"
+	L"ï¿½Â½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szNewValue[] = {
 	L"New Value",
-	L"ÐÂ½¨Öµ"
+	L"ï¿½Â½ï¿½Öµ"
 };
 
 WCHAR *szRenameValue[] = {
 	L"Rename Value",
-	L"ÖØÃüÃûÖµ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ"
 };
 
 WCHAR *szCopyKeyName[] = {
 	L"Copy Key Name",
-	L"¸´ÖÆÏîÃû³Æ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopyFullKeyName[] = {
 	L"Copy Full Key Name",
-	L"¸´ÖÆÍêÕûÏîÃû³Æ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessName[] = {
 	L"Process Name",
-	L"½ø³ÌÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindModuleStatus[] = {
 	L"Module Name: %s, Count: %d",
-	L"±»²éÕÒµÄÄ£¿éÃû£º%s£¬Ä£¿éÊý£º%d"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%sï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szDeleteModuleFile[] = {
 	L"Delete Module File",
-	L"É¾³ýÄ£¿éÎÄ¼þ"
+	L"É¾ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szUnloadAndDeleteModuleFile[] = {
 	L"Unload And Delete File",
-	L"Ð¶ÔØ²¢É¾³ýÄ£¿éÎÄ¼þ"
+	L"Ð¶ï¿½Ø²ï¿½É¾ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szUnload[] = {
 	L"Unload",
-	L"Ð¶ÔØÄ£¿é"
+	L"Ð¶ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szUnloadAll[] = {
 	L"Unload All",
-	L"Ð¶ÔØËùÓÐÄ£¿é"
+	L"Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szFindModuleInExplorer[] = {
 	L"Find Target",
-	L"¶¨Î»Ä£¿éÎÄ¼þ"
+	L"ï¿½ï¿½Î»Ä£ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFindNotSignatureModule[] = {
 	L"Find No Signature Module",
-	L"²éÕÒÃ»ÓÐÊý×ÖÇ©ÃûÄ£¿é"
+	L"ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szNoSignatureModuleCount[] = {
 	L"No Signature Modules: %d",
-	L"ÎÞÊý×ÖÇ©ÃûÄ£¿é£º%d"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½Ä£ï¿½é£º%d"
 };
 
 WCHAR *szDeleteFile[] = {
 	L"Delete File",
-	L"É¾³ýÎÄ¼þ"
+	L"É¾ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szForceResumeProcess[] = {
 	L"Force Resume",
-	L"Ç¿ÖÆ»Ö¸´½ø³ÌÔËÐÐ"
+	L"Ç¿ï¿½Æ»Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szForceSuspendProcess[] = {
 	L"Force Suspend",
-	L"Ç¿ÖÆÔÝÍ£½ø³ÌÔËÐÐ"
+	L"Ç¿ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szInjectDll[] = {
 	L"Inject DLL",
-	L"×¢ÈëÄ£¿é"
+	L"×¢ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szScaning[] = {
 	L"[Scanning...]",
-	L"[ÕýÔÚÉ¨Ãè£¬ÇëÉÔºó...]"
+	L"[ï¿½ï¿½ï¿½ï¿½É¨ï¿½è£¬ï¿½ï¿½ï¿½Ôºï¿½...]"
 };
 
 WCHAR *szDriverName[] = {
 	L"Driver Name",
-	L"Çý¶¯Ãû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szUserName[] = {
 	L"User Name",
-	L"ÓÃ»§Ãû"
+	L"ï¿½Ã»ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDiskName[] = {
 	L"DISK",
-	L"´ÅÅÌ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szReadMbrFalied[] = {
 	L"Read MBR Failed!",
-	L"¶ÁÈ¡MBRÊ§°Ü£¡"
+	L"ï¿½ï¿½È¡MBRÊ§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szUserPrivileges[] = {
 	L"Privileges",
-	L"È¨ÏÞ"
+	L"È¨ï¿½ï¿½"
 };
 
 WCHAR *szUserStatus[] = {
 	L"Users: %d, Hidden Users: %d",
-	L"ÓÃ»§£º%d£¬Òþ²ØÓÃ»§£º%d"
+	L"ï¿½Ã»ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szDriverObject[] = {
 	L"Driver Object",
-	L"Çý¶¯¶ÔÏó"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDriverPath[] = {
 	L"Driver Path",
-	L"Çý¶¯Â·¾¶"
+	L"ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szServiceName[] = {
 	L"Service Name",
-	L"·þÎñÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szLoadOrder[] = {
 	L"Load Order",
-	L"¼ÓÔØË³Ðò"
+	L"ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½"
 };
 
 WCHAR *szDriverStatus[] = {
 	L"Drivers: %d, Hidden Drivers: %d, Suspicious PE Image: %d",
-	L"Çý¶¯£º%d£¬ Òþ²ØÇý¶¯£º%d£¬ ¿ÉÒÉPEÓ³Ïñ£º%d"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½PEÓ³ï¿½ï¿½%d"
 };
 
 WCHAR *szSuspiciousPEImage[] = {
 	L"Suspicious PE Image",
-	L"¿ÉÒÉPEÓ³Ïñ"
+	L"ï¿½ï¿½ï¿½ï¿½PEÓ³ï¿½ï¿½"
 };
 
 WCHAR *szFileNotFound[] = {
 	L"File not found",
-	L"ÎÄ¼þ²»´æÔÚ"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDriverDump[] = {
 	L"Dump Memory",
-	L"¿½±´Ä£¿éÄÚ´æ"
+	L"ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 WCHAR *szDriverUnload[] = {
 	L"Unload Driver(Dangerous)",
-	L"Ð¶ÔØÇý¶¯(Î£ÏÕ)"
+	L"Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(Î£ï¿½ï¿½)"
 };
 
 WCHAR *szDeleteDriverFile[] = {
 	L"Delete Driver File",
-	L"É¾³ýÇý¶¯ÎÄ¼þ"
+	L"É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szDeleteDriverFileAndReg[] = {
 	L"Delete Driver File And Reg",
-	L"É¾³ýÇý¶¯ÎÄ¼þºÍ×¢²á±í"
+	L"É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopyDriverName[] = {
 	L"Copy Driver Name",
-	L"¿½±´Çý¶¯Ãû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopyDriverPath[] = {
 	L"Copy Driver Path",
-	L"¿½±´Çý¶¯Â·¾¶"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szLocateInRegedit[] = {
 	L"Jump to Registry",
-	L"¶¨Î»µ½×¢²á±í"
+	L"ï¿½ï¿½Î»ï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szVerifyDriverSignature[] = {
 	L"Verify Driver Signature",
-	L"ÑéÖ¤Çý¶¯Ç©Ãû"
+	L"ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szVerifyAllDriverSignature[] = {
 	L"Verify All Driver Signature",
-	L"ÑéÖ¤ËùÓÐÇý¶¯Ç©Ãû"
+	L"ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szDriverProperties[] = {
 	L"Properties",
-	L"²é¿´Çý¶¯ÎÄ¼þÊôÐÔ"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSearchOnlineDriver[] = {
 	L"Search Online",
-	L"ÔÚÏßËÑË÷Çý¶¯Ãû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szVerifyDlgImagePath[] = {
 	L"File Path: ",
-	L"ÎÄ¼þÂ·¾¶£º "
+	L"ï¿½Ä¼ï¿½Â·ï¿½ï¿½ï¿½ï¿½ "
 };
 
 WCHAR *szVerifyStatusVerifyNow[] = {
 	L"Status: Verify Signature Now, Please Wait...",
-	L"Ç©Ãû×´Ì¬£º ÕýÔÚÑéÖ¤ÎÄ¼þÇ©Ãû£¬ÇëÉÔºó..."
+	L"Ç©ï¿½ï¿½×´Ì¬ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½Ä¼ï¿½Ç©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½..."
 };
 
 WCHAR *szVerifyStatusVerifySigned[] = {
 	L"Status: Signed.",
-	L"Ç©Ãû×´Ì¬£º ÎÄ¼þÒÑ¾­Ç©Ãû¡£"
+	L"Ç©ï¿½ï¿½×´Ì¬ï¿½ï¿½ ï¿½Ä¼ï¿½ï¿½Ñ¾ï¿½Ç©ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szVerifyStatusVerifyNotSigned[] = {
 	L"Status: Not Signed.",
-	L"Ç©Ãû×´Ì¬£º ÎÄ¼þÎ´Í¨¹ýÇ©Ãû¡£"
+	L"Ç©ï¿½ï¿½×´Ì¬ï¿½ï¿½ ï¿½Ä¼ï¿½Î´Í¨ï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szOK[] = {
 	L"OK",
-	L"È·¶¨"
+	L"È·ï¿½ï¿½"
 };
 
 WCHAR *szDisasm[] = {
 	L"Disasm",
-	L"·´»ã±à"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessList[] = {
 	L"Process List",
-	L"½ø³ÌÁÐ±í"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½"
 };
 
 WCHAR *szDisasmCode[] = {
 	L"Disassembly Code",
-	L"·´»ã±à´úÂë"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSave[] = {
 	L"Save",
-	L"±£´æÐÞ¸Ä"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½"
 };
 
 WCHAR *szReadMemory[] = {
 	L"Read Memory",
-	L"¶ÁÈ¡ÄÚ´æ"
+	L"ï¿½ï¿½È¡ï¿½Ú´ï¿½"
 };
 
 WCHAR *szConfirmToWrite[] = {
 	L"Confirm To Write Memory",
-	L"È·ÈÏÐ´ÈëÄÚ´æ"
+	L"È·ï¿½ï¿½Ð´ï¿½ï¿½ï¿½Ú´ï¿½"
 };
 
 //Show amaranth color on no signed item. \r\n
 WCHAR *szVerifysignatureNowPleaseWait[] = {
 	L"Verify signature now, please wait...",
-	L"ÕýÔÚÐ£ÑéÎÄ¼þÇ©Ãû£¬ÇëÉÔºó..."
+	L"ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½Ä¼ï¿½Ç©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½..."
 };
 
 WCHAR *szVerifySignature[] = {
 	L"Verify Signature",
-	L"Ð£ÑéÎÄ¼þÇ©Ãû"
+	L"Ð£ï¿½ï¿½ï¿½Ä¼ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szKernelMode[] = {
 	L"Kernel Mode",
-	L"ÄÚºË²ã"
+	L"ï¿½ÚºË²ï¿½"
 };
 
 WCHAR *szUserMode[] = {
 	L"User Mode",
-	L"ÓÃ»§²ã"
+	L"ï¿½Ã»ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegistry[] = {
 	L"Registry",
-	L"×¢²á±í"
+	L"×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szService[] = {
 	L"Service",
-	L"·þÎñ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAutostart[] = {
 	L"Autostart",
-	L"Æô¶¯Ïî"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCommand[] = {
 	L"Command",
-	L"ÃüÁîÐÐ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAbout[] = {
 	L"About",
-	L"¹ØÓÚ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSetConfig[] = {
 	L"Config",
-	L"ÉèÖÃ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szMyComputer[] = {
 	L"My Computer",
-	L"ÎÒµÄµçÄÔ"
+	L"ï¿½ÒµÄµï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAll[] = {
 	L"All",
-	L"È«²¿Æô¶¯Ïî"
+	L"È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szStartup[] = {
 	L"Startup",
-	L"Æô¶¯"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szWinlogon[] = {
 	L"Winlogon",
-	L"ÏµÍ³µÇÂ¼Ïà¹Ø"
+	L"ÏµÍ³ï¿½ï¿½Â¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szExplorer[] = {
 	L"Explorer",
-	L"×ÊÔ´¹ÜÀíÆ÷Ïà¹Ø"
+	L"ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szInternetExplorer[] = {
 	L"Internet Explorer",
-	L"IEä¯ÀÀÆ÷Ïà¹Ø"
+	L"IEï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAutoRunServices[] = {
 	L"Services",
-	L"ÏµÍ³·þÎñ"
+	L"ÏµÍ³ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAutoRunDrivers[] = {
 	L"Drivers",
-	L"Çý¶¯³ÌÐò"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRing0Hook[] = {
 	L"Ring0 Hook",
-	L"ÄÚºË¹³×Ó"
+	L"ï¿½ÚºË¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRoutineEntry[] = {
 	L"Routine Entry",
-	L"»Øµ÷Èë¿Ú"
+	L"ï¿½Øµï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szNotifyType[] = {
 	L"Notify Type",
-	L"Í¨ÖªÀàÐÍ"
+	L"Í¨Öªï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szNote[] = {
 	L"Note",
-	L"±¸×¢"
+	L"ï¿½ï¿½×¢"
 };
 
 WCHAR *szCallbackStatus[] = {
@@ -1621,38 +1616,38 @@ WCHAR *szCallbackStatus[] = {
 
 WCHAR *szCallbackFindInExplorer[] = {
 	L"Find Target In Explorer",
-	L"ÔÚ×ÊÔ´¹ÜÀíÆ÷ÖÐ¶¨ÎÄ¼þ"
-//	L"¶¨Î»Ä£¿éÎÄ¼þ"
+	L"ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ä¼ï¿½"
+//	L"ï¿½ï¿½Î»Ä£ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szCallbackModuleProperties[] = {
 	L"Properties",
-	L"²é¿´Ä£¿éÊôÐÔ"
+	L"ï¿½é¿´Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFixLsp[] = {
 	L"Repair LSP",
-	L"ÐÞ¸´LSP"
+	L"ï¿½Þ¸ï¿½LSP"
 };
 
 WCHAR *szDisassemblerEntry[] = {
 	L"Disassembler Entry",
-	L"·´»ã±àÈë¿Ú"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCallbackVerifyModuleSignature[] = {
 	L"Verify Signature",
-	L"Ð£ÑéÄ£¿éÇ©Ãû"
+	L"Ð£ï¿½ï¿½Ä£ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szRemoveAll[] = {
 	L"Remove All",
-	L"È«²¿ÒÆ³ý"
+	L"È«ï¿½ï¿½ï¿½Æ³ï¿½"
 };
 
 WCHAR *szNotifyRoutine[] = {
 	L"Notify Routine",
-	L"ÏµÍ³»Øµ÷"
+	L"ÏµÍ³ï¿½Øµï¿½"
 };
 
 WCHAR *szSSDT[] = {
@@ -1662,12 +1657,12 @@ WCHAR *szSSDT[] = {
 
 WCHAR *szIdt[] = {
 	L"IDT",
-	L"ÏµÍ³ÖÐ¶Ï±í"
+	L"ÏµÍ³ï¿½Ð¶Ï±ï¿½"
 };
 
 WCHAR *szObjectHook[] = {
 	L"Object Type",
-	L"Object¹³×Ó"
+	L"Objectï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szShadowSSDT[] = {
@@ -1682,12 +1677,12 @@ WCHAR *szFSD[] = {
 
 WCHAR *szKbdClass[] = {
 	L"Keyboard",
-	L"¼üÅÌ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szMouClass[] = {
 	L"Mouse",
-	L"Êó±ê"
+	L"ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisk[] = {
@@ -1712,97 +1707,97 @@ WCHAR *szTcpip[] = {
 
 WCHAR *szDpcTimer[] = {
 	L"DPC Timer",
-	L"DPC¶¨Ê±Æ÷"
+	L"DPCï¿½ï¿½Ê±ï¿½ï¿½"
 };
 
 WCHAR *szIoTimer[] = {
 	L"IO Timer",
-	L"IO¶¨Ê±Æ÷"
+	L"IOï¿½ï¿½Ê±ï¿½ï¿½"
 };
 
 WCHAR *szSystemThread[] = {
 	L"System Thread",
-	L"ÏµÍ³Ïß³Ì"
+	L"ÏµÍ³ï¿½ß³ï¿½"
 };
 
 WCHAR *szHandleInfo[] = {
 	L"Handle",
-	L"¾ä±ú"
+	L"ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szWindowInfo[] = {
 	L"Window",
-	L"´°¿Ú"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHotKeyInfo[] = {
 	L"HotKey",
-	L"ÈÈ¼ü"
+	L"ï¿½È¼ï¿½"
 };
 
 WCHAR *szTimerInfo[] = {
 	L"Timer",
-	L"¶¨Ê±Æ÷"
+	L"ï¿½ï¿½Ê±ï¿½ï¿½"
 };
 
 WCHAR *szPrivilegeInfo[] = {
 	L"Privilege",
-	L"È¨ÏÞ"
+	L"È¨ï¿½ï¿½"
 };
 
 WCHAR *szWorkerThread[] = {
 	L"Worker Thread",
-	L"¹¤×÷¶ÓÁÐÏß³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szDebugRegisters[] = {
 	L"Debug Registers",
-	L"µ÷ÊÔ¼Ä´æÆ÷"
+	L"ï¿½ï¿½ï¿½Ô¼Ä´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFilter[] = {
 	L"Filter",
-	L"¹ýÂËÇý¶¯"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szObjectHijack[] = {
 	L"Object Hijack",
-	L"¶ÔÏó½Ù³Ö"
+	L"ï¿½ï¿½ï¿½ï¿½Ù³ï¿½"
 };
 
 WCHAR *szModuleInfo[] = {
 	L"Module",
-	L"Ä£¿é"
+	L"Ä£ï¿½ï¿½"
 };
 
 WCHAR *szThreadInfo[] = {
 	L"Thread",
-	L"Ïß³Ì"
+	L"ï¿½ß³ï¿½"
 };
 
 WCHAR *szProcessInformation[] = {
 	L"Process Information",
-	L"½ø³ÌÐÅÏ¢"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢"
 };
 
 WCHAR *szModuleInfoState[] = {
 	L"Modules: %d",
-	L"Ä£¿éÊý£º%d"
+	L"Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szThreadsInfoState[] = {
 	L"Threads: %d",
-	L"Ïß³ÌÊý£º%d"
+	L"ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szMemoryInfo[] = {
 	L"Memory",
-	L"ÄÚ´æ"
+	L"ï¿½Ú´ï¿½"
 };
 
 WCHAR *szDpcTimerObject[] = {
 	L"Timer Object",
-	L"¶¨Ê±Æ÷¶ÔÏó"
+	L"ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDpc[] = {
@@ -1812,22 +1807,22 @@ WCHAR *szDpc[] = {
 
 WCHAR *szPeriod[] = {
 	L"Period(s)",
-	L"´¥·¢ÖÜÆÚ(s)"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(s)"
 };
 
 WCHAR *szDpcTimerRoutineEntry[] = {
 	L"Routine Entry",
-	L"º¯ÊýÈë¿Ú"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDpcTimerStatus[] = {
 	L"DPC Timers: %d",
-	L"DPC¶¨Ê±Æ÷: %d"
+	L"DPCï¿½ï¿½Ê±ï¿½ï¿½: %d"
 };
 
 WCHAR *szDeviceObject[] = {
 	L"Device Object",
-	L"Éè±¸¶ÔÏó"
+	L"ï¿½è±¸ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIoTimerStatus[] = {
@@ -1842,27 +1837,27 @@ WCHAR *szStop[] = {
 
 WCHAR *szStart[] = {
 	L"Start",
-	L"¿ªÆô"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIoTimerCnt[] = {
 	L"IO Timers: %d",
-	L"IO¶¨Ê±Æ÷: %d"
+	L"IOï¿½ï¿½Ê±ï¿½ï¿½: %d"
 };
 
 WCHAR *szIoTimerStatusWorking[] = {
 	L"Working",
-	L"ÒÑ¿ªÆô"
+	L"ï¿½Ñ¿ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIoTimerStatusStop[] = {
 	L"Stop",
-	L"ÒÑÍ£Ö¹"
+	L"ï¿½ï¿½Í£Ö¹"
 };
 
 WCHAR *szType[] = {
 	L"Type",
-	L"ÀàÐÍ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szStatus[] = {
@@ -1872,52 +1867,52 @@ WCHAR *szStatus[] = {
 
 WCHAR *szStartupType[] = {
 	L"Startup Type",
-	L"Æô¶¯ÀàÐÍ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 // WCHAR *szFile[] = {
 // 	L"Startup Type",
-// 	L"Æô¶¯ÀàÐÍ"
+// 	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 // };
 
 WCHAR *szDisableDirectIo[] = {
 	L"Disable Direct IO",
-	L"½ûÖ¹Ö±½ÓIO"
+	L"ï¿½ï¿½Ö¹Ö±ï¿½ï¿½IO"
 };
 
 WCHAR *szWorkerThreadStatus[] = {
 	L"Worker Threads: %d, CriticalWorkQueue: %d, DelayedWorkQueue: %d, HyperCriticalWorkQueue: %d",
-	L"¹¤×÷Ïß³Ì£º %d, CriticalWorkQueue£º %d, DelayedWorkQueue£º %d, HyperCriticalWorkQueue£º %d",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì£ï¿½ %d, CriticalWorkQueueï¿½ï¿½ %d, DelayedWorkQueueï¿½ï¿½ %d, HyperCriticalWorkQueueï¿½ï¿½ %d",
 };
 
 WCHAR *szRegister[] = {
 	L"Register",
-	L"¼Ä´æÆ÷"
+	L"ï¿½Ä´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegisterValue[] = {
 	L"Value",
-	L"¼Ä´æÆ÷Öµ"
+	L"ï¿½Ä´ï¿½ï¿½ï¿½Öµ"
 };
 
 WCHAR *szRestore[] = {
 	L"Restore",
-	L"»Ö¸´"
+	L"ï¿½Ö¸ï¿½"
 };
 
 WCHAR *szBreakpointLength[] = {
 	L"Length",
-	L"¶Ïµã³¤¶È"
+	L"ï¿½Ïµã³¤ï¿½ï¿½"
 };
 
 WCHAR *szBreakpointAddress[] = {
 	L"Break Address",
-	L"¶ÏµãµØÖ·"
+	L"ï¿½Ïµï¿½ï¿½Ö·"
 };
 
 WCHAR *szBreakOn[] = {
 	L"Break Reason",
-	L"¶ÏµãÌõ¼þ"
+	L"ï¿½Ïµï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szBreakPointStatus[] = {
@@ -1927,107 +1922,107 @@ WCHAR *szBreakPointStatus[] = {
 
 WCHAR *szObject[] = {
 	L"Object",
-	L"¶ÔÏó"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szObjectType[] = {
 	L"Object Type",
-	L"¶ÔÏóÀàÐÍ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szObjectName[] = {
 	L"Object Name",
-	L"¶ÔÏóÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDescription[] = {
 	L"Description",
-	L"ÃèÊö"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDevice[] = {
 	L"Device",
-	L"Éè±¸"
+	L"ï¿½è±¸"
 };
 
 WCHAR *szAttachDeviceName[] = {
 	L"Attach Device Name",
-	L"ËÞÖ÷Çý¶¯¶ÔÏóÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDirectIO[] = {
 	L"Direct IO",
-	L"Ö±½ÓIO"
+	L"Ö±ï¿½ï¿½IO"
 };
 
 WCHAR *szDirectIOReason[] = {
 	L"Reason",
-	L"Ô­Òò"
+	L"Ô­ï¿½ï¿½"
 };
 
 WCHAR *szIOPLIsTrue[] = {
 	L"IOPL is true",
-	L"½ø³ÌIOPL±»ÉèÖÃ³ÉTRUE",
+	L"ï¿½ï¿½ï¿½ï¿½IOPLï¿½ï¿½ï¿½ï¿½ï¿½Ã³ï¿½TRUE",
 };
 
 WCHAR *szTssIsLargerThanNormal[] = {
 	L"Task state segment is larger than normal",
-	L"ÈÎÎñ×´Ì¬¶ÎµÄ´óÐ¡Òì³£",
+	L"ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½ÎµÄ´ï¿½Ð¡ï¿½ì³£",
 };
 
 WCHAR *szIoMapIsChanged[] = {
 	L"IoMap is changed",
-	L"½ø³ÌIOÎ»Í¼±»¸ü¸Ä",
+	L"ï¿½ï¿½ï¿½ï¿½IOÎ»Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 };
 
 WCHAR *szDirectIOProcessCnt[] = {
 	L"Direct IO Processes: %d",
-	L"Ö±½ÓIO½ø³Ì£º%d",
+	L"Ö±ï¿½ï¿½IOï¿½ï¿½ï¿½Ì£ï¿½%d",
 };
 
 WCHAR *szDirectIOKillProcess[] = {
 	L"Kill",
-	L"½áÊø½ø³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFilterDriverCnt[] = {
 	L"Filter Drivers: %d",
-	L"¹ýÂËÉè±¸£º%d",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½è±¸ï¿½ï¿½%d",
 };
 
 WCHAR *szObjectHijackStatus[] = {
 	L"Object Hijack: %d",
-	L"¶ÔÏó½Ù³Ö£º%d"
+	L"ï¿½ï¿½ï¿½ï¿½Ù³Ö£ï¿½%d"
 };
 
 WCHAR *szIndex[] = {
 	L"Index",
-	L"Ë÷Òý"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szName[] = {
 	L"Name",
-	L"Ãû³Æ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDispalyName[] = {
 	L"Dispaly Name",
-	L"ÏÔÊ¾Ãû"
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½"
 };
 
 WCHAR *szKey[] = {
 	L"Key",
-	L"Ïî"
+	L"ï¿½ï¿½"
 };
 
 WCHAR *szFile[] = {
 	L"File",
-	L"ÎÄ¼þ"
+	L"ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szData[] = {
 	L"Data",
-	L"Êý¾Ý"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szValue[] = {
@@ -2037,32 +2032,32 @@ WCHAR *szValue[] = {
 
 WCHAR *szRegAddress[] = {
 	L"Quick Position",
-	L"¿ìËÙ¶¨Î»"
+	L"ï¿½ï¿½ï¿½Ù¶ï¿½Î»"
 };
 
 WCHAR *szFunction[] = {
 	L"Function",
-	L"º¯ÊýÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFunctionAddress[] = {
 	L"Function",
-	L"º¯Êý"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDefault[] = {
 	L"(Default)",
-	L"(Ä¬ÈÏ)"
+	L"(Ä¬ï¿½ï¿½)"
 };
 
 WCHAR *szValueNoSet[] = {
 	L"(Value No Set)",
-	L"(ÊýÖµÎ´ÉèÖÃ)"
+	L"(ï¿½ï¿½ÖµÎ´ï¿½ï¿½ï¿½ï¿½)"
 };
 
 WCHAR *szCurrentEntry[] = {
 	L"Current Entry",
-	L"µ±Ç°º¯ÊýµØÖ·"
+	L"ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·"
 };
 
 WCHAR *szHook[] = {
@@ -2072,177 +2067,177 @@ WCHAR *szHook[] = {
 
 WCHAR *szHookType[] = {
 	L"Hook Type",
-	L"¹³×ÓÀàÐÍ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szOriginalEntry[] = {
 	L"Original Entry",
-	L"Ô­Ê¼º¯ÊýµØÖ·"
+	L"Ô­Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·"
 };
 
 WCHAR *szModule[] = {
 	L"Module",
-	L"µ±Ç°º¯ÊýµØÖ·ËùÔÚÄ£¿é"
+	L"ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szServiceModule[] = {
 	L"Service Module",
-	L"·þÎñÄ£¿é"
+	L"ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szStarted[] = {
 	L"Started",
-	L"ÒÑÆô¶¯"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSSdtStatus[] = {
 	L"SSDT Entry: %d, Hooks: %d",
-	L"SSDTº¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"SSDTï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szFindProcessByWindwo[] = {
 	L"Find Process By Window",
-	L"²éÕÒ´°¿Ú¶¨Î»½ø³Ì"
+	L"ï¿½ï¿½ï¿½Ò´ï¿½ï¿½Ú¶ï¿½Î»ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szShadowSSdtStatus[] = {
 	L"Shadow SSDT Entry: %d, Hooks: %d",
-	L"Shadow SSDTº¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"Shadow SSDTï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szOnlyShowHooks[] = {
 	L"Only Show Hooks",
-	L"½öÏÔÊ¾¹Ò¹³º¯Êý"
+	L"ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisassemblerCurrentEntry[] = {
 	L"Disassemble CurrentEntry",
-	L"·´»ã±àµ±Ç°º¯ÊýµØÖ·"
+	L"ï¿½ï¿½ï¿½ï¿½àµ±Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·"
 };
 
 WCHAR *szDisassemblerHookAddress[] = {
 	L"Disassemble HookAddress",
-	L"·´»ã±à¹Ò¹³µØÖ·"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½Ö·"
 };
 
 WCHAR *szDisassemblerOrginalEntry[] = {
 	L"Disassemble OrginalEntry",
-	L"·´»ã±àÔ­Ê¼º¯ÊýµØÖ·"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ô­Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·"
 };
 
 WCHAR *szRestoreAll[] = {
 	L"Restore All",
-	L"»Ö¸´È«²¿"
+	L"ï¿½Ö¸ï¿½È«ï¿½ï¿½"
 };
 
 WCHAR *szDisassembleBreakpoint[] = {
 	L"Disassemble Breakpoint",
-	L"·´»ã±à¶ÏµãµØÖ·"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½Ö·"
 };
 
 WCHAR *szFsdStatus[] = {
 	L"FSD Entry: %d, Hooks: %d",
-	L"FSDÅÉÇ²º¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"FSDï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szMouStatus[] = {
 	L"MOU Entry: %d, Hooks: %d",
-	L"MOUÅÉÇ²º¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"MOUï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szIatEatStatus[] = {
 	L"IAT/EAT Hooks: %d",
-	L"IAT/EAT¹³×Ó£º%d"
+	L"IAT/EATï¿½ï¿½ï¿½Ó£ï¿½%d"
 };
 
 WCHAR *szDiskStatus[] = {
 	L"Disk Entry: %d, Hooks: %d",
-	L"DiskÅÉÇ²º¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"Diskï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szAtapiStatus[] = {
 	L"Atapi Entry: %d, Hooks: %d",
-	L"AtapiÅÉÇ²º¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"Atapiï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szAcpiStatus[] = {
 	L"Acpi Entry: %d, Hooks: %d",
-	L"AcpiÅÉÇ²º¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"Acpiï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szKdbStatus[] = {
 	L"KBD Entry: %d, Hooks: %d",
-	L"KBDÅÉÇ²º¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"KBDï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szTcpipStatus[] = {
 	L"Tcpip Entry: %d, Hooks: %d",
-	L"TcpipÅÉÇ²º¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"Tcpipï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szIdtStatus[] = {
 	L"IDT Entry: %d, Hooks: %d",
-	L"ÖÐ¶Ï±íº¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"ï¿½Ð¶Ï±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szKernelEntryStatus[] = {
 	L"Kernel Entry Hook: %d",
-	L"ÄÚºËÈë¿Ú¹³×Ó£º%d"
+	L"ï¿½Úºï¿½ï¿½ï¿½Ú¹ï¿½ï¿½Ó£ï¿½%d"
 };
 
 WCHAR *szObjectHookStatus[] = {
 	L"Object Type Functions: %d, Hooks: %d",
-	L"¶ÔÏóÀàÐÍº¯Êý£º%d£¬±»¹Ò¹³º¯Êý£º%d"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íºï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szMessageHook[] = {
 	L"Message Hook",
-	L"ÏûÏ¢¹³×Ó"
+	L"ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessHook[] = {
 	L"Process Hook",
-	L"½ø³Ì¹³×Ó"
+	L"ï¿½ï¿½ï¿½Ì¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szKernelCallbackTable[] = {
 	L"KernelCallbackTable",
-	L"ÄÚºË»Øµ÷±í"
+	L"ï¿½ÚºË»Øµï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessModuleHijack[] = {
 	L"Module Hijack",
-	L"Ä£¿é½Ù³Ö"
+	L"Ä£ï¿½ï¿½Ù³ï¿½"
 };
 
 WCHAR *szObjectAddress[] = {
 	L"Object Address",
-	L"¶ÔÏóµØÖ·"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ö·"
 };
 
 WCHAR *szHookAddress[] = {
 	L"Hook Address",
-	L"¹Ò¹³Î»ÖÃ"
+	L"ï¿½Ò¹ï¿½Î»ï¿½ï¿½"
 };
 
 WCHAR *szCurrentValue[] = {
 	L"Current Value",
-	L"¹Ò¹³´¦µ±Ç°Öµ"
+	L"ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½Ç°Öµ"
 };
 
 WCHAR *szPatchLenInBytes[] = {
 	L"Length(Bytes)",
-	L"³¤¶È(×Ö½Ú)"
+	L"ï¿½ï¿½ï¿½ï¿½(ï¿½Ö½ï¿½)"
 };
 
 WCHAR *szOriginalValue[] = {
 	L"Original Value",
-	L"¹Ò¹³´¦Ô­Ê¼Öµ"
+	L"ï¿½Ò¹ï¿½ï¿½ï¿½Ô­Ê¼Öµ"
 };
 
 WCHAR *szKernelEntry[] = {
 	L"Kernel Entry",
-	L"ÄÚºËÈë¿Ú"
+	L"ï¿½Úºï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIatEat[] = {
@@ -2252,82 +2247,82 @@ WCHAR *szIatEat[] = {
 
 WCHAR *szScanning[] = {
 	L"Scanning...",
-	L"ÕýÔÚÉ¨Ãè...",
+	L"ï¿½ï¿½ï¿½ï¿½É¨ï¿½ï¿½...",
 };
 
 WCHAR *szPatchHooks[] = {
 	L"Hooks/Patches: %d",
-	L"¹³×Ó/´úÂëÐÞ¸Ä£º %d",
+	L"ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸Ä£ï¿½ %d",
 };
 
 WCHAR *szModifyedCode[] = {
 	L"Modified Code",
-	L"´úÂëÐÞ¸Ä",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½",
 };
 
 WCHAR *szProcessPath[] = {
 	L"Process Path",
-	L"½ø³ÌÂ·¾¶"
+	L"ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szHandle[] = {
 	L"Handle",
-	L"¾ä±ú"
+	L"ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcesse[] = {
 	L"Process",
-	L"½ø³ÌÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRunProcessAsSuspend[] = {
 	L"Run Process As Suspend",
-	L"ÒÔ¹ÒÆð·½Ê½Æô¶¯½ø³Ì"
+	L"ï¿½Ô¹ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAutoStart[] = {
 	L"Automatic",
-	L"×Ô¶¯"
+	L"ï¿½Ô¶ï¿½"
 };
 
 WCHAR *szBoot[] = {
 	L"Boot Start",
-	L"Òýµ¼Æô¶¯"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSystemType[] = {
 	L"System Start",
-	L"ÏµÍ³Æô¶¯"
+	L"ÏµÍ³ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisabled[] = {
 	L"Disabled",
-	L"ÒÑ½ûÓÃ"
+	L"ï¿½Ñ½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szManual[] = {
 	L"Manual",
-	L"ÊÖ¶¯"
+	L"ï¿½Ö¶ï¿½"
 };
 
 WCHAR *szSystemStart[] = {
 	L"System Start",
-	L"ÏµÍ³Æô¶¯"
+	L"ÏµÍ³ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szBootStart[] = {
 	L"Boot Start",
-	L"Òýµ¼Æô¶¯"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szServiceCnt[] = {
 	L"Service: ",
-	L"·þÎñ£º "
+	L"ï¿½ï¿½ï¿½ï¿½ "
 };
 
 WCHAR *szServiceStart[] = {
 	L"Start",
-	L"Æô¶¯"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szServiceStop[] = {
@@ -2337,668 +2332,668 @@ WCHAR *szServiceStop[] = {
 
 WCHAR *szServiceRestart[] = {
 	L"Restart",
-	L"ÖØÐÂÆô¶¯"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szServiceAutomatic[] = {
 	L"Auto Start",
-	L"×Ô¶¯Æô¶¯"
+	L"ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szServiceManual[] = {
 	L"Manual Start",
-	L"ÊÖ¶¯Æô¶¯"
+	L"ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szServiceDisabled[] = {
 	L"Disabled",
-	L"½ûÖ¹Æô¶¯"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szServiceDeleteRegistry[] = {
 	L"Delete Registry",
-	L"É¾³ý×¢²á±í"
+	L"É¾ï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szServiceDeleteRegistryAndFile[] = {
 	L"Delete Registry And File",
-	L"É¾³ý×¢²á±íºÍ·þÎñÄ£¿é"
+	L"É¾ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szKnowDlls[] = {
 	L"Know DLLs",
-	L"¹«¹Ø¶¯Ì¬Á´½Ó¿â"
+	L"ï¿½ï¿½ï¿½Ø¶ï¿½Ì¬ï¿½ï¿½ï¿½Ó¿ï¿½"
 };
 
 WCHAR *szPrintMonitors[] = {
 	L"Print Monitors",
-	L"´òÓ¡¼àÊÓ³ÌÐò"
+	L"ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szNetworkProviders[] = {
 	L"Network Providers",
-	L"ÍøÂç¹©Ó¦Õß"
+	L"ï¿½ï¿½ï¿½ç¹©Ó¦ï¿½ï¿½"
 };
 
 WCHAR *szWinsockProviders[] = {
 	L"Winsock Providers",
-	L"Winsock¹©Ó¦Õß"
+	L"Winsockï¿½ï¿½Ó¦ï¿½ï¿½"
 };
 
 WCHAR *szSecurityProviders[] = {
 	L"Security Providers",
-	L"°²È«¹©Ó¦Õß"
+	L"ï¿½ï¿½È«ï¿½ï¿½Ó¦ï¿½ï¿½"
 };
 
 WCHAR *szScheduledTasks[] = {
 	L"Scheduled Tasks",
-	L"¼Æ»®ÈÎÎñ"
+	L"ï¿½Æ»ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szJmpToReg[] = {
 	L"Jump to Registry",
-	L"Ìø×ªµ½×¢²á±í"
+	L"ï¿½ï¿½×ªï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDeleteStartup[] = {
 	L"Delete Startup",
-	L"É¾³ýÆô¶¯ÐÅÏ¢"
+	L"É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢"
 };
 
 WCHAR *szEnableStartup[] = {
 	L"Enable",
-	L"¿ªÆô×ÔÆô¶¯"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisableStartup[] = {
 	L"Disable",
-	L"½ûÖ¹×ÔÆô¶¯"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szExportStartup[] = {
 	L"Export Startup",
-	L"µ¼³öÆô¶¯ÐÅÏ¢"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢"
 };
 
 WCHAR *szDeleteStartupAndFile[] = {
 	L"Delete Startup And File",
-	L"É¾³ýÆô¶¯ÐÅÏ¢ºÍÎÄ¼þ"
+	L"É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szCopyStartupName[] = {
 	L"Copy Startup Name",
-	L"¿½±´Æô¶¯ÏîÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopyStartupPath[] = {
 	L"Copy Startup Path",
-	L"¿½±´Æô¶¯ÏîÂ·¾¶"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szStartupSearchOnline[] = {
 	L"Search Online",
-	L"ÔÚÏßËÑË÷Æô¶¯Ïî"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYouSureUnloadDriver[] = {
 	L"Are you sure you want to unload the driver?",
-	L"Ð¶ÔØÇý¶¯ÓÐÀ¶ÆÁ·çÏÕ£¬È·ÈÏÒªÐ¶ÔØ£¿"
+	L"Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ£ï¿½È·ï¿½ï¿½ÒªÐ¶ï¿½Ø£ï¿½"
 };
 
 WCHAR *szUnloadDriver[] = {
 	L"Unload Driver",
-	L"Ð¶ÔØÇý¶¯"
+	L"Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisassmSize[] = {
 	L"Size(Bytes):",
-	L"´óÐ¡(×Ö½Ú)£º"
+	L"ï¿½ï¿½Ð¡(ï¿½Ö½ï¿½)ï¿½ï¿½"
 };
 
 WCHAR *szDisassmPID[] = {
 	L"PID:",
-	L"PID£º"
+	L"PIDï¿½ï¿½"
 };
 
 WCHAR *szDisassembler[] = {
 	L"Disassembler",
-	L"·´»ã±àÆ÷"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFollowImediate[] = {
 	L"Follow Imediate",
-	L"¸úËæÁ¢¼´Êý"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopy[] = {
 	L"Copy...",
-	L"¸´ÖÆ..."
+	L"ï¿½ï¿½ï¿½ï¿½..."
 };
 
 WCHAR *szCopyFullLine[] = {
 	L"Full row",
-	L"ÕûÐÐ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopyAddress[] = {
 	L"Address",
-	L"µØÖ·"
+	L"ï¿½ï¿½Ö·"
 };
 
 WCHAR *szCopyHex[] = {
 	L"Hex",
-	L"16½øÖÆ"
+	L"16ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCopyCode[] = {
 	L"Assembly code",
-	L"»ã±à´úÂë"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szLowerCase[] = {
 	L"LowerCase",
-	L"Ð¡Ð´×ÖÌå"
+	L"Ð¡Ð´ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisassemble[] = {
 	L"Disassembler",
-	L"·´»ã±àµ±Ç°µØÖ·"
+	L"ï¿½ï¿½ï¿½ï¿½àµ±Ç°ï¿½ï¿½Ö·"
 };
 
 WCHAR *szDisassembleCallback[] = {
 	L"Disassemble Callback",
-	L"·´»ã±à»Øµ÷º¯Êý"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisassembleEntry[] = {
 	L"Disassemble Entry",
-	L"·´»ã±àÈë¿Ú"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCannotFindFile[] = {
 	L"Cannot find the file!",
-	L"ÎÄ¼þ²»´æÔÚ!"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!"
 };
 
 WCHAR *szHardwareBreakpoint[] = {
 	L"Hardware breakpoint: %d",
-	L"Ó²¼þ¶Ïµã£º%d"
+	L"Ó²ï¿½ï¿½ï¿½Ïµã£º%d"
 };
 
 WCHAR *szMessageHookStatus[] = {
 	L"Message Hook: %d, Global Message Hook: %d",
-	L"ÏûÏ¢¹³×Ó£º%d£¬È«¾ÖÏûÏ¢¹³×Ó£º%d"
+	L"ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½Ó£ï¿½%dï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½Ó£ï¿½%d"
 };
 
 WCHAR *szOnlyShowGlobalHook[] = {
 	L"Only Show Global Hook",
-	L"½öÏÔÊ¾È«¾Ö¹³×Ó"
+	L"ï¿½ï¿½ï¿½ï¿½Ê¾È«ï¿½Ö¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szUnhook[] = {
 	L"Unhook",
-	L"Ð¶ÔØ¹³×Ó"
+	L"Ð¶ï¿½Ø¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisassembleMessageHook[] = {
 	L"Disassemble Entry",
-	L"·´»ã±à¹³×ÓÈë¿Ú"
+	L"ï¿½ï¿½ï¿½ï¿½à¹³ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 // WCHAR *szCheckForUpdate[] = {
 // 	L"Checking for updates now, please wait for a moment...\r\nConntecting to the server.",
-// 	L"ÕýÔÚ¼ì²é¸üÐÂ£¬ÇëÉÔºó...\r\nÕýÔÚÁ¬½Ó·þÎñÆ÷¡£"
+// 	L"ï¿½ï¿½ï¿½Ú¼ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½Ôºï¿½...\r\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 // };
 
 WCHAR *szCheckForUpdate[] = {
 	L"Please wait while your request is being processed. This could take a few seconds.\r\nConntecting to the server.",
-	L"ÕýÔÚ´¦Àí¸üÐÂÇëÇó£¬Õâ¿ÉÄÜÐèÒª¼¸ÃëÖÓÊ±¼ä£¬ÇëÉÔºó¡£\r\nÕýÔÚÁ¬½Ó·þÎñÆ÷..."
+	L"ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£¬ï¿½ï¿½ï¿½Ôºï¿½\r\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó·ï¿½ï¿½ï¿½ï¿½ï¿½..."
 };
 
 WCHAR *szUpdate[] = {
 	L"Check for updates",
-	L"¼ì²é¸üÐÂ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szConnectedOK[] = {
 	L"Connected OK.\r\nWaiting for server response...",
-	L"Á¬½Ó·þÎñÆ÷³É¹¦¡£\r\nÕýÔÚµÈ´ý·þÎñÆ÷ÏìÓ¦..."
+	L"ï¿½ï¿½ï¿½Ó·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½\r\nï¿½ï¿½ï¿½ÚµÈ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦..."
 };
 
 // WCHAR *szUpdateFailed[] = {
 // 	L"Update failed, please try again later.",
-// 	L"¸üÐÂÊ§°Ü£¬ÇëÉÔºóÔÙÊÔ¡£"
+// 	L"ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½Ôºï¿½ï¿½ï¿½ï¿½Ô¡ï¿½"
 // };
 
 WCHAR *szCurrentVersion[] = {
 	L"Current Version: ",
-	L"µ±Ç°°æ±¾£º"
+	L"ï¿½ï¿½Ç°ï¿½æ±¾ï¿½ï¿½"
 };
 
 WCHAR *szLatestVersion[] = {
 	L"Latest Version: ",
-	L"×îÐÂ°æ±¾£º"
+	L"ï¿½ï¿½ï¿½Â°æ±¾ï¿½ï¿½"
 };
 
 WCHAR *szUpdateLog[] = {
 	L"Update Log:",
-	L"¸üÐÂÈÕÖ¾£º"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½"
 };
 
 WCHAR *szAlreadyHaveRecentVersion[] = {
 	L"You already have the most recent version of AntiSpy.",
-	L"AntiSpyÒÑ¾­ÊÇ×îÐÂ°æ±¾£¬ÎÞÐè¸üÐÂ¡£"
+	L"AntiSpyï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â°æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¡ï¿½"
 };
 
 WCHAR *szUpdateError[] = {
 	L"Check for updates error, please try again later.",
-	L"¼ì²é¸üÐÂ³ö´í£¬ÇëÉÔºóÔÙÊÔ¡£"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Â³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½ï¿½ï¿½ï¿½Ô¡ï¿½"
 };
 
 WCHAR *szDownloadError[] = {
 	L"Download the file error, please try again later.",
-	L"ÏÂÔØÎÄ¼þ³ö´í£¬ÇëÉÔºóÔÙÊÔ¡£"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½ï¿½ï¿½ï¿½Ô¡ï¿½"
 };
 
 WCHAR *szUpdateFailed[] = {
 	L"Update failed, please try again later.",
-	L"¸üÐÂÎÄ¼þÊ§°Ü£¬ÇëÉÔºóÔÙÊÔ¡£"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½Ôºï¿½ï¿½ï¿½ï¿½Ô¡ï¿½"
 };
 
 WCHAR *szUpdateSuccess[] = {
 	L"The update was successful, enjoy it.",
-	L"¸üÐÂ³É¹¦¡£"
+	L"ï¿½ï¿½ï¿½Â³É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szUpdateNow[] = {
 	L"Update Now",
-	L"Á¢¼´¸üÐÂ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szGotoNewVersion[] = {
 	L"Goto New Version",
-	L"¶¨Î»µ½ÐÂ°æ±¾"
+	L"ï¿½ï¿½Î»ï¿½ï¿½ï¿½Â°æ±¾"
 };
 
 WCHAR *szCheckForUpdates[] = {
 	L"Check for updates (the current version is %s)",
-	L"¼ì²âÐÂ°æ±¾ (µ±Ç°ÊÇ%s°æ±¾)"
+	L"ï¿½ï¿½ï¿½ï¿½Â°æ±¾ (ï¿½ï¿½Ç°ï¿½ï¿½%sï¿½æ±¾)"
 };
 
 WCHAR *szContactAuthor[] = {
 	L"Contact Author",
-	L"ÁªÏµ×÷Õß"
+	L"ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAuthor[] = {
 	L"Author: mzf",
-	L"×÷Õß£ºmzf (Äª»Ò»Ò)"
+	L"ï¿½ï¿½ï¿½ß£ï¿½mzf (Äªï¿½Ò»ï¿½)"
 };
 
 WCHAR *szEmail[] = {
 	L"Email: AntiSpy@163.com",
-	L"Email£ºAntiSpy@163.com"
+	L"Emailï¿½ï¿½AntiSpy@163.com"
 };
 
 WCHAR *szWebsite[] = {
 	L"Blog: www.KingProtect.com",
-	L"²©¿Í£ºwww.KingProtect.com"
+	L"ï¿½ï¿½ï¿½Í£ï¿½www.KingProtect.com"
 };
 
 WCHAR *szQQ[] = {
 	L"QQ: 454858525",
-	L"QQ  £º454858525£¬ QQÈº£º17385388"
+	L"QQ  ï¿½ï¿½454858525ï¿½ï¿½ QQÈºï¿½ï¿½17385388"
 };
 
 WCHAR *szAntiSpy[] = {
 	L"Website: www.AntiSpy.cn",
-	L"¹ÙÍø£ºwww.AntiSpy.cn"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½www.AntiSpy.cn"
 };
 
 
 WCHAR *szSina[] = {
 	L"MicroBlog: http://weibo.com/minzhenfei (Sina)",
-	L"Î¢²©£ºhttp://weibo.com/minzhenfei (ÐÂÀË)"
+	L"Î¢ï¿½ï¿½ï¿½ï¿½http://weibo.com/minzhenfei (ï¿½ï¿½ï¿½ï¿½)"
 };
 
 WCHAR *szTencent[] = {
 	L"     http://weibo.com/minzhenfei (Tencent)",
-	L"http://t.qq.com/minzhenfei (ÌÚÑ¶)"
+	L"http://t.qq.com/minzhenfei (ï¿½ï¿½Ñ¶)"
 };
 
 WCHAR *szInformationAndCopyright[] = {
 	L"Information && Copyright",
-	L"ËµÃ÷ÓëÖÂÐ»"
+	L"Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»"
 };
 
 WCHAR *szInformation[] = {
 	L"Description: AntiSpy is a handy anti-virus and rootkit tools. It can detect,analyze and restore various kernel modifications, just like ssdt hooks. With its assistance, you can easily spot and remove malwares in your system.",
-	L"Ëµ        Ã÷£ºÕâÊÇÒ»¿îÊÖ¹¤É±¶¾¸¨Öú¹¤¾ß£¬ÔÚËýµÄ°ïÖúÏÂÄú¿ÉÒÔÇá¶øÒ×¾ÙµÄ¾¾³öµçÄÔÖÐÒþ²ØÖÁÉîµÄ²¡¶¾ºÍÄ¾Âí£¬»¹ÄúÒ»¸ö¸É¾»ÊæÐÄµÄÉÏÍø»·¾³¡£"
+	L"Ëµ        ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö¹ï¿½É±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¾ÙµÄ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSystem[] = {
 	L"",
-	L"ÊÊÓÃÏµÍ³£ºWin2000£¬xp£¬Win2003£¬Vista£¬Win2008£¬Win7£¬Win8 (32Î»)"
+	L"ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½Win2000ï¿½ï¿½xpï¿½ï¿½Win2003ï¿½ï¿½Vistaï¿½ï¿½Win2008ï¿½ï¿½Win7ï¿½ï¿½Win8 (32Î»)"
 };
 
 WCHAR *szThanks[] = {
 	L"Platform: Win2000, xp, Win2003, Vista, Win2008, Win7, Win8 (32bit)",
-	L"ÖÂ        Ð»£ºÔÚÕâ¿î¹¤¾ßµÄÐ´×÷¹ý³ÌÖÐ£¬²Î¿¼ÁË¶àÎ»¼¼Êõ´óÅ£µÄÎÄÕÂ£¬ÔÚ´ËÒ»²¢±íÊ¾¸ÐÐ»¡£ÁíÍâ·Ç³£¸ÐÐ»hxjÍ¬Ñ§¸ø±¾¹¤¾ßÉè¼ÆµÄÈí¼þÍ¼±ê¡£"
+	L"ï¿½ï¿½        Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î¹¤ï¿½ßµï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½Î¿ï¿½ï¿½Ë¶ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å£ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½Ú´ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç³ï¿½ï¿½ï¿½Ð»hxjÍ¬Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ê¡£"
 };
 
 WCHAR *szCopyright[] = {
 	L"",
-	L"°æ        È¨£º(C) 2011 - 2013 mzf. °æÈ¨ËùÓÐ."
+	L"ï¿½ï¿½        È¨ï¿½ï¿½(C) 2011 - 2013 mzf. ï¿½ï¿½È¨ï¿½ï¿½ï¿½ï¿½."
 };
 
 WCHAR *szMianze[] = {
 	L"Copyright: (C) 2011 - 2013 mzf. All Rights Reserved.",
-	L"ÃâÔðÉêÃ÷£ºÓÉÓÚ±¾¹¤¾ßµÄ´ó²¿·Ö¹¦ÄÜ¶¼ÔÚÄÚºËÖÐÍê³É£¬Òò´Ë´æÔÚÒ»¶¨µÄ²»ÎÈ¶¨ÐÔ¡£Èç¹ûÄúÔÚÊ¹ÓÃ±¾¹¤¾ßµÄ¹ý³ÌÖÐ£¬¸øÄúÔì³ÉÖ±½Ó»òÕß¼ä½ÓµÄËðÊ§£¬±¾ÈË¸Å²»¸ºÔð¡£´ÓÄúÊ¹ÓÃ±¾¹¤¾ßµÄÒ»¿ÌÆð£¬½«ÊÓÎªÄúÒÑ¾­½ÓÊÜÁË±¾ÃâÖ°ÉùÃ÷¡£"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½ï¿½ßµÄ´ó²¿·Ö¹ï¿½ï¿½Ü¶ï¿½ï¿½ï¿½ï¿½Úºï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½Ë´ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä²ï¿½ï¿½È¶ï¿½ï¿½Ô¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã±ï¿½ï¿½ï¿½ï¿½ßµÄ¹ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½Ó»ï¿½ï¿½ß¼ï¿½Óµï¿½ï¿½ï¿½Ê§ï¿½ï¿½ï¿½ï¿½ï¿½Ë¸Å²ï¿½ï¿½ï¿½ï¿½ð¡£´ï¿½ï¿½ï¿½Ê¹ï¿½Ã±ï¿½ï¿½ï¿½ï¿½ßµï¿½Ò»ï¿½ï¿½ï¿½ð£¬½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë±ï¿½ï¿½ï¿½Ö°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szUpdates[] = {
 	L"Update",
-	L"¸üÐÂ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szUnsupportedOS[] = {
 	L"Unfortunately this OS is totally unsupported, please email me your OS version, I will support it in improved version, thanks.",
-	L"ÔÝ²»Ö§³ÖµÄ²Ù×÷ÏµÍ³£¬Çë·¢ÓÊ¼þ¸æÖªÄúµÄ²Ù×÷ÏµÍ³°æ±¾ºÅ£¬ÎÒ½«ÔÚºóÐø°æ±¾ÖÐ¸Ä½ø£¬Ð»Ð»ÄúµÄÖ§³Ö¡£"
+	L"ï¿½Ý²ï¿½Ö§ï¿½ÖµÄ²ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ë·¢ï¿½Ê¼ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ÏµÍ³ï¿½æ±¾ï¿½Å£ï¿½ï¿½Ò½ï¿½ï¿½Úºï¿½ï¿½ï¿½ï¿½æ±¾ï¿½Ð¸Ä½ï¿½ï¿½ï¿½Ð»Ð»ï¿½ï¿½ï¿½ï¿½Ö§ï¿½Ö¡ï¿½"
 };
 
 WCHAR *szLoadDirverError[] = {
 	L"Failed to load the diver.",
-	L"¼ÓÔØÇý¶¯Ê§°Ü£¡"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szCannotSupportX64[] = {
 	L"The current version does not support 64 bit Windows.",
-	L"µ±Ç°°æ±¾ÔÝ²»Ö§³Ö64Î»²Ù×÷ÏµÍ³£¡"
+	L"ï¿½ï¿½Ç°ï¿½æ±¾ï¿½Ý²ï¿½Ö§ï¿½ï¿½64Î»ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½"
 };
 
 WCHAR *szShowAllProcessInfo[] = {
 	L"View Detail Info (DClick)",
-	L"²é¿´½ø³ÌÏêÏ¸ÐÅÏ¢ (DClick)"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ï¢ (DClick)"
 };
 
 WCHAR *szShowModulesBelow[] = {
 	L"Show Lower Modules Pane",
-	L"ÔÚÏÂ·½ÏÔÊ¾Ä£¿é´°¿Ú"
+	L"ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½Ê¾Ä£ï¿½é´°ï¿½ï¿½"
 };
 
 WCHAR *szModulesBelow[] = {
 	L", Modules(%s): %d/%d",
-	L"£¬ Ä£¿é(%s)£º %d/%d"
+	L"ï¿½ï¿½ Ä£ï¿½ï¿½(%s)ï¿½ï¿½ %d/%d"
 };
 
 WCHAR *szAreYOUSureKillProcess[] = {
 	L"Are you sure you want to kill %s?",
-	L"ÄúÈ·¶¨Òª½áÊø½ø³Ì %s Âð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s ï¿½ï¿½"
 };
 
 WCHAR *szAreYOUSureKillTheseProcess[] = {
 	L"Are you sure you want to kill these processes?",
-	L"ÄúÈ·¶¨Òª½áÊøÕâÐ©½ø³ÌÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYOUSureKillAndDeleteProcess[] = {
 	L"Are you sure you want to kill and delete %s?",
-	L"ÄúÈ·¶¨Òª½áÊø½ø³Ì %s ²¢É¾³ýÏà¹ØÎÄ¼þÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYOUSureKillAndDeleteProcesses[] = {
 	L"Are you sure you want to continue?",
-	L"ÄúÈ·¶¨Òª½áÊøÕâÐ©½ø³Ì²¢É¾³ýÏà¹ØÎÄ¼þÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½Ì²ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szInitializing[] = {
 	L"Initializing...",
-	L"ÕýÔÚ³õÊ¼»¯..."
+	L"ï¿½ï¿½ï¿½Ú³ï¿½Ê¼ï¿½ï¿½..."
 };
 
 WCHAR *szScanDonePatchHooks[] = {
 	L"Scan done. Hooks/Patches: %d",
-	L"É¨ÃèÍê±Ï£¬¹³×Ó/´úÂëÐÞ¸Ä£º %d",
+	L"É¨ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸Ä£ï¿½ %d",
 };
 
 WCHAR *szCreateDump[] = {
 	L"Create Debug Dump...",
-	L"´´½¨µ÷ÊÔDump...",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Dump...",
 };
 
 WCHAR *szCreateDumpOK[] = {
 	L"Create Dump OK!",
-	L"´´½¨Dump³É¹¦£¡",
+	L"ï¿½ï¿½ï¿½ï¿½Dumpï¿½É¹ï¿½ï¿½ï¿½",
 };
 
 WCHAR *szCreateDumpFailed[] = {
 	L"Failed to create dump!",
-	L"´´½¨DumpÊ§°Ü£¡",
+	L"ï¿½ï¿½ï¿½ï¿½DumpÊ§ï¿½Ü£ï¿½",
 };
 
 WCHAR *szProcessImage[] = {
 	L"Image",
-	L"Ó³Ïñ",
+	L"Ó³ï¿½ï¿½",
 };
 
 WCHAR *szNonExistentProcess[] = {
 	L"Non-existent process",
-	L"¸Ã½ø³ÌÒÑÍË³ö",
+	L"ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½",
 };
 
 WCHAR *szImageFile[] = {
 	L"Image File",
-	L"Ó³ÏñÎÄ¼þ",
+	L"Ó³ï¿½ï¿½ï¿½Ä¼ï¿½",
 };
 
 WCHAR *szFileSize[] = {
 	L"Size:",
-	L"ÎÄ¼þ´óÐ¡£º",
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½",
 };
 
 WCHAR *szFileDescription[] = {
 	L"Description:",
-	L"ÎÄ¼þÃèÊö£º",
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 };
 
 WCHAR *szFileCompany[] = {
 	L"Corporation:",
-	L"ÎÄ¼þ³§ÉÌ£º",
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ì£ï¿½",
 };
 
 WCHAR *szFilePath[] = {
 	L"Path:",
-	L"ÎÄ¼þÂ·¾¶£º",
+	L"ï¿½Ä¼ï¿½Â·ï¿½ï¿½ï¿½ï¿½",
 };
 
 WCHAR *szFileTime[] = {
 	L"Time:",
-	L"Ê±        ¼ä£º",
+	L"Ê±        ï¿½ä£º",
 };
 
 WCHAR *szFileVersion[] = {
 	L"Version:",
-	L"ÎÄ¼þ°æ±¾£º",
+	L"ï¿½Ä¼ï¿½ï¿½æ±¾ï¿½ï¿½",
 };
 
 WCHAR *szCommandLine[] = {
 	L"Command Line:",
-	L"ÃüÁîÐÐ£º",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½",
 };
 
 WCHAR *szCurrentDirectory[] = {
 	L"Current Directory:",
-	L"µ±Ç°Ä¿Â¼£º",
+	L"ï¿½ï¿½Ç°Ä¿Â¼ï¿½ï¿½",
 };
 
 WCHAR *szStartTime[] = {
 	L"Started:",
-	L"ÔËÐÐÊ±¼ä£º",
+	L"ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£º",
 };
 
 WCHAR *szPEB[] = {
 	L"PEB:",
-	L"PEB£º",
+	L"PEBï¿½ï¿½",
 };
 
 WCHAR *szParent[] = {
 	L"Parent:",
-	L"¸¸½ø³Ì£º",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ì£ï¿½",
 };
 
 WCHAR *szFileFind[] = {
 	L"Find",
-	L"¶¨Î»",
+	L"ï¿½ï¿½Î»",
 };
 
 WCHAR *szFileDelete[] = {
 	L"Delete",
-	L"É¾³ý",
+	L"É¾ï¿½ï¿½",
 };
 
 WCHAR *szScanHooks[] = {
 	L"Scan Hooks",
-	L"É¨Ãè½ø³Ì¹³×Ó"
+	L"É¨ï¿½ï¿½ï¿½ï¿½Ì¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAlreadyRunning[] = {
 	L"AntiSpy is already running.",
-	L"AntiSpy½ø³ÌÒÑ¾­¿ªÆô£¡"
+	L"AntiSpyï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szKillProcessTree[] = {
 	L"Kill Process Tree",
-	L"½áÊø½ø³ÌÊ÷"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYouSureKillDescendants[] = {
 	L"Are you sure you want to kill %s and its descendants?",
-	L"È·¶¨Òª½áÊø½ø³Ì %s ÒÔ¼°ËüµÄËùÓÐ×Ó½ø³ÌÂð£¿"
+	L"È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szTheLatestVersion[] = {
 	L"You already have the latest version of AntiSpy.",
-	L"ÄúµÄ AntiSpy ÒÑ¾­ÊÇ×îÐÂ°æ±¾¡£"
+	L"ï¿½ï¿½ï¿½ï¿½ AntiSpy ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â°æ±¾ï¿½ï¿½"
 };
 
 WCHAR *szEditBinaryValue[] = {
 	L"Edit Binary Value",
-	L"±à¼­¶þ½øÖÆÊýÖµ"
+	L"ï¿½à¼­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ"
 };
 
 WCHAR *szHideMicrosofeModules[] = {
 	L"Hide Microsoft's Modules",
-	L"Òþ²ØÎ¢ÈíÄ£¿é"
+	L"ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szInjectDllModuleOk[] = {
 	L"Inject dll module ok!",
-	L"×¢ÈëÄ£¿é³É¹¦£¡"
+	L"×¢ï¿½ï¿½Ä£ï¿½ï¿½É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szInjectDllModuleFailed[] = {
 	L"Inject dll module failed!",
-	L"×¢ÈëÄ£¿éÊ§°Ü£¡"
+	L"×¢ï¿½ï¿½Ä£ï¿½ï¿½Ê§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szGeneralConfiguration[] = {
 // 	L"General configuration,the changes will not take effect until the next time it is started.",
 // 	L"General configurations, it will take effect when the application restarted.",
-// 	L"³£¹æÅäÖÃÑ¡Ïî£¬Èí¼þÖØÆôºóÉúÐ§"
+// 	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§"
 	L"General",
-	L"³£¹æ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessListConfiguration[] = {
 // 	L"Process tab configurations, it will take effect when the application restarted.",
-// 	L"½ø³Ì±êÇ©ÅäÖÃÑ¡Ïî£¬Èí¼þÖØÆôºóÉúÐ§"
+// 	L"ï¿½ï¿½ï¿½Ì±ï¿½Ç©ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§"
 	L"Process",
-	L"½ø³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szTitleName[] = {
 	L"Custom title name:",
-	L"×Ô¶¨Òå´°¿Ú±êÌâ£º"
+	L"ï¿½Ô¶ï¿½ï¿½å´°ï¿½Ú±ï¿½ï¿½â£º"
 };
 
 WCHAR *szRandomTitle[] = {
 	L"Random title name",
-	L"Ëæ»ú±êÌâÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szStayOnTop[] = {
 	L"Stay on top",
-	L"´°¿ÚÖÃ¶¥"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½"
 };
 
 WCHAR *szAutoDetectNewVersion[] = {
 	L"Auto-detect new version",
-	L"Èí¼þÆô¶¯Ê±×Ô¶¯¼ì²âÐÂ°æ±¾"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½Â°æ±¾"
 };
 
 WCHAR *szFindANewVersion[] = {
 	L"Find a new version of AntiSpy, are you want to update?",
-	L"·¢ÏÖÐÂ°æ±¾£¬ÊÇ·ñÁ¢¿ÌÉý¼¶£¿"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Â°æ±¾ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHotKeyForMainWindow[] = {
 	L"Show main window: \tCtrl + Alt + Shift + ",
-	L"ÏÔÊ¾Èí¼þÖ÷´°¿Ú£º\tCtrl + Alt + Shift + "
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½\tCtrl + Alt + Shift + "
 };
 
 WCHAR *szHotKeyForProcessModulesDlg[] = {
 	L"Show process modules:\tCtrl + Alt + Shift + ",
-	L"ÏÔÊ¾½ø³ÌÄ£¿é¶Ô»°¿ò£ºCtrl + Alt + Shift + "
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½Ô»ï¿½ï¿½ï¿½Ctrl + Alt + Shift + "
 };
 
 WCHAR *szHotKeyForProcessThreadsDlg[] = {
 	L"Show process threas:\tCtrl + Alt + Shift + ",
-	L"ÏÔÊ¾½ø³ÌÏß³Ì¶Ô»°¿ò£ºCtrl + Alt + Shift + "
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì¶Ô»ï¿½ï¿½ï¿½Ctrl + Alt + Shift + "
 };
 
 WCHAR *szHotKeyForProcessHandlesDlg[] = {
 	L"Show process handles:\tCtrl + Alt + Shift + ",
-	L"ÏÔÊ¾½ø³Ì¾ä±ú¶Ô»°¿ò£ºCtrl + Alt + Shift + "
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½Ô»ï¿½ï¿½ï¿½Ctrl + Alt + Shift + "
 };
 
 WCHAR *szHotKeyForProcessWndDlg[] = {
 	L"Show process windows:\tCtrl + Alt + Shift + ",
-	L"ÏÔÊ¾½ø³Ì´°¿Ú¶Ô»°¿ò£ºCtrl + Alt + Shift + "
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ì´ï¿½ï¿½Ú¶Ô»ï¿½ï¿½ï¿½Ctrl + Alt + Shift + "
 };
 
 WCHAR *szHotKeyForProcessMemoryDlg[] = {
 	L"Show process memory:\tCtrl + Alt + Shift + ",
-	L"ÏÔÊ¾½ø³ÌÄÚ´æ¶Ô»°¿ò£ºCtrl + Alt + Shift + "
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½Ô»ï¿½ï¿½ï¿½Ctrl + Alt + Shift + "
 };
 
 WCHAR *szHotKeyForProcessHotkeysDlg[] = {
 	L"Show process hotkeys:\tCtrl + Alt + Shift + ",
-	L"ÏÔÊ¾½ø³ÌÈÈ¼ü¶Ô»°¿ò£ºCtrl + Alt + Shift + "
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½ï¿½Ô»ï¿½ï¿½ï¿½Ctrl + Alt + Shift + "
 };
 
 WCHAR *szHotKeyForProcessPrivilegeDlg[] = {
 	L"Show process privileges:\tCtrl + Alt + Shift + ",
-	L"ÏÔÊ¾½ø³ÌÈ¨ÏÞ¶Ô»°¿ò£ºCtrl + Alt + Shift + "
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½È¨ï¿½Þ¶Ô»ï¿½ï¿½ï¿½Ctrl + Alt + Shift + "
 };
 
 WCHAR *szHotKeyForProcessTimersDlg[] = {
 	L"Show process timers:\tCtrl + Alt + Shift + ",
-	L"ÏÔÊ¾¶¨Ê±Æ÷¶Ô»°¿ò£º\tCtrl + Alt + Shift + "
+	L"ï¿½ï¿½Ê¾ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Ô»ï¿½ï¿½ï¿½\tCtrl + Alt + Shift + "
 };
 
 WCHAR *szShowProcessDetailInformations[] = {
 	L"Automatic display process detail information tips",
-	L"µ±Êó±êÒÆ¶¯µ½½ø³ÌÁÐ±íÉÏÊ±×Ô¶¯ÏÔÊ¾½ø³ÌÏêÏ¸ÐÅÏ¢"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Ê±ï¿½Ô¶ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ï¢"
 };
 
 WCHAR *szHideMicrosoftService[] = {
 	L"Hide Microsoft's Modules",
-	L"Òþ²ØÎ¢Èí·þÎñ"
+	L"ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSearchData[] = {
 	L"Data",
-	L"Êý¾Ý"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSearchValues[] = {
@@ -3008,42 +3003,42 @@ WCHAR *szSearchValues[] = {
 
 WCHAR *szSearchKeys[] = {
 	L"Keys",
-	L"Ïî"
+	L"ï¿½ï¿½"
 };
 
 WCHAR *szSearchMachCase[] = {
 	L"Mach case",
-	L"Çø·Ö´óÐ¡Ð´"
+	L"ï¿½ï¿½ï¿½Ö´ï¿½Ð¡Ð´"
 };
 
 WCHAR *szSearchMachWholeString[] = {
 	L"Mach whole string",
-	L"Æ¥ÅäÕû¸ö×Ö·û´®"
+	L"Æ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindWhat[] = {
 	L"Find what:",
-	L"²éÕÒÄÚÈÝ£º"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½"
 };
 
 WCHAR *szWhereToSearch[] = {
 	L"Where to search",
-	L"ËÑË÷·¶Î§"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§"
 };
 
 WCHAR *szSearchInKey[] = {
 	L"Search in key:",
-	L"ÔÚ´ËÏîÖÐËÑË÷£º"
+	L"ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSearchTheEntireRegistry[] = {
 	L"Search the entire registry",
-	L"ËÑË÷Õû¸ö×¢²á±í"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegistryFind[] = {
 	L"Find",
-	L"²éÕÒ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegistryStop[] = {
@@ -3053,147 +3048,147 @@ WCHAR *szRegistryStop[] = {
 
 WCHAR *szRegistryPleaseInputFindWhat[] = {
 	L"Please enter the content that you're searching for.",
-	L"ÇëÊäÈëÄúÒª²éÕÒµÄÄÚÈÝ¡£"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½Ý¡ï¿½"
 };
 
 WCHAR *szRegistryPleaseInputWhatTheKeyToFind[] = {
 	L"Please enter the key path that you're searching for.",
-	L"ÇëÊäÈëÄúÒªÔÚÆäÖÐ²éÕÒµÄÏîÂ·¾¶¡£"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½Òµï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCanNotOpenKey[] = {
 	L"Cannot open the key.",
-	L"ÎÞ·¨´ò¿ª¸Ã¼ü¡£"
+	L"ï¿½Þ·ï¿½ï¿½ò¿ª¸Ã¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegistrySearchNow[] = {
 	L"Searching now, please wait for a moment...",
-	L"ÕýÔÚËÑË÷£¬ÇëÉÔºó..."
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½..."
 };
 
 WCHAR *szFindResults[] = {
 	L"Find results - found %d matches",
-	L"²éÕÒ½á¹û - ÕÒµ½ %d ¸öÆ¥ÅäµÄÏîÄ¿"
+	L"ï¿½ï¿½ï¿½Ò½ï¿½ï¿½ - ï¿½Òµï¿½ %d ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
 };
 
 WCHAR *szFindResult[] = {
 	L"Find results",
-	L"²éÕÒ½á¹û"
+	L"ï¿½ï¿½ï¿½Ò½ï¿½ï¿½"
 };
 
 WCHAR *szMemoryHexEdit[] = {
 	L"Hex Editer",
-	L"ÄÚ´æ±à¼­Æ÷"
+	L"ï¿½Ú´ï¿½à¼­ï¿½ï¿½"
 };
 
 WCHAR *szReadOnly[] = {
 	L"Read Only",
-	L"Ö»¶Á"
+	L"Ö»ï¿½ï¿½"
 };
 
 WCHAR *szKernelAddress[] = {
 	L"Kernel Mode Address (Address > 0x80000000)",
-	L"ÄÚºËÄ£Ê½µØÖ· (µØÖ· > 0x80000000)"
+	L"ï¿½Úºï¿½Ä£Ê½ï¿½ï¿½Ö· (ï¿½ï¿½Ö· > 0x80000000)"
 };
 
 WCHAR *szDeafultShowLowPaner[] = {
 	L"Show lower pane as default",
-	L"Ä¬ÈÏÏÔÊ¾ÏÂ·½Ä£¿éÁÐ±í"
+	L"Ä¬ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Â·ï¿½Ä£ï¿½ï¿½ï¿½Ð±ï¿½"
 };
 
 WCHAR *szDeafultShowProcessTree[] = {
 	L"Show process tree as default",
-	L"Ä¬ÈÏÏÔÊ¾½ø³ÌÊ÷"
+	L"Ä¬ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDeleteFileSucess[] = {
 	L"Delete file success.",
-	L"É¾³ýÎÄ¼þ³É¹¦¡£"
+	L"É¾ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDeleteFileFailed[] = {
 	L"Delete file failed.",
-	L"É¾³ýÎÄ¼þÊ§°Ü¡£"
+	L"É¾ï¿½ï¿½ï¿½Ä¼ï¿½Ê§ï¿½Ü¡ï¿½"
 };
 
 WCHAR *szJumpToService[] = {
 	L"Jump to Service",
-	L"Ìø×ªµ½ÏàÓ¦·þÎñ"
+	L"ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szLocalDisk[] = {
 	L"Local Disk",
-	L"±¾µØ´ÅÅÌ"
+	L"ï¿½ï¿½ï¿½Ø´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCDDrive[] = {
 	L"CD Drive",
-	L"¹âÇý"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRemovableDisk[] = {
 	L"Removable Disk",
-	L"¿ÉÒÆ¶¯´ÅÅÌ"
+	L"ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDiskUnknow[] = {
 	L"Unknow",
-	L"Î´ÖªÅÌ"
+	L"Î´Öªï¿½ï¿½"
 };
 
 WCHAR *szRemoteDisk[] = {
 	L"Remote Disk",
-	L"Ô¶³Ì´ÅÅÌ"
+	L"Ô¶ï¿½Ì´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRamDisk[] = {
 	L"Ram Disk",
-	L"ÄÚ´æÅÌ"
+	L"ï¿½Ú´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileName[] = {
 	L"File Name",
-	L"Ãû³Æ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szCreationTime[] = {
 	L"Creation Time",
-	L"´´½¨ÈÕÆÚ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szModificationTime[] = {
 	L"Modification Time",
-	L"ÐÞ¸ÄÈÕÆÚ"
+	L"ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileSizeEx[] = {
 	L"File Size",
-	L"´óÐ¡"
+	L"ï¿½ï¿½Ð¡"
 };
 
 WCHAR *szFileAttributes[] = {
 	L"Attributes",
-	L"ÊôÐÔ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileType[] = {
 	L"Type",
-	L"ÀàÐÍ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileDirectory[] = {
 	L"Directory",
-	L"ÎÄ¼þ¼Ð"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileReadOnly[] = {
 	L"ReadOnly",
-	L"Ö»¶Á"
+	L"Ö»ï¿½ï¿½"
 };
 
 WCHAR *szFileHIDDEN[] = {
 	L"Hidden",
-	L"Òþ²Ø"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileSYSTEM[] = {
@@ -3203,409 +3198,409 @@ WCHAR *szFileSYSTEM[] = {
 
 WCHAR *szFileDIRECTORY[] = {
 	L"Directory",
-	L"ÎÄ¼þ¼Ð"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileARCHIVE[] = {
 	L"Archive",
-	L"µµ°¸"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileNORMAL[] = {
 	L"Normal",
-	L"ÆÕÍ¨"
+	L"ï¿½ï¿½Í¨"
 };
 
 WCHAR *szFileTEMPORARY[] = {
 	L"Temporary",
-	L"ÁÙÊ±"
+	L"ï¿½ï¿½Ê±"
 };
 
 WCHAR *szFileCOMPRESSED[] = {
 	L"Compressed",
-	L"Ñ¹Ëõ"
+	L"Ñ¹ï¿½ï¿½"
 };
 
 WCHAR *szFileOpen[] = {
 	L"Open",
-	L"´ò¿ª"
+	L"ï¿½ï¿½"
 };
 
 WCHAR *szFileRefresh[] = {
 	L"Refresh",
-	L"Ë¢ÐÂ"
+	L"Ë¢ï¿½ï¿½"
 };
 
 WCHAR *szFileLookForLockInfo[] = {
 	L"View File Lock Info",
-	L"²é¿´Ëø¶¨Çé¿ö"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szKeyLookForLockInfo[] = {
 	L"View Key Lock Info",
-	L"²é¿´Ëø¶¨Çé¿ö"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileDeleteAndDenyRebuild[] = {
 	L"Delete Aand Deny Rebuild",
-	L"É¾³ý²¢×èÖ¹ÎÄ¼þÔÙÉú"
+	L"É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileAddToRestartDelete[] = {
 	L"Add To Delay Delete List",
-	L"Ìí¼Óµ½ÖØÆôÉ¾³ýÁÐ±í"
+	L"ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½Ð±ï¿½"
 };
 
 WCHAR *szFileRestartAndReplace[] = {
 	L"Add To Delay Replace List",
-	L"ÖØÆôÌæ»»Îª..."
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½æ»»Îª..."
 };
 
 WCHAR *szFileCopyTo[] = {
 	L"Copy to...",
-	L"¿½±´µ½..."
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..."
 };
 
 WCHAR *szFileRename[] = {
 	L"Rename",
-	L"ÖØÃüÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileCopyFileName[] = {
 	L"Copy File Name",
-	L"¿½±´ÎÄ¼þÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileCopyFilePath[] = {
 	L"Copy File Path",
-	L"¿½±´ÎÄ¼þÂ·¾¶"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szFileProperties[] = {
 	L"Properties",
-	L"²é¿´ÎÄ¼þÊôÐÔ"
+	L"ï¿½é¿´ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileFindInExplorer[] = {
 	L"Find Target In Explorer",
-	L"ÔÚ×ÊÔ´¹ÜÀíÆ÷ÖÐ¶¨Î»ÎÄ¼þ"
+	L"ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFileVerifySignature[] = {
 	L"Verify Signature",
-	L"Ð£ÑéÎÄ¼þÇ©Ãû"
+	L"Ð£ï¿½ï¿½ï¿½Ä¼ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szFileVerifyAllSignature[] = {
 	L"Verify Aall Signature",
-	L"Ð£ÑéËùÓÐÎÄ¼þÇ©Ãû"
+	L"Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szFileDeleteHideSystemProperties[] = {
 	L"Set Normal Attributes",
-	L"È¥µôÖ»¶Á¡¢Òþ²Ø¡¢ÏµÍ³ÊôÐÔ"
+	L"È¥ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¡ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileUnlocker[] = {
 	L"File Unlocker",
-	L"ÎÄ¼þ½âËøÆ÷"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegUnlocker[] = {
 	L"Registry Unlocker",
-	L"×¢²á±í½âËøÆ÷"
+	L"×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileLockedProcess[] = {
 	L"Process Name",
-	L"½ø³ÌÓ³Ïñ"
+	L"ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½"
 };
 
 WCHAR *szFileLockedProcessPid[] = {
 	L"Pid",
-	L"½ø³ÌId"
+	L"ï¿½ï¿½ï¿½ï¿½Id"
 };
 
 WCHAR *szFileLockedHandle[] = {
 	L"Handle",
-	L"¾ä±ú"
+	L"ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileLockedFilePath[] = {
 	L"Locked File Path",
-	L"±»Ëø¶¨ÎÄ¼þÂ·¾¶"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szLockedRegistryPath[] = {
 	L"Locked Registry Path",
-	L"±»Ëø¶¨µÄ×¢²á±íÂ·¾¶"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szFileUnlocked[] = {
 	L"File(Directory) not be locked.",
-	L"ÎÄ¼þ(ÎÄ¼þ¼Ð)Î´±»Ëø¶¨¡£"
+	L"ï¿½Ä¼ï¿½(ï¿½Ä¼ï¿½ï¿½ï¿½)Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRegUnlocked[] = {
 	L"The key is not be locked.",
-	L"µ±Ç°×¢²á±í¼üÖµÎ´±»Ëø¶¨¡£"
+	L"ï¿½ï¿½Ç°×¢ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÎ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileUnlock[] = {
 	L"Unlock",
-	L"½âËø"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileUnlockAll[] = {
 	L"Unlock All",
-	L"½âËøÈ«²¿"
+	L"ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½"
 };
 
 WCHAR *szFileKillLockProcess[] = {
 	L"Kill Lock Process",
-	L"½áÊøËø¶¨½ø³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileFindProcess[] = {
 	L"Find Process In Explorer",
-	L"¶¨Î»µ½Ëø¶¨½ø³Ì"
+	L"ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileFindFile[] = {
 	L"Find File In Explorer",
-	L"¶¨Î»µ½±»Ëø¶¨ÎÄ¼þ"
+	L"ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFileRestartDeleteType[] = {
 	L"Operation Type",
-	L"²Ù×÷ÀàÐÍ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileRestartFilePath[] = {
 	L"File Path",
-	L"ÎÄ¼þÂ·¾¶"
+	L"ï¿½Ä¼ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szFileRestartNewFilePath[] = {
 	L"New File Path",
-	L"ÐÂÎÄ¼þÂ·¾¶"
+	L"ï¿½ï¿½ï¿½Ä¼ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szFileRestartDeleteInfo[] = {
 	L"File Delay Operation Information",
-	L"ÎÄ¼þÑÓ³Ù²Ù×÷ÐÅÏ¢"
+	L"ï¿½Ä¼ï¿½ï¿½Ó³Ù²ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢"
 };
 
 WCHAR *szFileViewRestartDeleteInfo[] = {
 	L"View Delay Operation Info",
-	L"²é¿´ÎÄ¼þÑÓ³Ù²Ù×÷ÐÅÏ¢"
+	L"ï¿½é¿´ï¿½Ä¼ï¿½ï¿½Ó³Ù²ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢"
 };
 
 WCHAR *szFilePendingDelayDelete[] = {
 	L"Delay Delete",
-	L"ÖØÆôÉ¾³ý"
+	L"ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½"
 };
 
 WCHAR *szFilePendingDelayReplace[] = {
 	L"Delay Replace",
-	L"ÖØÆôÌæ»»"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½æ»»"
 };
 
 WCHAR *szFilePendingStatus[] = {
 	L"Delay Delete: %d, Delay Replace: %d",
-	L"ÖØÆôÉ¾³ý£º%d£¬ ÖØÆôÌæ»»£º%d"
+	L"ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½æ»»ï¿½ï¿½%d"
 };
 
 WCHAR *szFilePendingDeleteCurrent[] = {
 	L"Delete Current Operation",
-	L"É¾³ýµ±Ç°ÑÓ³Ù²Ù×÷ÐÅÏ¢"
+	L"É¾ï¿½ï¿½ï¿½ï¿½Ç°ï¿½Ó³Ù²ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢"
 };
 
 WCHAR *szFilePendingDeleteAll[] = {
 	L"Delete All Operation",
-	L"É¾³ýËùÓÐÑÓ³Ù²Ù×÷ÐÅÏ¢"
+	L"É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó³Ù²ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢"
 };
 
 WCHAR *szFilePendingFindInExplorer[] = {
 	L"Find File In Explorer",
-	L"¶¨Î»µ½ÎÄ¼þ"
+	L"ï¿½ï¿½Î»ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFilePendingProperties[] = {
 	L"File Properties",
-	L"²é¿´ÎÄ¼þÊôÐÔ"
+	L"ï¿½é¿´ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFilePendingFindNewInExplorer[] = {
 	L"Find New File In Explorer",
-	L"¶¨Î»µ½ÐÂÎÄ¼þ"
+	L"ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFilePendingNewFileProperties[] = {
 	L"New File Properties",
-	L"²é¿´ÐÂÎÄ¼þÊôÐÔ"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileSetFileAttribute[] = {
 	L"Set Hidden Attributes",
-	L"ÉèÖÃÒþ²Ø¡¢ÏµÍ³ÊôÐÔ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¡ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szInputFilePath[] = {
 	L"Input File Path",
-	L"ÊäÈëÎÄ¼þÂ·¾¶"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szStaticInputFilePath[] = {
 	L"File Path:",
-	L"ÎÄ¼þÂ·¾¶£º"
+	L"ï¿½Ä¼ï¿½Â·ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileBrowse[] = {
 	L"Browse",
-	L"ä¯ÀÀ"
+	L"ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szInputFileName[] = {
 	L"Input New File Name",
-	L"ÊäÈëÐÂÎÄ¼þÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szStaticInputFileName[] = {
 	L"New File Name:",
-	L"ÐÂÎÄ¼þÃû£º"
+	L"ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileDescriptionNew[] = {
 	L"File Description",
-	L"ÎÄ¼þÃèÊö"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szProcessStartedTime[] = {
 	L"Started Time",
-	L"Æô¶¯Ê±¼ä"
+	L"ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½"
 };
 
 WCHAR *szFileCreationTime[] = {
 	L"Creation Time",
-	L"ÎÄ¼þ´´½¨Ê±¼ä"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½"
 };
 
 WCHAR *szFileHasExist[] = {
 	L"The file has exist, please input other name.",
-	L"´ËÎÄ¼þÃûÒÑ¾­´æÔÚ£¬ÇëÊäÈëÆäËûÎÄ¼þÃû¡£"
+	L"ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileCopy[] = {
 	L"File Copy",
-	L"ÎÄ¼þ¿½±´"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szNormalProcess[] = {
 	L"Normal process, the corporation is not Micorsoft",
-	L"ÎÄ¼þ³§ÉÌ²»ÊÇÎ¢ÈíµÄ½ø³Ì"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ì²ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½Ä½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHideProcess[] = {
 	L"Hidden process",
-	L"Òþ²Ø½ø³Ì"
+	L"ï¿½ï¿½ï¿½Ø½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szMirosoftProcess[] = {
 	L"The corporation of process is Micorsoft",
-	L"ÎÄ¼þ³§ÉÌÊÇÎ¢ÈíµÄ½ø³Ì"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½Ä½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szMirosoftProcessHaveOtherModule[] = {
 	L"Micorsoft's process have other corporation modules",
-	L"Î¢Èí½ø³Ìº¬ÓÐ·ÇÎ¢ÈíµÄÄ£¿é"
+	L"Î¢ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½ï¿½Ð·ï¿½Î¢ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szSystemAndHidden[] = {
 	L"System && Hidden",
-	L"ÏµÍ³ºÍÒþ²ØÊôÐÔ"
+	L"ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szNormalFile[] = {
 	L"Normal File",
-	L"ÆÕÍ¨ÊôÐÔ"
+	L"ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSystemOnly[] = {
 	L"System Only",
-	L"ÏµÍ³ÊôÐÔ"
+	L"ÏµÍ³ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHiddenOnly[] = {
 	L"Hidden Only",
-	L"Òþ²ØÊôÐÔ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szColorConfiguration[] = {
 // 	L"Color configurations, it will take effect when the application restarted.",
-// 	L"ÑÕÉ«ÅäÖÃÑ¡Ïî£¬Èí¼þÖØÆôºóÉúÐ§"
+// 	L"ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§"
 	L"Colors",
-	L"ÑÕÉ«"
+	L"ï¿½ï¿½É«"
 };
 
 WCHAR *szHotKeysConfiguration[] = {
 	L"HotKeys",
-	L"ÈÈ¼ü"
+	L"ï¿½È¼ï¿½"
 };
 
 WCHAR *szColorProcess[] = {
 	L"Process",
-	L"½ø³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szColorFile[] = {
 	L"File",
-	L"ÎÄ¼þ"
+	L"ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szColorGeneral[] = {
 	L"General",
-	L"Í¨ÓÃ"
+	L"Í¨ï¿½ï¿½"
 };
 
 WCHAR *szColorNormalItem[] = {
 	L"Normal module, the corporation is not Micorsoft",
-	L"ÎÄ¼þ³§ÉÌ²»ÊÇÎ¢ÈíµÄÄ£¿é"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ì²ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szColorMicrosoftItem[] = {
 	L"The corporation of module is Micorsoft",
-	L"ÎÄ¼þ³§ÉÌÊÇÎ¢ÈíµÄÄ£¿é"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szColorHiddenOrHooksItem[] = {
 	L"Hidden objects or hooks",
-	L"Òþ²Ø¶ÔÏó¡¢¿ÉÒÉ¶ÔÏó¡¢¹³×Ó"
+	L"ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ó¡¢¿ï¿½ï¿½É¶ï¿½ï¿½ó¡¢¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szColorNotSignedItem[] = {
 	L"No signature module",
-	L"Ã»ÓÐÇ©ÃûµÄÄ£¿é"
+	L"Ã»ï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szDecimal[] = {
 	L"Decimal",
-	L"Ê®½øÖÆ"
+	L"Ê®ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHexadecimal[] = {
 	L"Hexadecimal",
-	L"Ê®Áù½øÖÆ"
+	L"Ê®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szPort[] = {
 	L"Port",
-	L"ÍøÂçÁ¬½Ó"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHostsFile[] = {
 	L"Hosts File",
-	L"HostsÎÄ¼þ"
+	L"Hostsï¿½Ä¼ï¿½"
 };
 
 WCHAR *szSPI[] = {
@@ -3615,12 +3610,12 @@ WCHAR *szSPI[] = {
 
 WCHAR *szNetwork[] = {
 	L"Network",
-	L"ÍøÂç"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szPortProcess[] = {
 	L"Process",
-	L"½ø³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szPortPID[] = {
@@ -3630,27 +3625,27 @@ WCHAR *szPortPID[] = {
 
 WCHAR *szPortProtocol[] = {
 	L"Protocol",
-	L"Ð­Òé"
+	L"Ð­ï¿½ï¿½"
 };
 
 WCHAR *szPortLocalAddress[] = {
 	L"Local Address",
-	L"±¾µØµØÖ·"
+	L"ï¿½ï¿½ï¿½Øµï¿½Ö·"
 };
 
 WCHAR *szPortLocalPort[] = {
 	L"Local Port",
-	L"±¾µØ¶Ë¿Ú"
+	L"ï¿½ï¿½ï¿½Ø¶Ë¿ï¿½"
 };
 
 WCHAR *szPortRemoteAddress[] = {
 	L"Remote Address",
-	L"Ô¶³ÌµØÖ·"
+	L"Ô¶ï¿½Ìµï¿½Ö·"
 };
 
 WCHAR *szPortRemotePort[] = {
 	L"Remote Port",
-	L"Ô¶³Ì¶Ë¿Ú"
+	L"Ô¶ï¿½Ì¶Ë¿ï¿½"
 };
 
 WCHAR *szPortState[] = {
@@ -3660,12 +3655,12 @@ WCHAR *szPortState[] = {
 
 WCHAR *szVerified[] = {
 	L"(Verified) ",
-	L"(ÒÑÇ©Ãû) "
+	L"(ï¿½ï¿½Ç©ï¿½ï¿½) "
 };
 
 WCHAR *szNotVerified[] = {
 	L"(Not Verified) ",
-	L"(Î´Ç©Ãû) "
+	L"(Î´Ç©ï¿½ï¿½) "
 };
 
 WCHAR *szTcpUdpStatus[] = {
@@ -3675,182 +3670,182 @@ WCHAR *szTcpUdpStatus[] = {
 
 WCHAR *szPortCopyFullRow[] = {
 	L"Copy Full Row",
-	L"¸´ÖÆÕûÐÐ",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 };
 
 WCHAR *szPortCopyRemoteAddress[] = {
 	L"Copy Remote Address",
-	L"¸´ÖÆÔ¶³ÌµØÖ·",
+	L"ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Ìµï¿½Ö·",
 };
 
 WCHAR *szPortVerifyProcessSignature[] = {
 	L"Verify Process Signature",
-	L"ÑéÖ¤½ø³ÌÊý×ÖÇ©Ãû"
+	L"ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szPortProcessProperties[] = {
 	L"Process Properties",
-	L"²é¿´½ø³ÌÎÄ¼þÊôÐÔ"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szPortFindInExplorer[] = {
 	L"Find Process File In Explorer",
-	L"ÔÚ×ÊÔ´¹ÜÀíÆ÷ÖÐ¶¨Î»½ø³ÌÎÄ¼þ"
+	L"ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szPortFindInAntiSpy[] = {
 	L"Find Process File In AntiSpy",
-	L"ÔÚAntiSpyÎÄ¼þ¹ÜÀíÆ÷ÖÐ¶¨Î»½ø³ÌÎÄ¼þ"
+	L"ï¿½ï¿½AntiSpyï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szPortKillProcess[] = {
 	L"Kill Process",
-	L"½áÊøÁªÍø½ø³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szOpenWithNotepad[] = {
 	L"Open With Notepad",
-	L"ÓÃ¼ÇÊÂ±¾´ò¿ª"
+	L"ï¿½Ã¼ï¿½ï¿½Â±ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHooks[] = {
 	L"Hooks",
-	L"¹³×Ó"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileSearchOnline[] = {
 	L"Search File Name Online",
-	L"ÔÚÏßËÑË÷ÎÄ¼þÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileCalcMd5[] = {
 	L"Calc File Hash",
-	L"¼ÆËãÎÄ¼þ¹þÏ£Öµ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ï£Öµ"
 };
 
 WCHAR *szFileHashFile[] = {
 	L"File",
-	L"ÎÄ¼þ"
+	L"ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFileHashCompare[] = {
 	L"Compare",
-	L"±È½Ï"
+	L"ï¿½È½ï¿½"
 };
 
 WCHAR *szFileHashDlgTitle[] = {
 	L"File Hash Calculator",
-	L"ÎÄ¼þ¹þÏ£¼ÆËãÆ÷"
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileHashBtnCompare[] = {
 	L"Compare",
-	L"±È½Ï"
+	L"ï¿½È½ï¿½"
 };
 
 WCHAR *szFileHashBtnCalc[] = {
 	L"Calc",
-	L"¼ÆËã"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFileHashCalcing[] = {
 	L"Calcing...",
-	L"¼ÆËãÖÐ..."
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..."
 };
 
 WCHAR *szIeShell[] = {
 	L"IE Shell",
-	L"IEÓÒ¼ü²Ëµ¥"
+	L"IEï¿½Ò¼ï¿½ï¿½Ëµï¿½"
 };
 
 WCHAR *szIeShellStatus[] = {
 	L"IE Shell: %d",
-	L"IEÓÒ¼ü²Ëµ¥Ïî£º%d"
+	L"IEï¿½Ò¼ï¿½ï¿½Ëµï¿½ï¿½î£º%d"
 };
 
 WCHAR *szRclickDeleteReg[] = {
 	L"Delete Reg",
-	L"É¾³ý×¢²á±í"
+	L"É¾ï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIePlugin[] = {
 	L"IE Plugin",
-	L"IE²å¼þ"
+	L"IEï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIePluginStatus[] = {
 	L"Total: %d, BHO: %d, IE Shell: %d, URL Search Hooks: %d, Distribution Units: %d, Toolbar: %d, ActiveX: %d",
-	L"×Ü¹²£º%d£¬BHO£º%d£¬ä¯ÀÀÆ÷À©Õ¹£º%d£¬URL²éÑ¯¹³×Ó£º%d£¬Distribution Units£º%d£¬¹¤¾ßÌõ£º%d£¬ActiveX£º%d"
+	L"ï¿½Ü¹ï¿½ï¿½ï¿½%dï¿½ï¿½BHOï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¹ï¿½ï¿½%dï¿½ï¿½URLï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½Ó£ï¿½%dï¿½ï¿½Distribution Unitsï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ActiveXï¿½ï¿½%d"
 };
 
 WCHAR *szIEPluginDeleteReg[] = {
 	L"Delete Reg",
-	L"É¾³ý×¢²á±í"
+	L"É¾ï¿½ï¿½×¢ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIEPluginDeleteFileAndReg[] = {
 	L"Delete Reg And File",
-	L"É¾³ý×¢²á±íºÍÎÄ¼þ"
+	L"É¾ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szEnable[] = {
 	L"Enable",
-	L"ÆôÓÃ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szDisable[] = {
 	L"Disable",
-	L"½ûÓÃ"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIEPluginCopyName[] = {
 	L"Copy Name",
-	L"¸´ÖÆ²å¼þÃû"
+	L"ï¿½ï¿½ï¿½Æ²ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIEPluginCopyPath[] = {
 	L"Copy Path",
-	L"¸´ÖÆ²å¼þÂ·¾¶"
+	L"ï¿½ï¿½ï¿½Æ²ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szIEPluginSearchOnline[] = {
 	L"Search Online",
-	L"ÔÚÏßËÑË÷²å¼þÃû"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIEPluginShuxing[] = {
 	L"Properties",
-	L"²é¿´²å¼þÊôÐÔ"
+	L"ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szIEPluginSign[] = {
 	L"Verify File Signature",
-	L"ÑéÖ¤²å¼þÇ©Ãû"
+	L"ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szToolsHexEditor[] = {
 	L"Hex Editor",
-	L"16½øÖÆ±à¼­Æ÷"
+	L"16ï¿½ï¿½ï¿½Æ±à¼­ï¿½ï¿½"
 };
 
 WCHAR *szTools[] = {
 	L"Tools",
-	L"¹¤¾ß"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szToolsDisassembler[] = {
 	L"Disassembler",
-	L"·´»ã±àÆ÷"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAdvancedTools[] = {
 	L"Advanced Tools",
-	L"¸ß¼¶¹¤¾ß¼¯"
+	L"ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ß¼ï¿½"
 };
 
 WCHAR *szUsers[] = {
 	L"Users",
-	L"ÏµÍ³ÓÃ»§"
+	L"ÏµÍ³ï¿½Ã»ï¿½"
 };
 
 WCHAR *szMBR[] = {
@@ -3860,570 +3855,570 @@ WCHAR *szMBR[] = {
 
 WCHAR *szHexEditerPid[] = {
 	L"Pid:",
-	L"Pid£º"
+	L"Pidï¿½ï¿½"
 };
 
 WCHAR *szHexEditerInputHaveWrong[] = {
 	L"Input values maybe have something wrong. ",
-	L"ÊäÈëµÄÖµ¿ÉÄÜÓÐÎó£¬Çë¼ì²éÄúÊäÈëµÄ²ÎÊý"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHexEditerKernelModeAddressWrong[] = {
 	L"Kernel mode address must be greater than 0x80000000. ",
-	L"ÄÚºËÄ£Ê½µØÖ·±ØÐë´óÓÚ0x80000000"
+	L"ï¿½Úºï¿½Ä£Ê½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0x80000000"
 };
 
 WCHAR *szHexEditerUserModeAddressWrong[] = {
 	L"User mode address must be less than 0x80000000. ",
-	L"ÓÃ»§Ä£Ê½µØÖ·±ØÐëÐ¡ÓÚ0x80000000"
+	L"ï¿½Ã»ï¿½Ä£Ê½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½0x80000000"
 };
 
 WCHAR *szHexEditerUserModePidWrong[] = {
 	L"User mode address must specify the pid. ",
-	L"ÓÃ»§Ä£Ê½µØÖ·±ØÐëÖ¸¶¨ÏàÓ¦½ø³ÌµÄpid"
+	L"ï¿½Ã»ï¿½Ä£Ê½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½Ìµï¿½pid"
 };
 
 WCHAR *szHexEditerModifyKernelMode[] = {
 	L"Modify kernel mode memory maybe cause your system crash.\r\n\r\nAre you sure you want to continue?",
-	L"ÐÞ¸ÄÄÚºËÄ£Ê½µÄÄÚ´æ£¬¿ÉÄÜ»áÒýÆðÏµÍ³±¼À£¡£\r\n\r\nÄúÈ·¶¨Òª¼ÌÐøÂð£¿"
+	L"ï¿½Þ¸ï¿½ï¿½Úºï¿½Ä£Ê½ï¿½ï¿½ï¿½Ú´æ£¬ï¿½ï¿½ï¿½Ü»ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\r\n\r\nï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAutorunRefesh[] = {
 	L"Refresh All",
-	L"È«²¿Ë¢ÐÂ"
+	L"È«ï¿½ï¿½Ë¢ï¿½ï¿½"
 };
 
 WCHAR *szFindDllsOrModulesInputHaveWrong[] = {
 	L"Input values can't be empty. ",
-	L"Òª²éÕÒµÄÃû³Æ²»ÄÜÎª¿Õ¡£"
+	L"Òªï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½Æ²ï¿½ï¿½ï¿½Îªï¿½Õ¡ï¿½"
 };
 
 WCHAR *szAreYouSureModifyMemory[] = {
 	L"Are you sure you want to modify the memory?",
-	L"ÄúÈ·ÈÏÒªÐÞ¸Ä¸ÃÄÚ´æÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½Þ¸Ä¸ï¿½ï¿½Ú´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szModifyMemoryFailed[] = {
 	L"Modify Memory Failed!",
-	L"ÐÞ¸ÄÄÚ´æÊ§°Ü£¡"
+	L"ï¿½Þ¸ï¿½ï¿½Ú´ï¿½Ê§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szModifyMemorySuccess[] = {
 	L"Modify Memory OK!",
-	L"ÐÞ¸ÄÄÚ´æ³É¹¦£¡"
+	L"ï¿½Þ¸ï¿½ï¿½Ú´ï¿½É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szSearchDoneDlls[] = {
 	L"Search done. DLLs: %d",
-	L"²éÕÒÍê±Ï£¬·¢ÏÖÄ£¿é£º %d",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é£º %d",
 };
 
 WCHAR *szSearchDoneHandles[] = {
 	L"Search done. Handles: %d",
-	L"²éÕÒÍê±Ï£¬·¢ÏÖ¾ä±ú£º %d",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ %d",
 };
 
 WCHAR *szSearching[] = {
 	L"[Scanning...]",
-	L"[ÕýÔÚËÑË÷£¬ÇëÉÔºó...]"
+	L"[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½...]"
 };
 
 WCHAR *szSelfProtection[] = {
 	L"Self-Defense",
-	L"×ÔÎÒ±£»¤"
+	L"ï¿½ï¿½ï¿½Ò±ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szConfigPS[] = {
 	L"Ps: All the settings will take effect when the application restarted.",
-	L"Ps£ºÒÔÏÂÈÎºÎÒ»ÏîÉèÖÃÐèÒªÖØÆôÈí¼þ²ÅÄÜÉúÐ§¡£"
+	L"Psï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îºï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½"
 };
 
 WCHAR *szForbidCreatingProcess[] = {
 	L"Forbid Creating Process",
-	L"½ûÖ¹´´½¨½ø³Ì"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szForbidCreatingThread[] = {
 	L"Forbid Creating Thread",
-	L"½ûÖ¹´´½¨Ïß³Ì"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szForbidCreatingFile[] = {
 	L"Forbid Creating File",
-	L"½ûÖ¹´´½¨ÎÄ¼þ"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szForbidSwitchingDesktop[] = {
 	L"Forbid Switching Desktop",
-	L"½ûÖ¹ÇÐ»»×ÀÃæ"
+	L"ï¿½ï¿½Ö¹ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szForbidCreatingKeyAndValue[] = {
 	L"Forbid Creating Key And Value",
-	L"½ûÖ¹´´½¨×¢²á±í¼üºÍÖµ"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ"
 };
 
 WCHAR *szForbidSettingKeyValue[] = {
 	L"Forbid Setting Key Value",
-	L"½ûÖ¹ÉèÖÃ×¢²á±íÖµ"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½Öµ"
 };
 
 WCHAR *szForbidLoadingImage[] = {
 	L"Forbid Loading Image",
-	L"½ûÖ¹¼ÓÔØÄ£¿é"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½"
 };
 
 WCHAR *szForbidGlobalMessageHook[] = {
 	L"Forbid Global Message Hook",
-	L"½ûÖ¹È«¾ÖÏûÏ¢¹³×Ó×¢Èë"
+	L"ï¿½ï¿½Ö¹È«ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½"
 };
 
 WCHAR *szForbidSystemShutdown[] = {
 	L"Forbid System Power Operation",
-	L"½ûÖ¹¹Ø»ú¡¢ÖØÆô¡¢×¢Ïú"
+	L"ï¿½ï¿½Ö¹ï¿½Ø»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½"
 };
 
 WCHAR *szForbidModifyingSystemTime[] = {
 	L"Forbid Modifying System Time",
-	L"½ûÖ¹ÐÞ¸ÄÏµÍ³Ê±¼ä"
+	L"ï¿½ï¿½Ö¹ï¿½Þ¸ï¿½ÏµÍ³Ê±ï¿½ï¿½"
 };
 
 WCHAR *szForbidLockingWorkStation[] = {
 	L"Forbid Locking Work Station",
-	L"½ûÖ¹Ëø¶¨¼ÆËã»ú"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szForbidLoadingDriver[] = {
 	L"Forbid Loading Driver",
-	L"½ûÖ¹¼ÓÔØÇý¶¯"
+	L"ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szForbid[] = {
 	L"Forbid",
-	L"½ûÖ¹"
+	L"ï¿½ï¿½Ö¹"
 };
 
 WCHAR *szAreYouSureReboot[] = {
 	L"Are you sure you want to reboot the system?",
-	L"ÄúÈ·¶¨ÒªÖØÆô¼ÆËã»úÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYouSureForceReboot[] = {
 	L"Are you sure you want to reboot the system?",
-	L"ÄúÈ·¶¨ÒªÖØÆô¼ÆËã»úÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYouSureShutdown[] = {
 	L"Are you sure you want to power off the system?",
-	L"ÄúÈ·¶¨Òª¹Ø±Õ¼ÆËã»úÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½Ø±Õ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szReboot[] = {
 	L"System Reboot",
-	L"ÖØÆô¼ÆËã»ú"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szForceReboot[] = {
 	L"Force System Reboot",
-	L"Ç¿ÖÆÖØÆô¼ÆËã»ú"
+	L"Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szPowerOff[] = {
 	L"System Power Off",
-	L"¹Ø±Õ¼ÆËã»ú"
+	L"ï¿½Ø±Õ¼ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szPower[] = {
 	L"Power",
-	L"µçÔ´"
+	L"ï¿½ï¿½Ô´"
 };
 
 WCHAR *szToolsEnable[] = {
 	L"Enable",
-	L"½âËø"
+	L"ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szEnableRegistryTools[] = {
 	L"Enable RegEdit",
-	L"½âËø×¢²á±í±à¼­Æ÷"
+	L"ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½à¼­ï¿½ï¿½"
 };
 
 WCHAR *szEnableTaskTools[] = {
 	L"Enable Task Manager",
-	L"½âËøÈÎÎñ¹ÜÀíÆ÷"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szEnableCmd[] = {
 	L"Enable CMD",
-	L"½âËøÃüÁî½âÊÍÆ÷(CMD.exe)"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(CMD.exe)"
 };
 
 WCHAR *szEnableControlPane[] = {
 	L"Enable Control Pane",
-	L"½âËø¿ØÖÆÃæ°å"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szEnableStartMenu[] = {
 	L"Enable Taskbar Right Click Menu",
-	L"½âËøÈÎÎñÀ¸ÓÒ¼ü²Ëµ¥"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¼ï¿½ï¿½Ëµï¿½"
 };
 
 WCHAR *szClearAllGroupPolicies[] = {
 	L"Clear All Group Policies",
-	L"½âËø×é²ßÂÔ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szEnableRun[] = {
 	L"Enable Run Feature in Start Menu",
-	L"½âËø¿ªÊ¼²Ëµ¥ÖÐµÄÔËÐÐ¹¦ÄÜ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½Ëµï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½Ð¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRepairLSPOK[] = {
 	L"Repair LSP OK!",
-	L"ÐÞ¸´LSP³É¹¦£¡"
+	L"ï¿½Þ¸ï¿½LSPï¿½É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRepairSafebootOK[] = {
 	L"Repair Safeboot OK!",
-	L"ÐÞ¸´°²È«Ä£Ê½³É¹¦£¡"
+	L"ï¿½Þ¸ï¿½ï¿½ï¿½È«Ä£Ê½ï¿½É¹ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szRepairSafebootFailed[] = {
 	L"Repair Safeboot Failed!",
-	L"ÐÞ¸´°²È«Ä£Ê½Ê§°Ü£¡"
+	L"ï¿½Þ¸ï¿½ï¿½ï¿½È«Ä£Ê½Ê§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szRepairLSPFailed[] = {
 	L"Repair LSP Failed!",
-	L"ÐÞ¸´LSPÊ§°Ü£¡"
+	L"ï¿½Þ¸ï¿½LSPÊ§ï¿½Ü£ï¿½"
 };
 
 WCHAR *szAllEnable[] = {
 	L"Enabled OK!",
-	L"½âËø³É¹¦£¡",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½",
 };
 
 WCHAR *szPleaseChoseEnable[] = {
 	L"Please select the items you want to enable.",
-	L"ÇëÑ¡ÔñÄúÒª½âËøµÄÏî£¡",
+	L"ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î£¡",
 };
 
 WCHAR *szSafeboot[] = {
 	L"Safeboot",
-	L"°²È«Ä£Ê½",
+	L"ï¿½ï¿½È«Ä£Ê½",
 };
 
 WCHAR *szRepair[] = {
 	L"Repair",
-	L"ÐÞ¸´",
+	L"ï¿½Þ¸ï¿½",
 };
 
 WCHAR *szRepairAll[] = {
 	L"Repair All",
-	L"È«²¿ÐÞ¸´",
+	L"È«ï¿½ï¿½ï¿½Þ¸ï¿½",
 };
 
 WCHAR *szWhatIsMBR[] = {
 	L"The MBR, short for the Master Boot Record, it contains the primary boot loader.",
-	L"MBR¾ÍÊÇMaster Boot RecordµÄ¼ò³Æ£¬ËüÊÇÓ²ÅÌµÄÖ÷Òýµ¼¼ÇÂ¼¡£",
+	L"MBRï¿½ï¿½ï¿½ï¿½Master Boot Recordï¿½Ä¼ï¿½Æ£ï¿½ï¿½ï¿½ï¿½ï¿½Ó²ï¿½Ìµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½",
 };
 
 WCHAR *szHowToReapirMBR[] = {
 	L"Some Trojans can modify the default MBR, and it can not be killed even you reinstall the system.",
-	L"ÓÐÐ©Ä¾Âí»áÐÞ¸ÄÏµÍ³Ä¬ÈÏµÄMBR£¬ÖÐÁËÕâÖÖMBRÄ¾Âí£¬¼´Ê¹ÖØ×°ÏµÍ³Ò²²»ÄÜÍêÈ«ÏûÃðËü¡£ÒªÏë³¹µ×½â¾ö´ËÀàÎÊÌâ£¬¾ÍÐèÒª»Ö¸´ÏµÍ³Ô­Ê¼µÄMBR¡£",
+	L"ï¿½ï¿½Ð©Ä¾ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½ÏµÍ³Ä¬ï¿½Ïµï¿½MBRï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½MBRÄ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½×°ÏµÍ³Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ë³¹ï¿½×½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â£¬ï¿½ï¿½ï¿½ï¿½Òªï¿½Ö¸ï¿½ÏµÍ³Ô­Ê¼ï¿½ï¿½MBRï¿½ï¿½",
 };
 
 WCHAR *szMBRnote[] = {
 	L"Note: If your system installed the disk encryption or system restore softwares, do not use this tools to restore the default MBR.",
-	L"×¢Òâ£ºÈç¹ûÄú°²×°ÁË´ÅÅÌ¼ÓÃÜÈí¼þ»òÕß»¹Ô­Èí¼þ£¬Çë²»ÒªÊ¹ÓÃ±¾¹¤¾ß£¬·ñÔò¿ÉÄÜ»áÔì³ÉµçÄÔÎÞ·¨Æô¶¯»òÕßÊý¾Ý¶ªÊ§µÄÎÊÌâ¡£",
+	L"×¢ï¿½â£ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×°ï¿½Ë´ï¿½ï¿½Ì¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß»ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë²»ÒªÊ¹ï¿½Ã±ï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü»ï¿½ï¿½ï¿½Éµï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¶ï¿½Ê§ï¿½ï¿½ï¿½ï¿½ï¿½â¡£",
 };
 
 WCHAR *szMBRSelectDisk[] = {
 	L"Select a physical disk:",
-	L"ÇëÑ¡ÔñÎïÀí´ÅÅÌ£º",
+	L"ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì£ï¿½",
 }; 
 
 WCHAR *szMBRIsOk[] = {
 	L"The MBR of %s is ok.",
-	L"%sµÄMBRÕý³£¡£",
+	L"%sï¿½ï¿½MBRï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szMBRIsError[] = {
 	L"The MBR of %s may be modified.",
-	L"%sµÄMBR¿ÉÄÜÒÑ¾­±»ÐÞ¸ÄÁË¡£",
+	L"%sï¿½ï¿½MBRï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½ï¿½Ë¡ï¿½",
 }; 
 
 WCHAR *szReadAndCheckMBR[] = {
 	L"Read And Check MBR",
-	L"¶ÁÈ¡²¢¼ì²âMBR",
+	L"ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½MBR",
 }; 
 
 WCHAR *szBackupMBR[] = {
 	L"Backup MBR To File",
-	L"±¸·ÝMBR(½¨Òé±£´æµ½UÅÌ»òÍøÅÌ)",
+	L"ï¿½ï¿½ï¿½ï¿½MBR(ï¿½ï¿½ï¿½é±£ï¿½æµ½Uï¿½Ì»ï¿½ï¿½ï¿½ï¿½ï¿½)",
 }; 
 
 WCHAR *szRestoreMBR[] = {
 	L"Restore MBR From Backup File",
-	L"´Ó±¸·ÝÎÄ¼þÖÐ»Ö¸´MBR",
+	L"ï¿½Ó±ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ð»Ö¸ï¿½MBR",
 }; 
 
 WCHAR *szRestoreDefaultMBR[] = {
 	L"Restore Default MBR",
-	L"»Ö¸´ÏµÍ³Ä¬ÈÏMBR",
+	L"ï¿½Ö¸ï¿½ÏµÍ³Ä¬ï¿½ï¿½MBR",
 }; 
 
 WCHAR *szBackupMBROK[] = {
 	L"Backup MBR OK!",
-	L"±¸·ÝMBR³É¹¦£¡",
+	L"ï¿½ï¿½ï¿½ï¿½MBRï¿½É¹ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szBackupMBRERROR[] = {
 	L"Backup MBR Failed!",
-	L"±¸·ÝMBRÊ§°Ü£¡",
+	L"ï¿½ï¿½ï¿½ï¿½MBRÊ§ï¿½Ü£ï¿½",
 }; 
 
 WCHAR *szRestoreMBRNotify[] = {
 	L"Restore the MBR has certain risk, are you sure you want to continue?",
-	L"»Ö¸´MBRÓÐÒ»¶¨µÄ·çÏÕ£¬ÄúÈ·ÈÏÊÇ·ñÒª¼ÌÐø£¿\r\n\r\nPs: »Ö¸´¹ý³ÌÖÐÉ±¶¾Èí¼þ¿ÉÄÜ»áÓÐÌáÊ¾£¬ÇëÑ¡ÔñÔÊÐí¡£",
+	L"ï¿½Ö¸ï¿½MBRï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä·ï¿½ï¿½Õ£ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½Ç·ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\r\n\r\nPs: ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü»ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szMbrFileInvalid[] = {
 	L"The MBR backup file is invalid. ",
-	L"MBR±¸·ÝÎÄ¼þÎÞÐ§£¡",
+	L"MBRï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ð§ï¿½ï¿½",
 };
 
 WCHAR *szRestoreMBROK[] = {
 	L"Restore MBR OK! ",
-	L"»Ö¸´MBR³É¹¦£¡",
+	L"ï¿½Ö¸ï¿½MBRï¿½É¹ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szRestoreMBRERROR[] = {
 	L"Restore MBR Failed! ",
-	L"»Ö¸´MBRÊ§°Ü£¡",
+	L"ï¿½Ö¸ï¿½MBRÊ§ï¿½Ü£ï¿½",
 }; 
 
 WCHAR *szDiskPartitionInfoError[] = {
 	L"Disk partition information is error,so cannot restore MBR to default!",
-	L"´ÅÅÌ·ÖÇøÐÅÏ¢ÓÐÎó£¬ËùÒÔ²»ÄÜ»Ö¸´µ½Ä¬ÈÏMBR¡£",
+	L"ï¿½ï¿½ï¿½Ì·ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½Ü»Ö¸ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½MBRï¿½ï¿½",
 }; 
 
 WCHAR *szEanbleRun[] = {
 	L"Enable Run Feature in Start Menu",
-	L"½âËø¿ªÊ¼²Ëµ¥ÖÐµÄÔËÐÐ¹¦ÄÜ",
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½Ëµï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½Ð¹ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szDonate[] = {
 	L"Donate",
-	L"¾èÔù",
+	L"ï¿½ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szDonateString[] = {
 	L"Donate",
-	L"AntiSpyÊÇ´ÓÎÒÔÚ´óÑ§Àï¾Í¿ªÊ¼Ð´µÄÒ»¿î¹¤¾ß£¬\r\nÆÚ¼ä¶Ï¶ÏÐøÐøÀúÊ±2ÄêÓÐÓà¡£\r\n",
+	L"AntiSpyï¿½Ç´ï¿½ï¿½ï¿½ï¿½Ú´ï¿½Ñ§ï¿½ï¿½Í¿ï¿½Ê¼Ð´ï¿½ï¿½Ò»ï¿½î¹¤ï¿½ß£ï¿½\r\nï¿½Ú¼ï¿½Ï¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±2ï¿½ï¿½ï¿½ï¿½ï¿½à¡£\r\n",
 }; 
 
 WCHAR *szIME[] = {
 	L"IME",
-	L"IMEÊäÈë·¨",
+	L"IMEï¿½ï¿½ï¿½ë·¨",
 }; 
 
 WCHAR *szFileAssociation[] = {
 	L"File Association",
-	L"ÎÄ¼þ¹ØÁª",
+	L"ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szIFEO[] = {
 	L"Image Hijacks(IFEO)",
-	L"Ó³Ïñ½Ù³Ö",
+	L"Ó³ï¿½ï¿½Ù³ï¿½",
 }; 
 
 WCHAR *szRegPath[] = {
 	L"Reg Path",
-	L"×¢²á±íÂ·¾¶",
+	L"×¢ï¿½ï¿½ï¿½Â·ï¿½ï¿½",
 }; 
 
 WCHAR *szPath[] = {
 	L"Path",
-	L"Â·¾¶",
+	L"Â·ï¿½ï¿½",
 }; 
 
 WCHAR *szIMEPath[] = {
 	L"IME File Path",
-	L"IME³ÌÐòÂ·¾¶",
+	L"IMEï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½",
 }; 
 
 WCHAR *szIMEFileCorporation[] = {
 	L"IME File Corporation",
-	L"IMEÎÄ¼þ³§ÉÌ",
+	L"IMEï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szLayoutPath[] = {
 	L"Layout File Path",
-	L"LayoutÎÄ¼þÂ·¾¶",
+	L"Layoutï¿½Ä¼ï¿½Â·ï¿½ï¿½",
 }; 
 
 WCHAR *szLayoutFileCompany[] = {
 	L"Layout File Corporation",
-	L"LayoutÎÄ¼þ³§ÉÌ",
+	L"Layoutï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szIMEFileProperties[] = {
 	L"IME File Properties",
-	L"²é¿´IMEÎÄ¼þÊôÐÔ",
+	L"ï¿½é¿´IMEï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szLayoutFileProperties[] = {
 	L"Layout File Properties",
-	L"²é¿´LayoutÎÄ¼þÊôÐÔ",
+	L"ï¿½é¿´Layoutï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½",
 }; 
 
 WCHAR *szVerifyIMEFileSignature[] = {
 	L"Verify IME File Signature",
-	L"ÑéÖ¤IMEÎÄ¼þÇ©Ãû",
+	L"ï¿½ï¿½Ö¤IMEï¿½Ä¼ï¿½Ç©ï¿½ï¿½",
 }; 
 
 WCHAR *szVerifyLayoutFileSignature[] = {
 	L"Verify Layout File Signature",
-	L"ÑéÖ¤LayoutÎÄ¼þÇ©Ãû",
+	L"ï¿½ï¿½Ö¤Layoutï¿½Ä¼ï¿½Ç©ï¿½ï¿½",
 };
 
 WCHAR *szFileIMEFileInExplorer[] = {
 	L"Find IME File In Explorer",
-	L"ÔÚ×ÊÔ´¹ÜÀíÆ÷ÖÐ¶¨Î»IMEÎÄ¼þ"
+	L"ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»IMEï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFileLayoutFileInExplorer[] = {
 	L"Find Layout File In Explorer",
-	L"ÔÚ×ÊÔ´¹ÜÀíÆ÷ÖÐ¶¨Î»LayoutÎÄ¼þ"
+	L"ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»Layoutï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFileIMEFileInAntiSpy[] = {
 	L"Find IME File In AntiSpy",
-	L"ÔÚAntiSpyÎÄ¼þ¹ÜÀíÆ÷ÖÐ¶¨Î»IMEÎÄ¼þ"
+	L"ï¿½ï¿½AntiSpyï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»IMEï¿½Ä¼ï¿½"
 };
 
 WCHAR *szFileLayoutFileInAntiSpy[] = {
 	L"Find Layout File In AntiSpy",
-	L"ÔÚAntiSpyÎÄ¼þ¹ÜÀíÆ÷ÖÐ¶¨Î»LayoutÎÄ¼þ"
+	L"ï¿½ï¿½AntiSpyï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»Layoutï¿½Ä¼ï¿½"
 };
 
 WCHAR *szImeStatus[] = {
 	L"IMEs: %d",
-	L"IMEÊäÈë·¨£º%d"
+	L"IMEï¿½ï¿½ï¿½ë·¨ï¿½ï¿½%d"
 };
 
 WCHAR *szImageHijackName[] = {
 	L"Be Hijacked Process Name",
-	L"±»½Ù³ÖµÄ½ø³ÌÃû"
+	L"ï¿½ï¿½ï¿½Ù³ÖµÄ½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHijackProcessPath[] = {
 	L"Hijack Process Path",
-	L"½Ù³ÖµÄ½ø³ÌÂ·¾¶"
+	L"ï¿½Ù³ÖµÄ½ï¿½ï¿½ï¿½Â·ï¿½ï¿½"
 };
 
 WCHAR *szImageHijacks[] = {
 	L"Image Hijacks: %d",
-	L"Ó³Ïñ½Ù³ÖÊýÁ¿£º%d"
+	L"Ó³ï¿½ï¿½Ù³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d"
 };
 
 WCHAR *szHijackFileProperties[] = {
 	L"Hijack File Properties",
-	L"²é¿´½Ù³ÖÎÄ¼þÊôÐÔ"
+	L"ï¿½é¿´ï¿½Ù³ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szHijackFileSignature[] = {
 	L"Verify Hijack File Signature",
-	L"¼ìÑé½Ù³ÖÎÄ¼þÇ©Ãû"
+	L"ï¿½ï¿½ï¿½ï¿½Ù³ï¿½ï¿½Ä¼ï¿½Ç©ï¿½ï¿½"
 };
 
 WCHAR *szHijackFileInExplorer[] = {
 	L"Find Hijack File In Explorer",
-	L"ÔÚ×ÊÔ´¹ÜÀíÆ÷ÖÐ¶¨Î»½Ù³ÖÎÄ¼þ"
+	L"ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»ï¿½Ù³ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szHijackFileInAntiSpy[] = {
 	L"Find Hijack File In AntiSpy",
-	L"ÔÚAntiSpyÎÄ¼þ¹ÜÀíÆ÷ÖÐ¶¨Î»½Ù³ÖÎÄ¼þ"
+	L"ï¿½ï¿½AntiSpyï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Î»ï¿½Ù³ï¿½ï¿½Ä¼ï¿½"
 };
 
 WCHAR *szResetToDefult[] = {
 	L"Reset To Default",
-	L"ÖØÖÃÎªÄ¬ÈÏ"
+	L"ï¿½ï¿½ï¿½ï¿½ÎªÄ¬ï¿½ï¿½"
 };
 
 WCHAR *szAreSureResetToDefult[] = {
 	L"Are you sure you want to reset the hosts to defult?",
-	L"ÄúÈ·ÈÏÒª½«HostsÎÄ¼þÖØÖÃÎªÄ¬ÈÏÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½Hostsï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÄ¬ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindWindow[] = {
 	L"Find Window",
-	L"²éÕÒ´°¿Ú"
+	L"ï¿½ï¿½ï¿½Ò´ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindWindowShuoming[] = {
 	L"Drag the Find Tool over a window to select it,\r\nthen release the mouse button.",
-	L"ÇëÍÏ¶¯×ó²àµÄÖ¸Õëµ½ÐèÒª²é¿´µÄ´°¿ÚÉÏÊÍ·Å"
+	L"ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ëµ½ï¿½ï¿½Òªï¿½é¿´ï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½"
 };
 
 WCHAR *szFindWindowPid[] = {
 	L"PID",
-	L"½ø³ÌID"
+	L"ï¿½ï¿½ï¿½ï¿½ID"
 };
 
 WCHAR *szFindWindowTid[] = {
 	L"TID",
-	L"Ïß³ÌID"
+	L"ï¿½ß³ï¿½ID"
 };
 
 WCHAR *szFindProcess[] = {
 	L"Find Process",
-	L"¶¨Î»½ø³Ì"
+	L"ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindThread[] = {
 	L"Find Thread",
-	L"¶¨Î»Ïß³Ì"
+	L"ï¿½ï¿½Î»ï¿½ß³ï¿½"
 };
 
 WCHAR *szFindWindowsKillProcess[] = {
 	L"Kill Process",
-	L"½áÊø½ø³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szFindWindowsKillThread[] = {
 	L"Kill Thread",
-	L"½áÊøÏß³Ì"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½"
 };
 
 WCHAR *szAreYOUSureKillTheProcesses[] = {
 	L"Are you sure you want to kill the process?",
-	L"ÄúÈ·¶¨Òª½áÊøÕâ¸ö½ø³ÌÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szAreYOUSureKillTheThread[] = {
 	L"Are you sure you want to kill the thread?",
-	L"ÄúÈ·¶¨Òª½áÊøÕâ¸öÏß³ÌÂð£¿"
+	L"ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szMinimumLength[] = {
 	L"Minimum Length (Chars)",
-	L"×î¶Ì³¤¶È(×Ö·ûÊý)"
+	L"ï¿½ï¿½Ì³ï¿½ï¿½ï¿½(ï¿½Ö·ï¿½ï¿½ï¿½)"
 };
 
 WCHAR *szStringType[] = {
 	L"String Type",
-	L"×Ö·û´®ÀàÐÍ"
+	L"ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szMemoryRegionsType[] = {
 	L"Search in the following types of memory regions",
-	L"ËÑË÷µÄÄÚ´æ¿éÀàÐÍ"
+	L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 };
 
 WCHAR *szYourSystemUpdate[] = {
 	L"Your system has just installed the windows updates, \r\nplease reboot your system at frist.",
-	L"ÄúµÄµçÄÔ¿ÉÄÜ¸Õ¸Õ´òÍêÏµÍ³²¹¶¡£¬ÇëÖØÆôµçÄÔºóÔÙÊ¹ÓÃ±¾¹¤¾ß£¬Ð»Ð»£¡"
+	L"ï¿½ï¿½ï¿½Äµï¿½ï¿½Ô¿ï¿½ï¿½Ü¸Õ¸Õ´ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½ï¿½ï¿½Ê¹ï¿½Ã±ï¿½ï¿½ï¿½ï¿½ß£ï¿½Ð»Ð»ï¿½ï¿½"
 };

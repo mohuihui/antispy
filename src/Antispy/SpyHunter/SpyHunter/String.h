@@ -55,7 +55,6 @@ extern WCHAR *szDispatchName[];
 extern WCHAR szToolName[];
 extern WCHAR szAntiSpyDisableAutoruns[];
 extern WCHAR *szAntiLogger[];
-extern WCHAR *szAntiScreenLogger[];
 extern WCHAR *szAreSureResetToDefult[];
 extern WCHAR *szResetToDefult[];
 extern WCHAR *szImageHijackName[];

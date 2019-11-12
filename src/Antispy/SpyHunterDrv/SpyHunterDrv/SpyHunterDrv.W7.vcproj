@@ -416,18 +416,6 @@
 					>
 				</File>
 			</Filter>
-			<Filter
-				Name="ScreenCapture"
-				>
-				<File
-					RelativePath=".\AntiScreenCapture.c"
-					>
-				</File>
-				<File
-					RelativePath=".\gencache.c"
-					>
-				</File>
-			</Filter>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -435,10 +423,6 @@
 			>
 			<File
 				RelativePath=".\Acpi.h"
-				>
-			</File>
-			<File
-				RelativePath=".\AntiScreenCapture.h"
 				>
 			</File>
 			<File
@@ -535,10 +519,6 @@
 			</File>
 			<File
 				RelativePath=".\Fsd.h"
-				>
-			</File>
-			<File
-				RelativePath=".\gencache.h"
 				>
 			</File>
 			<File

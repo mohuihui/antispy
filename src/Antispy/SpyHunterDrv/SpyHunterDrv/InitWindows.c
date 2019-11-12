@@ -23,10 +23,9 @@
 #include "ModifiedCode.h"
 #include "SelfProtectSSDT.h"
 #include "FakeFunc.h"
-#include "AntiScreenCapture.h"
 
-// extern LIST_ENTRY TempProcessListHead;				// ╫ЬЁла╢╠Мм╥
-// extern KSPIN_LOCK TempProcessSpinLock;				// ╫ЬЁла╢кЬ
+// extern LIST_ENTRY TempProcessListHead;				// О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫м╥
+// extern KSPIN_LOCK TempProcessSpinLock;				// О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
 
 #define MAX_VERIABLE 3000
 ULONG GlobalVeriable[MAX_VERIABLE] = {0};
@@ -138,7 +137,7 @@ WIN_VERSION GetWindowsVersion()
 //*************************************************
 
 // Returns:   VOID
-// Qualifier: ЁУй╪╩╞х╚╬ж╠Да©ё╛р╩п╘╫А╧╧ф╚рфё╛Show ssdt╣дкВрЩ╣х║ё
+// Qualifier: О©╫О©╫й╪О©╫О©╫х╚О©╫ж╠О©╫О©╫О©╫О©╫О©╫р╩п╘О©╫А╧╧ф╚О©╫фёО©╫Show ssdtО©╫О©╫О©╫О©╫О©╫О©╫О©╫х║О©╫
 
 //*************************************************
 VOID InitGlobalVariable()
@@ -166,7 +165,7 @@ VOID InitGlobalVariable()
 	{
 	case enumWINDOWS_2K:
 		{
-			// ╫ЬЁл╠Да©
+			// О©╫О©╫О©╫л╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumObjectTableOffset_EPROCESS, 0x128);
 			SetGlobalVeriable(enumPebOffset_EPROCESS, 0x1b0);
 			SetGlobalVeriable(enumInheritedFromUniqueProcessIdOffset_EPROCESS, 0x1c8);
@@ -176,7 +175,7 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumUniqueProcessIdOffset_HANDLE_TABLE, 0x10);
 			SetGlobalVeriable(enumDebugportOffset_EPROCESS, 0x120); 
 
-			// оъЁл╠Да©
+			// О©╫ъЁл╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumThreadListHeadOffset_KPROCESS, 0x50);
 			SetGlobalVeriable(enumCidOffset_ETHREAD, 0x1e0);
 			SetGlobalVeriable(enumWin32StartAddressOffset_ETHREAD, 0x234);
@@ -197,10 +196,10 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumSuspendCountOffset_KTHREAD, 0x1ad);
 			SetGlobalVeriable(enumFreezeCountOffset_KTHREAD, 0x1ac);
 
-			// ╫ЬЁлдё©И╠Да©
+			// О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumVadRootOffset_EPROCESS, 0x194);
 
-			// ц╤╬ыгЩ╤╞дё©Исц╣╫╣д╠Да©
+			// ц╤О©╫О©╫О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫ц╣О©╫О©╫д╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumTypeListOffset_OBJECT_TYPE, 0x38);
 
 			// DPC Timer
@@ -257,7 +256,7 @@ VOID InitGlobalVariable()
 
 	case enumWINDOWS_XP:
 		{
-			// ╫ЬЁл╠Да©
+			// О©╫О©╫О©╫л╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumObjectTableOffset_EPROCESS, 0xc4);
 			SetGlobalVeriable(enumPebOffset_EPROCESS, 0x1b0);
 			SetGlobalVeriable(enumInheritedFromUniqueProcessIdOffset_EPROCESS, 0x14c);
@@ -269,7 +268,7 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumSectionBaseAddressOffset_EPROCESS, 0x13c);
 			SetGlobalVeriable(enumDebugportOffset_EPROCESS, 0xbc); 
 
-			// оъЁл╠Да©
+			// О©╫ъЁл╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumThreadListHeadOffset_KPROCESS, 0x50);
 			SetGlobalVeriable(enumCidOffset_ETHREAD, 0x1ec);
 			SetGlobalVeriable(enumWin32StartAddressOffset_ETHREAD, 0x228);
@@ -293,10 +292,10 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumFreezeCountOffset_KTHREAD, 0x1b8);
 			SetGlobalVeriable(enumSameThreadApcFlags_Offset_ETHREAD, 0x250);
 
-			// ╫ЬЁлдё©И╠Да©
+			// О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumVadRootOffset_EPROCESS, 0x11c);
 
-			// ц╤╬ыгЩ╤╞дё©Исц╣╫╣д╠Да©
+			// ц╤О©╫О©╫О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫ц╣О©╫О©╫д╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumTypeListOffset_OBJECT_TYPE, 0x38);
 			
 			// DPC Timer
@@ -382,7 +381,7 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumNtLoadDriverIndex, 97);
 			SetGlobalVeriable(enumNtCreateSectionIndex, 50);
 
-			// ╫Шж╧╫ьфа
+			// О©╫О©╫ж╧О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumNtGdiGetDCPointIndex, 0xAA);
 			SetGlobalVeriable(enumNtGdiGetDCDwordIndex, 0xA7);
 			SetGlobalVeriable(enumNtGdiBitBltIndex, 0xD);
@@ -433,10 +432,10 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumFreezeCountOffset_KTHREAD, 0x1ba);
 			SetGlobalVeriable(enumSameThreadApcFlags_Offset_ETHREAD, 0x248);
 
-			// ╫ЬЁлдё©И╠Да©
+			// О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumVadRootOffset_EPROCESS, 0x258);
 
-			// ц╤╬ыгЩ╤╞дё©Исц╣╫╣д╠Да©
+			// ц╤О©╫О©╫О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫ц╣О©╫О©╫д╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumTypeListOffset_OBJECT_TYPE, 0x38);
 
 			// DPC Timer
@@ -522,7 +521,7 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumNtUserSwitchDesktopIndex, 554);
 			SetGlobalVeriable(enumNtUserLockWorkStationIndex, 454);
 
-			// ╫Шж╧╫ьфа
+			// О©╫О©╫ж╧О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumNtGdiGetDCPointIndex, 169);
 			SetGlobalVeriable(enumNtGdiGetDCDwordIndex, 166);
 			SetGlobalVeriable(enumNtGdiBitBltIndex, 13);
@@ -573,10 +572,10 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumFreezeCountOffset_KTHREAD, 0x14f);
 			SetGlobalVeriable(enumSameThreadApcFlags_Offset_ETHREAD, 0x248);
 
-			// ╫ЬЁлдё©И╠Да©
+			// О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumVadRootOffset_EPROCESS, 0x250);
 
-			// ц╤╬ыгЩ╤╞дё©Исц╣╫╣д╠Да©
+			// ц╤О©╫О©╫О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫ц╣О©╫О©╫д╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumTypeListOffset_OBJECT_TYPE, 0x38);
 
 			// DPC Timer
@@ -663,7 +662,7 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumNtUserSwitchDesktopIndex, 554);
 			SetGlobalVeriable(enumNtUserLockWorkStationIndex, 454);
 
-			// ╫Шж╧╫ьфа
+			// О©╫О©╫ж╧О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumNtGdiGetDCPointIndex, 169);
 			SetGlobalVeriable(enumNtGdiGetDCDwordIndex, 166);
 			SetGlobalVeriable(enumNtGdiBitBltIndex, 13);
@@ -714,10 +713,10 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumFreezeCountOffset_KTHREAD, 0x16b);
 			SetGlobalVeriable(enumSameThreadApcFlags_Offset_ETHREAD, 0x268);
 
-			// ╫ЬЁлдё©И╠Да©
+			// О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumVadRootOffset_EPROCESS, 0x238);
 
-			// ц╤╬ыгЩ╤╞дё©Исц╣╫╣д╠Да©
+			// ц╤О©╫О©╫О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫ц╣О©╫О©╫д╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumTypeListOffset_OBJECT_TYPE, 0x38);
 
 			// DPC Timer
@@ -805,7 +804,7 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumNtUserSwitchDesktopIndex, 582);
 			SetGlobalVeriable(enumNtUserLockWorkStationIndex, 475);
 
-			// ╫Шж╧╫ьфа
+			// О©╫О©╫ж╧О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumNtGdiGetDCPointIndex, 175);
 			SetGlobalVeriable(enumNtGdiGetDCDwordIndex, 172);
 			SetGlobalVeriable(enumNtGdiBitBltIndex, 13);
@@ -856,10 +855,10 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumFreezeCountOffset_KTHREAD, 0x13c);
 			SetGlobalVeriable(enumSameThreadApcFlags_Offset_ETHREAD, 0x268);
 
-			// ╫ЬЁлдё©И╠Да©
+			// О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumVadRootOffset_EPROCESS, 0x238);
 
-			// ц╤╬ыгЩ╤╞дё©Исц╣╫╣д╠Да©
+			// ц╤О©╫О©╫О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫ц╣О©╫О©╫д╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumTypeListOffset_OBJECT_TYPE, 0);
 
 			// DPC Timer
@@ -947,7 +946,7 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumNtUserSwitchDesktopIndex, 582);
 			SetGlobalVeriable(enumNtUserLockWorkStationIndex, 475);
 
-			// ╫Шж╧╫ьфа
+			// О©╫О©╫ж╧О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumNtGdiGetDCPointIndex, 175);
 			SetGlobalVeriable(enumNtGdiGetDCDwordIndex, 172);
 			SetGlobalVeriable(enumNtGdiBitBltIndex, 13);
@@ -998,10 +997,10 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumFreezeCountOffset_KTHREAD, 0x140);
 			SetGlobalVeriable(enumSameThreadApcFlags_Offset_ETHREAD, 0x288);
 
-			// ╫ЬЁлдё©И╠Да©
+			// О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumVadRootOffset_EPROCESS, 0x278);
 
-			// ц╤╬ыгЩ╤╞дё©Исц╣╫╣д╠Да©
+			// ц╤О©╫О©╫О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫ц╣О©╫О©╫д╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumTypeListOffset_OBJECT_TYPE, 0);
 
 			// DPC Timer
@@ -1089,7 +1088,7 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumNtUserSwitchDesktopIndex, 594);
 			SetGlobalVeriable(enumNtUserLockWorkStationIndex, 486);
 
-			// ╫Шж╧╫ьфа
+			// О©╫О©╫ж╧О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumNtGdiGetDCPointIndex, 175);
 			SetGlobalVeriable(enumNtGdiGetDCDwordIndex, 172);
 			SetGlobalVeriable(enumNtGdiBitBltIndex, 14);
@@ -1142,10 +1141,10 @@ VOID InitGlobalVariable()
 			SetGlobalVeriable(enumFreezeCountOffset_KTHREAD, 0x5c);
 			SetGlobalVeriable(enumSameThreadApcFlags_Offset_ETHREAD, 0x268);
 
-			// ╫ЬЁлдё©И╠Да©
+			// О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫О©╫О©╫
 			SetGlobalVeriable(enumVadRootOffset_EPROCESS, 0x274);
 
-			// ц╤╬ыгЩ╤╞дё©Исц╣╫╣д╠Да©
+			// ц╤О©╫О©╫О©╫О©╫О©╫О©╫дёО©╫О©╫О©╫ц╣О©╫О©╫д╠О©╫О©╫О©╫
 			SetGlobalVeriable(enumTypeListOffset_OBJECT_TYPE, 0);
 
 			// DPC Timer
@@ -1236,7 +1235,7 @@ VOID InitGlobalVariable()
 				SetGlobalVeriable(enumNtUserSwitchDesktopIndex, 547);
 				SetGlobalVeriable(enumNtUserLockWorkStationIndex, 513);
 
-				// ╫Шж╧╫ьфа
+				// О©╫О©╫ж╧О©╫О©╫О©╫О©╫
 				SetGlobalVeriable(enumNtGdiGetDCPointIndex, 139);
 				SetGlobalVeriable(enumNtGdiGetDCDwordIndex, 142);
 				SetGlobalVeriable(enumNtGdiBitBltIndex, 302);
@@ -2149,7 +2148,7 @@ VOID InitCommonFunctions()
 
 /*************************************************
 Returns:   NULL
-Qualifier: ╩Ях║Ёёсцдё©И╣д╩Ыж╥╨м╢Сп║
+Qualifier: О©╫О©╫х║О©╫О©╫О©╫О©╫дёО©╫О©╫д╩О©╫ж╥О©╫м╢О©╫п║
 *************************************************/
 void GetCommonDriversSizeAndBase()
 {
@@ -2253,8 +2252,8 @@ void GetCommonDriversSizeAndBase()
 
 //*************************************************
 // Returns:   BOOL
-// Qualifier: м╗╧ЩAntiSpyгЩ╤╞╤тоСур╣╫ntoskrnl╣дKLDR_DATA_TABLE_ENTRY
-// Parameter: PDRIVER_OBJECT DriverObject - AntiSpyгЩ╤╞╤тоС
+// Qualifier: м╗О©╫О©╫AntiSpyО©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫р╣О©╫ntoskrnlО©╫О©╫KLDR_DATA_TABLE_ENTRY
+// Parameter: PDRIVER_OBJECT DriverObject - AntiSpyО©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
 //*************************************************
 BOOL GetKernelLdrDataTableEntry(PDRIVER_OBJECT DriverObject)
 {
@@ -2325,7 +2324,7 @@ void InitSlefProtectSSDTFunctions()
 	SetGlobalVeriable(enumFakeNtDuplicateObject, (ULONG)Fake_NtDuplicateObject);
 }
 
-// об╢н╣дйг╫Шж╧xxо╣ап╨╞йЩ
+// О©╫б╢н╣О©╫О©╫г╫О©╫ж╧xxо╣О©╫п╨О©╫О©╫О©╫
 void InitForbidFunctions()
 {
 	ULONG nBuild = GetGlobalVeriable(enumBuildNumber);
@@ -2372,7 +2371,7 @@ void InitForbidFunctions()
 	}
 }
 
-// об╢н╣дйг╫Шж╧xxо╣ап╨╞йЩ
+// О©╫б╢н╣О©╫О©╫г╫О©╫ж╧xxо╣О©╫п╨О©╫О©╫О©╫
 void InitForbidScreenCapture()
 {
 	ULONG nBuild = GetGlobalVeriable(enumBuildNumber);
@@ -2425,7 +2424,7 @@ BOOL InitWindows(PDRIVER_OBJECT DriverObject)
 	WinVersion = GetWindowsVersion();
 
 	if (WinVersion != enumWINDOWS_UNKNOW && 
-		GetKernelLdrDataTableEntry(DriverObject)) // йвох╣ц╣╫ntoskrnl.exe╣дKLDR_DATA_TABLE_ENTRY, ╨СцФц╤╬ыи╤╣д╤╪сцуБ╦Жё╛╥юж╧нрцг╣дгЩ╤╞╠╩у╙а╢ак║ё
+		GetKernelLdrDataTableEntry(DriverObject)) // О©╫О©╫О©╫х╣ц╣О©╫ntoskrnl.exeО©╫О©╫KLDR_DATA_TABLE_ENTRY, О©╫О©╫О©╫О©╫ц╤О©╫О©╫и╤О©╫д╤О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫ж╧О©╫О©╫О©╫г╣О©╫О©╫О©╫О©╫О©╫О©╫О©╫у╙О©╫О©╫О©╫к║О©╫
 	{	
 		PGEN_CACHE pVMemCache = NULL;
 		PEPROCESS process = PsGetCurrentProcess();
@@ -2453,7 +2452,7 @@ BOOL InitWindows(PDRIVER_OBJECT DriverObject)
 		KdPrint(("pKeServiceDescriptorTable: 0x%08X\n", pKeServiceDescriptorTable));
 		KdPrint(("KeServiceDescriptorTable: 0x%08X\n", KeServiceDescriptorTable));
 
-		// ЁУй╪╩╞х╚╬ж╠Да©
+		// О©╫О©╫й╪О©╫О©╫х╚О©╫ж╠О©╫О©╫О©╫
 		InitGlobalVariable();
 
 		// reload kernel and save the ssdt table
@@ -2466,28 +2465,28 @@ BOOL InitWindows(PDRIVER_OBJECT DriverObject)
 		// reload kernel ok.
 		SetGlobalVeriable(enumReloadNtosKrnlSuccess, 1);
 
-		// ЁУй╪╩╞Ёёсц╣д╨╞йЩ
+		// О©╫О©╫й╪О©╫О©╫О©╫О©╫О©╫ц╣д╨О©╫О©╫О©╫
 		InitCommonFunctions();
 
-		// ЁУй╪╩╞SSDT╠Мжп╣д╨╞йЩ
+		// О©╫О©╫й╪О©╫О©╫SSDTО©╫О©╫О©╫п╣д╨О©╫О©╫О©╫
 		InitSSDTFunctions();
 		
-		// ╦п╬У©иртй║бт~
+		// О©╫п╬О©╫О©╫О©╫О©╫О©╫й║О©╫О©╫~
 	//	ReloadHalDll();
 
-		// ╣ц╣╫HAL.DLL╣д╩Ыж╥╨м╢Сп║
+		// О©╫ц╣О©╫HAL.DLLО©╫д╩О©╫ж╥О©╫м╢О©╫п║
 		GetHalDllInfo();
 
 		// reload win32k.sys
 		ReloadWin32k();
 
-		// ЁУй╪╩╞shodow ssdt table
+		// О©╫О©╫й╪О©╫О©╫shodow ssdt table
 		InitShadowSSDTFunctions();
 		
-		// ╩Ях║Ёёсц╣дгЩ╤╞╩Ыж╥╨м╢Сп║
+		// О©╫О©╫х║О©╫О©╫О©╫ц╣О©╫О©╫О©╫О©╫О©╫О©╫О©╫ж╥О©╫м╢О©╫п║
 		GetCommonDriversSizeAndBase();
 
-		// ЁУй╪╩╞FSD╣доЮ╧ьпео╒
+		// О©╫О©╫й╪О©╫О©╫FSDО©╫О©╫О©╫О©╫О©╫О©╫О©╫о╒
  		InitFileSystem(enumNtfs);
  		InitFileSystem(enumFastfat);
 		
@@ -2495,7 +2494,7 @@ BOOL InitWindows(PDRIVER_OBJECT DriverObject)
 		InitSlefProtectSSDTFunctions();
 		InitForbidFunctions();
 		
-		// ╫Шж╧╫ьфа
+		// О©╫О©╫ж╧О©╫О©╫О©╫О©╫
 		if (VMemCacheInit(&pVMemCache))
 		{
 			SetGlobalVeriable(enumVMemCache, (ULONG)pVMemCache);
@@ -2517,7 +2516,7 @@ UnInitProcessVariable()
 	// 	UnInlieHookKiFastCallEntry();
 	// 	UnHookSwapContext();
 
-	// 	// гЕ©у╫ЬЁла╢╠М
+	// 	// О©╫О©╫у╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
 	// 	while (!IsListEmpty(&ProcessListHead))
 	// 	{
 	// 		PLIST_ENTRY pListEntry = NULL;
@@ -2532,7 +2531,7 @@ UnInitProcessVariable()
 	// 		ExFreePool(pInfo);
 	// 	}
 	// 
-	// 	// гЕ©уTemp╫ЬЁла╢╠М
+	// 	// О©╫О©╫О©╫TempО©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
 	// 	while (!IsListEmpty(&TempProcessListHead))
 	// 	{
 	// 		PLIST_ENTRY pListEntry = NULL;
@@ -2553,16 +2552,16 @@ UnInitProcessVariable()
 /*++
 
 Routine Description:
-	╪Л╡Идз╢Фжп╣до╣мЁдё©И,(юЩхГntoskrnl.exe)йг╥Я╨м╢еелио╣днд╪ЧCheckSumйгр╩жб╣д.
-	жВр╙╥юж╧╢Р╧Щ╡╧╤║╣до╣мЁнрцгх╔╤ах║т╜й╪╣д╢еелпео╒╩АспнйлБ.
+	О©╫О©╫О©╫О©╫з╢О©╫О©╫п╣О©╫о╣мЁдёО©╫О©╫,(О©╫О©╫О©╫О©╫ntoskrnl.exe)О©╫г╥О©╫м╢О©╫О©╫О©╫О©╫о╣О©╫О©╫д╪О©╫CheckSumО©╫О©╫р╩О©╫б╣О©╫.
+	О©╫О©╫р╙О©╫О©╫ж╧О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫о╣мЁО©╫О©╫О©╫О©╫х╔О©╫О©╫х║т╜й╪О©╫д╢О©╫О©╫О©╫О©╫О©╫о╒О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫.
 
 Arguments:
-	nOldBase - о╣мЁжп╣д╣ьж╥
-	nMapedBase - вт╪╨сЁиД╢еелнд╪Ч╣ц╣╫╣д╣ьж╥
+	nOldBase - о╣мЁО©╫п╣д╣О©╫ж╥
+	nMapedBase - О©╫т╪О©╫сЁО©╫О©╫О©╫О©╫О©╫О©╫д╪О©╫О©╫ц╣О©╫О©╫д╣О©╫ж╥
 
 Return Value:
-	STATUS_UNSUCCESSFUL - ╡╩р╩жб.
-	STATUS_SUCCESS - р╩жб.
+	STATUS_UNSUCCESSFUL - О©╫О©╫р╩О©╫О©╫.
+	STATUS_SUCCESS - р╩О©╫О©╫.
 
 ---*/
 NTSTATUS VerifyCheckSum(ULONG nOldBase, ULONG nMapedBase)
@@ -2579,7 +2578,7 @@ NTSTATUS VerifyCheckSum(ULONG nOldBase, ULONG nMapedBase)
 
 		__try 
 		{	
-			// ╣ц╣╫дз╢Фнд╪Ч╣дchecksum
+			// О©╫ц╣О©╫О©╫з╢О©╫О©╫д╪О©╫О©╫О©╫checksum
 			pDosHeader = (PIMAGE_DOS_HEADER)nOldBase;
 			if(pDosHeader->e_magic != IMAGE_DOS_SIGNATURE) 
 			{
@@ -2594,7 +2593,7 @@ NTSTATUS VerifyCheckSum(ULONG nOldBase, ULONG nMapedBase)
 		
 			nCheckSumOld = pNTHeader->OptionalHeader.CheckSum;
 
-			// ╣ц╣╫вт╪╨mapнд╪Ч╣дchecksum
+			// О©╫ц╣О©╫О©╫т╪О©╫mapО©╫д╪О©╫О©╫О©╫checksum
 			pDosHeader = (PIMAGE_DOS_HEADER)nMapedBase;
 			if(pDosHeader->e_magic != IMAGE_DOS_SIGNATURE) 
 			{
@@ -2689,7 +2688,7 @@ NTSTATUS MapSectionAndCheckSum(WCHAR* szPath, DWORD dwOrginBase)
 
 			if (NT_SUCCESS(ntStatus))
 			{
-				// пёяИобдз╢Фжп╣ддё©И╨м╢еелио╣днд╪Чйг╥Яр╩жб
+				// пёО©╫О©╫О©╫О©╫О©╫з╢О©╫О©╫п╣О©╫дёО©╫О©╫м╢О©╫О©╫О©╫О©╫о╣О©╫О©╫д╪О©╫О©╫г╥О©╫р╩О©╫О©╫
 				ntStatus = VerifyCheckSum((ULONG)dwOrginBase, (ULONG)BaseAddress);
 				if (NT_SUCCESS(ntStatus))
 				{

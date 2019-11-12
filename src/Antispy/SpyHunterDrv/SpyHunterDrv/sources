@@ -78,7 +78,5 @@ SOURCES=SpyHunterDrv.c		\
 		power.c				\
 		atapirw.c			\
 		MBR.C				\
-		AntiScreenCapture.c	\
-		gencache.c			\
 		parsentfs.c			\
         drvversion.rc
