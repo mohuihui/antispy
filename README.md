@@ -1,3 +1,7 @@
+# AntiSpy
+
+![avatar](icon/icon.ico)
+
 ## Introduction
 
 AntiSpy is a free but powerful anti virus and rootkits toolkit.
@@ -38,12 +42,6 @@ AntiSpy_Root_Dir
     ├── ResourceEncrypt.exe        
     └── TestTools.exe               (Used to test the functionality of Antispy)
 ```
-
-## Contact
-
-Email: zhenfei.mzf@gmail.com
-
-If you have any need,please feel free to contact with me.
 
 ## Features
 
@@ -121,7 +119,7 @@ Currently,the following features are available(including but not limited to):
 
 * Custom color settings.
 
-## Images
+## User Interfaces
 
 **Process Tree**
 ![avatar](images/process_tree.png)
@@ -137,3 +135,24 @@ Currently,the following features are available(including but not limited to):
 
 **AutoRun Manager**
 ![avatar](images/autorun.png)
+
+## Contact Me
+
+Email: zhenfei.mzf@gmail.com
+
+If you have any need,please feel free to contact with me.
+
+## License
+
+Copyright (c) [2010-2019] zhenfei.mzf@gmail.com rights reserved.
+
+AntiSpy is licensed under the Mulan PSL v1.
+You can use this software according to the terms and conditions of the Mulan PSL v1.
+You may obtain a copy of Mulan PSL v1 at:
+
+    http://license.coscl.org.cn/MulanPSL
+
+THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR
+FIT FOR A PARTICULAR PURPOSE.
+See the Mulan PSL v1 for more details.
