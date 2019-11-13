@@ -2,7 +2,9 @@
 
 ![avatar](icon/icon.ico)
 
-## Introduction
+English | [简体中文](./README-CN.md)
+
+## A powerful anti rootkit toolkit
 
 AntiSpy is a free but powerful anti virus and rootkits toolkit.
 
@@ -15,7 +17,7 @@ With its assistance,you can easily spot and neutralize malwares hidden from norm
 * IDE: Visual Studio 2008
 * Userspace: MFC
 * WDK: WDK7600
-* Third-party Library: codejock toolkit pro
+* Third-party Library: Codejock toolkit pro
 
 ## Code Structure
 
@@ -56,7 +58,7 @@ Currently,the following features are available(including but not limited to):
 * View and manipulate process hotkeys,privileges,and timers.
 * Detect and restore process hooks incluing inline hooks,patches,iat and eat hooks.
 * Inject dll,dump process memory.
-* Create debug dump,inclue mini dump and full dump.
+* Create debug dump,include mini dump and full dump.
 
 ### Kernel Module Viewer
 
