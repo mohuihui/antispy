@@ -153,3 +153,8 @@ QQ：454858525
 ## 开源协议
 
 基于 [木兰宽松许可证](https://license.coscl.org.cn/MulanPSL/) 进行开源。
+
+## 捐赠
+
+* Paypal: zhenfei.min@gmail.com
+* Alipay: minzhenfei@qq.com
