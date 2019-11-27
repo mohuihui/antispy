@@ -156,5 +156,7 @@ QQ：454858525
 
 ## 捐赠
 
+作者这么辛苦，不捐赠个肉夹馍说不过去吧。
+
 * Paypal: zhenfei.min@gmail.com
 * Alipay: minzhenfei@qq.com
