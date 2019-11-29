@@ -21,16 +21,16 @@ With its assistance,you can easily spot and neutralize malwares hidden from norm
 
 ## Code Structure
 
-```
+```shell
 AntiSpy_Root_Dir
-├── LICENSE                        
-├── README.md    
+├── LICENSE
+├── README.md
 ├── doc                             (AntiSpy introduction files)
-│   ├── Readme.txt 
+│   ├── Readme.txt
 │   └── 说明.txt
 ├── icon
 │   └── icon.ico
-├── src                               
+├── src
 │   ├── Antispy                     (AntiSpy main project)
 │   │   ├── Common                  (The common structs&defines,used by userspace&kernel)
 │   │   ├── SpyHunter               (Userspace project,written in MFC)
@@ -41,7 +41,7 @@ AntiSpy_Root_Dir
 │       ├── ResourceEncrypt.sln     (VS2008 solution file)
 │       └── clear.bat
 └── tools
-    ├── ResourceEncrypt.exe        
+    ├── ResourceEncrypt.exe
     └── TestTools.exe               (Used to test the functionality of Antispy)
 ```
 
